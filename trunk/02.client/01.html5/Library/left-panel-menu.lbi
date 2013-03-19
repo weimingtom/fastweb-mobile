@@ -1,0 +1,145 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<div data-role="panel" id="left-panel" data-theme="c">
+  <ul data-role="listview" data-theme="d">
+    <li data-icon="delete">
+      <a href="#" data-rel="close">隐藏</a>
+    </li>
+    <li data-role="list-divider">菜单</li>
+    <li data-icon="home">
+      <a href="../index.html" data-rel="back">首页</a>
+    </li>
+  </ul>
+  <div  data-role="collapsible"   data-collapsed="false" data-inset="false" data-iconpos="right" data-theme="d" data-content-theme="d">
+    <h3>分类</h3>
+    <div id="menuitem" data-role="collapsible-set" data-inset="false" data-iconpos="right" data-theme="b" data-content-theme="d">
+      <div data-role="collapsible">
+        <h3>新闻</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="../index.html?type=hotspot">热点</a>
+          </li>
+          <li>
+            <a href="../index.html?type=internet">互联网</a>
+          </li>
+          <li>
+            <a href="../index.html?type=finance">财经</a>
+          </li>
+          <li>
+            <a href="../index.html?type=technology">科技</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /collapsible -->
+      
+      <div data-role="collapsible">
+        <h3>活动</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="#">精选</a>
+          </li>
+          <li>
+            <a href="#">今天</a>
+          </li>
+          <li>
+            <a href="#">电影</a>
+          </li>
+          <li>
+            <a href="#">剧场</a>
+          </li>
+          <li>
+            <a href="#">旅游</a>
+          </li>
+          <li>
+            <a href="#">音乐</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /collapsible -->
+      
+      <div data-role="collapsible">
+        <h3>运动</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="#">篮球</a>
+          </li>
+          <li>
+            <a href="#">足球</a>
+          </li>
+          <li>
+            <a href="#">网球</a>
+          </li>
+          <li>
+            <a href="#">乒乓球</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /collapsible -->
+      
+      <div data-role="collapsible">
+        <h3>地图</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="#">首都体育场</a>
+          </li>
+          <li>
+            <a href="#">朝阳体育场</a>
+          </li>
+          <li>
+            <a href="#">工人体育场</a>
+          </li>
+          <li>
+            <a href="#">奥林匹克公园</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /collapsible -->
+      
+      <div data-role="collapsible" data-collapsed="false">
+        <h3>联系人</h3>
+        <ul data-role="listview">
+          <li>
+            <a href="../persons.html?type=friend">朋友</a>
+          </li>
+          <li>
+            <a href="../persons.html?type=student">同学</a>
+          </li>
+          <li>
+            <a href="../persons.html?type=colleague">同事</a>
+          </li>
+          <li>
+            <a href="../persons.html?type=neighbor">邻居</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /collapsible -->
+    </div>
+    <!-- /collapsible-set -->
+    
+  </div>
+  <!-- /collapsible -->
+  
+</div>
+<!-- /panel -->
+
+<script type="text/html" id="left-menu-template">
+    {{#items}}
+		{{#data-collapsed}}
+		  <div data-role="collapsible" data-collapsed="false">
+		{{/data-collapsed}}
+		
+		{{^data-collapsed}}
+		  <div data-role="collapsible"  data-collapsed="true">
+		{{/data-collapsed}}
+		  
+			<h3>{{ title }}</h3>
+			<ul data-role="listview">
+			{{#data}}
+			  <li>
+				<a href="{{url}}">{{name}}</a>
+			  </li>
+			{{/data}}
+			</ul>
+		  </div>
+	{{/items}}
+</script>
