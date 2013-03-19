@@ -17,9 +17,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
  * 支持分片：
- * db.runCommand({"enablesharding":"natural"}) 
+ * db.runCommand({"enablesharding":"mymobile"}) 
  * <BR/>
- * db.runCommand({"shardcollection":"natural.person","key":{"ssn":1}})
+ * db.runCommand({"shardcollection":"mymobile.person","key":{"ssn":1}})
  * @author jamesmo
  *
  * @param <T>
