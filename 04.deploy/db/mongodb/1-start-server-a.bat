@@ -1,0 +1,1 @@
+call bin\mongod.exe --logpath I:/env-nosql/mongodb/logs/r0.log --logappend --dbpath I:/env-nosql/mongodb/db --rest  --oplogSize 32 
