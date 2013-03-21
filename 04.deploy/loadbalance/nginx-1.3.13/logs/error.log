@@ -1,0 +1,492 @@
+2013/02/21 23:24:59 [error] 7844#7732: *1 CreateFile() "I:\env-lvs\nginx-1.3.13/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2013/02/21 23:25:14 [error] 7844#7732: *1 CreateFile() "I:\env-lvs\nginx-1.3.13/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2013/02/21 23:29:59 [error] 7844#7732: *3 CreateFile() "I:\env-lvs\nginx-1.3.13/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2013/02/21 23:30:01 [error] 7844#7732: *3 CreateFile() "I:\env-lvs\nginx-1.3.13/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2013/02/21 23:37:46 [emerg] 8664#6580: unexpected ";" in I:\env-lvs\nginx-1.3.13/conf/nginx.conf:37
+2013/02/21 23:47:00 [error] 8560#8168: *190576 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8080/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192841 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192843 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192844 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192845 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192846 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192847 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192848 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192849 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192850 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192851 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192852 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192853 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192854 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192855 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192856 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192857 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192858 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192859 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192860 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192861 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192862 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192863 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192864 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192865 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192866 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192867 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192868 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192869 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192870 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192871 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192872 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192873 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192874 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192875 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192876 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192877 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192878 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192879 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192880 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192881 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192882 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192883 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192884 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192885 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192886 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192887 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192888 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192889 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192890 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192891 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192892 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192893 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192894 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192895 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192896 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192897 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192898 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192899 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192900 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192901 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192902 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192903 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192904 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192905 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192906 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192907 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192908 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192909 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192910 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192911 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192912 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192913 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192914 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192915 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192916 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192917 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192918 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192919 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192920 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192921 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192922 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192923 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192924 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192925 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192926 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192927 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192928 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192929 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192930 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192931 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192932 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192933 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192934 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192935 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192936 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:03 [alert] 8560#8168: *192937 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:03 [alert] 8560#8168: *192938 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192939 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192940 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192941 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192942 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192943 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192944 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192945 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192946 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192947 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192948 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192949 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192950 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192951 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192952 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192953 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192954 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192955 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192956 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192957 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192958 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192959 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192960 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192961 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192962 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192963 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192964 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192965 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192966 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192967 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192968 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192969 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192970 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192971 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192972 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192973 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192974 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192975 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192976 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192977 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192978 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192979 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192980 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192981 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192982 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192983 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192984 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192985 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192986 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192987 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192988 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192989 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192990 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192991 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192992 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192993 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192994 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192995 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192996 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192997 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192998 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *192999 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193000 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193001 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193002 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193003 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193004 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193005 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193006 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193007 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193008 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193009 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193010 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193011 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193012 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193013 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193014 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193015 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193016 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193017 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193018 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193019 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193020 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193021 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193022 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193023 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193024 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193025 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193026 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193027 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193028 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193029 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193030 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193031 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193032 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193033 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193034 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193035 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193036 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193037 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193038 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193039 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193040 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193041 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193042 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193043 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193044 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193045 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193046 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193047 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193048 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193049 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193050 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193051 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193052 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193053 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193054 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193055 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193056 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193057 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193058 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193059 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193060 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193061 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193062 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193063 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193064 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193065 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193066 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193067 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193068 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193069 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193070 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193071 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193072 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193073 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193074 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193075 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193076 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/21 23:47:04 [alert] 8560#8168: 1024 worker_connections are not enough
+2013/02/21 23:47:04 [alert] 8560#8168: *193077 1024 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/jsp/sessions/my.jsp HTTP/1.0", upstream: "http://127.0.0.1:8081/examples/jsp/sessions/my.jsp", host: "127.0.0.1"
+2013/02/22 10:03:12 [error] 6180#5392: *1 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /examples/ HTTP/1.1", upstream: "http://127.0.0.1:8080/examples/", host: "127.0.0.1"
+2013/02/22 10:08:37 [error] 7064#7224: *5 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "127.0.0.1"
+2013/02/22 10:09:37 [error] 7064#7224: *5 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8080/", host: "127.0.0.1"
+2013/02/22 10:17:07 [error] 6212#7104: *26 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
+2013/02/22 10:18:07 [error] 6212#7104: *26 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 10:50:32 [error] 6212#7104: *29 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 10:51:32 [error] 6212#7104: *29 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
+2013/02/22 13:23:33 [error] 6212#7104: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 13:24:33 [error] 6212#7104: *32 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
+2013/02/22 13:56:52 [error] 6212#7104: *35 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 13:57:52 [error] 6212#7104: *35 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
+2013/02/22 16:30:11 [error] 6212#7104: *38 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 16:31:11 [error] 6212#7104: *38 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.2.170, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
+2013/02/22 17:05:06 [error] 6212#7104: *41 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "JAMESMO-PC"
+2013/02/22 17:06:06 [error] 6212#7104: *41 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 192.168.6.30, server: localhost, request: "OPTIONS / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "JAMESMO-PC"
