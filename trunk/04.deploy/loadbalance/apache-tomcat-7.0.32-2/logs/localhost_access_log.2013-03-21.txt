@@ -1,0 +1,15 @@
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET / HTTP/1.1" 200 11444
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /tomcat.png HTTP/1.1" 200 5103
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /tomcat.css HTTP/1.1" 200 5926
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /asf-logo.png HTTP/1.1" 200 17811
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [21/Mar/2013:15:42:17 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [21/Mar/2013:15:42:23 +0800] "GET /examples/ HTTP/1.1" 200 1209
+127.0.0.1 - - [21/Mar/2013:15:43:37 +0800] "GET /examples/sessions/my.jsp HTTP/1.1" 404 999
+127.0.0.1 - - [21/Mar/2013:15:43:51 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.1" 200 164
+127.0.0.1 - - [21/Mar/2013:15:43:54 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.1" 200 164
+127.0.0.1 - - [21/Mar/2013:15:43:55 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.1" 200 164
+127.0.0.1 - - [21/Mar/2013:15:43:55 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.1" 200 164

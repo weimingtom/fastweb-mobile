@@ -1,0 +1,5 @@
+127.0.0.1 - - [21/Mar/2013:15:44:05 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.1" 200 164
+127.0.0.1 - - [21/Mar/2013:15:44:05 +0800] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [21/Mar/2013:15:49:20 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.0" 200 164
+127.0.0.1 - - [21/Mar/2013:15:49:20 +0800] "GET /favicon.ico HTTP/1.0" 200 21630
+127.0.0.1 - - [21/Mar/2013:15:50:14 +0800] "GET /examples/jsp/sessions/my.jsp HTTP/1.0" 200 164
