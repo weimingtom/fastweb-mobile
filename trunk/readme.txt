@@ -43,10 +43,10 @@ Tomcat优化配置，Tomcat集群共享Session MSM(memcached)配置；
   #.启动集群
 	手动启动tomcat1.bat tomcat2.bat
   #.测试集群Session,Session一致，集群环境OK
-	http://localhost:8180/examples/jsp/sessions/my.jsp
-	http://localhost:8280/examples/jsp/sessions/my.jsp
+	http://localhost:8180/rest-api/examples/jsp/sessions/my.jsp
+	http://localhost:8280/rest-api/examples/jsp/sessions/my.jsp
   #.启动nginx.bat,测试返回session与tomcat的session一致
-	http://localhost/examples/jsp/sessions/my.jsp
+	http://localhost/rest-api/examples/jsp/sessions/my.jsp
   #.自己笔记本，6G内存，压力测试，并发3000无碍
   #.扩充集群：
 	拷贝tomcat-2到tomcat-3,更改server.xml端口不冲突；
@@ -99,7 +99,7 @@ done
 
 
 ==HTML5项目配置==
-  #.访问路径：http://localhost/static/
+  #.访问路径：http://localhost/
   #.资源压缩CSS JS HTML JSON
 
 
