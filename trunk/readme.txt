@@ -97,18 +97,4 @@ done
 #每天0点01分启动。
 #01 00 * * * /路径/log2mongodb.sh 
 
-
-*bold*     _italic_
-`inline code`
-escape: `*`
-
-Indent lists 2 spaces:
-  * bullet item
-  # numbered list
-
-{{{
-verbatim code block
-}}}
-
-Horizontal rule
----- 
+https://code.google.com/p/fastweb-mobile/ 
