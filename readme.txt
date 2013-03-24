@@ -102,6 +102,10 @@ done
   #.访问路径：http://localhost/
   #.资源压缩CSS JS HTML JSON
 
+==一键启动开发环境，一键清理开发环境==
+  #.一键启动开发环境，start.bat
+  #.一键清理开发环境，stop.bat
+
 
 ==项目地址==
 https://code.google.com/p/fastweb-mobile/ 
