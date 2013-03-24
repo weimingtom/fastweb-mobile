@@ -97,4 +97,11 @@ done
 #每天0点01分启动。
 #01 00 * * * /路径/log2mongodb.sh 
 
+
+==HTML5项目配置==
+  #.访问路径：http://localhost/static/
+  #.资源压缩CSS JS HTML JSON
+
+
+==项目地址==
 https://code.google.com/p/fastweb-mobile/ 
