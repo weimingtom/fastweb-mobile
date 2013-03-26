@@ -1,0 +1,1460 @@
+Sat Jan 19 15:31:55 [initandlisten] MongoDB starting : pid=11084 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Sat Jan 19 15:31:55 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sat Jan 19 15:31:55 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sat Jan 19 15:31:55 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sat Jan 19 15:31:55 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Sat Jan 19 15:31:55 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Sat Jan 19 15:31:55 [initandlisten] recover : no journal files present, no recovery needed
+Sat Jan 19 15:31:55 [initandlisten] 
+Sat Jan 19 15:31:55 [initandlisten] ERROR: Insufficient free space for journal files
+Sat Jan 19 15:31:55 [initandlisten] Please make at least 3379MB available in I:/env-nosql/mongodb/db/journal or use --smallfiles
+Sat Jan 19 15:31:55 [initandlisten] 
+Sat Jan 19 15:31:55 [initandlisten] exception in initAndListen: 15926 Insufficient free space for journals, terminating
+Sat Jan 19 15:31:55 dbexit: 
+Sat Jan 19 15:31:55 [initandlisten] shutdown: going to close listening sockets...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: going to flush diaglog...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: going to close sockets...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: waiting for fs preallocator...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: lock for final commit...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: final commit...
+Sat Jan 19 15:31:55 [initandlisten] shutdown: closing all files...
+Sat Jan 19 15:31:55 [initandlisten] closeAllFiles() finished
+Sat Jan 19 15:31:55 [initandlisten] journalCleanup...
+Sat Jan 19 15:31:55 [initandlisten] removeJournalFiles
+Sat Jan 19 15:31:55 [initandlisten] shutdown: removing fs lock...
+Sat Jan 19 15:31:55 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sat Jan 19 15:33:01 [initandlisten] MongoDB starting : pid=2324 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Sat Jan 19 15:33:01 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sat Jan 19 15:33:01 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sat Jan 19 15:33:01 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sat Jan 19 15:33:01 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Sat Jan 19 15:33:01 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Sat Jan 19 15:33:01 [initandlisten] recover : no journal files present, no recovery needed
+Sat Jan 19 15:33:01 [initandlisten] preallocateIsFaster=true 3.22
+Sat Jan 19 15:33:01 [initandlisten] preallocateIsFaster=true 3.34
+Sat Jan 19 15:33:02 [initandlisten] waiting for connections on port 27017
+Sat Jan 19 15:33:02 [websvr] admin web console waiting for connections on port 28017
+Sat Jan 19 15:33:17 [initandlisten] connection accepted from 127.0.0.1:58068 #1 (1 connection now open)
+Sat Jan 19 15:33:17 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/wlb.ns, filling with zeroes...
+Sat Jan 19 15:33:17 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Sat Jan 19 15:33:17 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/wlb.ns, size: 16MB,  took 0.058 secs
+Sat Jan 19 15:33:17 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/wlb.0, filling with zeroes...
+Sat Jan 19 15:33:17 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/wlb.0, size: 64MB,  took 0.254 secs
+Sat Jan 19 15:33:17 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/wlb.1, filling with zeroes...
+Sat Jan 19 15:33:17 [conn1] build index wlb.wlb_orders { _id: 1 }
+Sat Jan 19 15:33:17 [conn1] build index done.  scanned 0 total records. 0.002 secs
+Sat Jan 19 15:33:17 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:326991 318ms
+Sat Jan 19 15:33:18 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/wlb.1, size: 128MB,  took 0.643 secs
+Sat Jan 19 15:33:19 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:137 200ms
+Sat Jan 19 15:33:20 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:45 221ms
+Sat Jan 19 15:33:25 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:63 110ms
+Sat Jan 19 15:33:27 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:87 110ms
+Sat Jan 19 15:33:31 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:130 190ms
+Sat Jan 19 15:33:39 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/wlb.2, filling with zeroes...
+Sat Jan 19 15:33:41 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/wlb.2, size: 256MB,  took 1.572 secs
+Sat Jan 19 15:33:43 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:64 120ms
+Sat Jan 19 15:33:43 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:85 260ms
+Sat Jan 19 15:33:44 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:139 186ms
+Sat Jan 19 15:33:44 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:90 104ms
+Sat Jan 19 15:33:44 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:59 109ms
+Sat Jan 19 15:33:44 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:117 125ms
+Sat Jan 19 15:33:45 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:74 135ms
+Sat Jan 19 15:33:45 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:95 113ms
+Sat Jan 19 15:33:46 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:165 165ms
+Sat Jan 19 15:33:46 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:118 127ms
+Sat Jan 19 15:33:46 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:73 210ms
+Sat Jan 19 15:33:49 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:119 113ms
+Sat Jan 19 15:33:50 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:127 127ms
+Sat Jan 19 15:33:55 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:52 196ms
+Sat Jan 19 15:34:01 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:72 910ms
+Sat Jan 19 15:34:03 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:44 1158ms
+Sat Jan 19 15:34:04 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:62 105ms
+Sat Jan 19 15:34:15 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/wlb.3, filling with zeroes...
+Sat Jan 19 15:34:17 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/wlb.3, size: 512MB,  took 2.12 secs
+Sat Jan 19 15:34:17 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:50 122ms
+Sat Jan 19 15:34:18 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:85 413ms
+Sat Jan 19 15:34:18 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:131 135ms
+Sat Jan 19 15:34:18 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:64 256ms
+Sat Jan 19 15:34:19 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:121 153ms
+Sat Jan 19 15:34:19 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:91 124ms
+Sat Jan 19 15:34:19 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:71 166ms
+Sat Jan 19 15:34:21 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:49 138ms
+Sat Jan 19 15:34:23 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:157 188ms
+Sat Jan 19 15:34:26 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:83 108ms
+Sat Jan 19 15:34:30 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:113 105ms
+Sat Jan 19 15:34:55 [conn1] insert wlb.wlb_orders keyUpdates:0 locks(micros) w:95 240ms
+Sat Jan 19 15:34:59 [conn1] end connection 127.0.0.1:58068 (0 connections now open)
+Sat Jan 19 15:36:07 [initandlisten] connection accepted from 127.0.0.1:58147 #2 (1 connection now open)
+Sat Jan 19 15:36:08 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/filetest.ns, filling with zeroes...
+Sat Jan 19 15:36:08 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/filetest.ns, size: 16MB,  took 0.067 secs
+Sat Jan 19 15:36:08 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/filetest.0, filling with zeroes...
+Sat Jan 19 15:36:08 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/filetest.0, size: 64MB,  took 0.286 secs
+Sat Jan 19 15:36:08 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/filetest.1, filling with zeroes...
+Sat Jan 19 15:36:08 [conn2] build index filetest.fs.files { _id: 1 }
+Sat Jan 19 15:36:08 [conn2] build index done.  scanned 0 total records. 0.002 secs
+Sat Jan 19 15:36:08 [conn2] info: creating collection filetest.fs.files on add index
+Sat Jan 19 15:36:08 [conn2] build index filetest.fs.files { filename: 1, uploadDate: 1 }
+Sat Jan 19 15:36:08 [conn2] build index done.  scanned 0 total records. 0.003 secs
+Sat Jan 19 15:36:08 [conn2] insert filetest.system.indexes keyUpdates:0 locks(micros) w:407320 407ms
+Sat Jan 19 15:36:08 [conn2] build index filetest.fs.chunks { _id: 1 }
+Sat Jan 19 15:36:08 [conn2] build index done.  scanned 0 total records. 0.003 secs
+Sat Jan 19 15:36:08 [conn2] info: creating collection filetest.fs.chunks on add index
+Sat Jan 19 15:36:08 [conn2] build index filetest.fs.chunks { files_id: 1, n: 1 }
+Sat Jan 19 15:36:08 [conn2] build index done.  scanned 0 total records. 0.002 secs
+Sat Jan 19 15:36:08 [conn2] end connection 127.0.0.1:58147 (0 connections now open)
+Sat Jan 19 15:36:09 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/filetest.1, size: 128MB,  took 0.609 secs
+Sat Jan 19 15:37:23 [initandlisten] connection accepted from 127.0.0.1:58176 #3 (1 connection now open)
+Sat Jan 19 15:37:23 [conn3] end connection 127.0.0.1:58176 (0 connections now open)
+Sat Jan 19 15:38:34 [initandlisten] connection accepted from 127.0.0.1:58202 #4 (1 connection now open)
+Sat Jan 19 15:38:34 [conn4] end connection 127.0.0.1:58202 (0 connections now open)
+Sat Jan 19 15:39:08 [initandlisten] connection accepted from 127.0.0.1:58214 #5 (1 connection now open)
+Sat Jan 19 15:39:08 [conn5] end connection 127.0.0.1:58214 (0 connections now open)
+Sat Jan 19 15:41:22 [initandlisten] connection accepted from 127.0.0.1:58275 #6 (1 connection now open)
+Sat Jan 19 15:41:22 [conn6] end connection 127.0.0.1:58275 (0 connections now open)
+Sat Jan 19 15:41:49 [initandlisten] connection accepted from 127.0.0.1:58288 #7 (1 connection now open)
+Sat Jan 19 15:41:49 [conn7] end connection 127.0.0.1:58288 (0 connections now open)
+Sat Jan 19 15:42:15 [initandlisten] connection accepted from 127.0.0.1:58298 #8 (1 connection now open)
+Sat Jan 19 15:42:15 [conn8] end connection 127.0.0.1:58298 (0 connections now open)
+Sat Jan 19 15:42:29 [initandlisten] connection accepted from 127.0.0.1:58305 #9 (1 connection now open)
+Sat Jan 19 15:42:29 [conn9] end connection 127.0.0.1:58305 (0 connections now open)
+Sat Jan 19 15:49:21 [initandlisten] connection accepted from 127.0.0.1:58629 #10 (1 connection now open)
+Sat Jan 19 15:49:21 [conn10] end connection 127.0.0.1:58629 (0 connections now open)
+Sat Jan 19 15:51:38 [initandlisten] connection accepted from 127.0.0.1:58693 #11 (1 connection now open)
+Sat Jan 19 15:51:38 [conn11] end connection 127.0.0.1:58693 (0 connections now open)
+Sat Jan 19 15:51:58 [initandlisten] connection accepted from 127.0.0.1:58707 #12 (1 connection now open)
+Sat Jan 19 15:51:58 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/record-test.ns, filling with zeroes...
+Sat Jan 19 15:51:58 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/record-test.ns, size: 16MB,  took 0.06 secs
+Sat Jan 19 15:51:58 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/record-test.0, filling with zeroes...
+Sat Jan 19 15:51:58 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/record-test.0, size: 64MB,  took 0.226 secs
+Sat Jan 19 15:51:58 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/record-test.1, filling with zeroes...
+Sat Jan 19 15:51:58 [conn12] build index record-test.wlb_orders { _id: 1 }
+Sat Jan 19 15:51:58 [conn12] build index done.  scanned 0 total records. 0.002 secs
+Sat Jan 19 15:51:58 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:297757 297ms
+Sat Jan 19 15:51:59 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/record-test.1, size: 128MB,  took 0.683 secs
+Sat Jan 19 15:51:59 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:74 259ms
+Sat Jan 19 15:52:00 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:143 105ms
+Sat Jan 19 15:52:02 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:91 810ms
+Sat Jan 19 15:52:17 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/record-test.2, filling with zeroes...
+Sat Jan 19 15:52:20 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/record-test.2, size: 256MB,  took 2.93 secs
+Sat Jan 19 15:52:21 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:59 185ms
+Sat Jan 19 15:52:21 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:122 134ms
+Sat Jan 19 15:52:22 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:109 163ms
+Sat Jan 19 15:52:47 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/record-test.3, filling with zeroes...
+Sat Jan 19 15:52:49 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:51 223ms
+Sat Jan 19 15:52:49 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:55 151ms
+Sat Jan 19 15:52:50 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:57 218ms
+Sat Jan 19 15:52:50 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:126 193ms
+Sat Jan 19 15:52:50 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/record-test.3, size: 512MB,  took 2.754 secs
+Sat Jan 19 15:52:53 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:84 310ms
+Sat Jan 19 15:52:54 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:92 341ms
+Sat Jan 19 15:52:54 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:78 120ms
+Sat Jan 19 15:52:54 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:95 113ms
+Sat Jan 19 15:53:01 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:79 465ms
+Sat Jan 19 15:53:03 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:101 343ms
+Sat Jan 19 15:53:06 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:77 145ms
+Sat Jan 19 15:53:06 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:80 124ms
+Sat Jan 19 15:53:09 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:114 123ms
+Sat Jan 19 15:53:10 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:106 115ms
+Sat Jan 19 15:53:10 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:40 176ms
+Sat Jan 19 15:53:12 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:109 183ms
+Sat Jan 19 15:53:12 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:93 169ms
+Sat Jan 19 15:53:25 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:45 119ms
+Sat Jan 19 15:53:39 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:123 152ms
+Sat Jan 19 15:53:39 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:70 181ms
+Sat Jan 19 15:53:41 [conn12] insert record-test.wlb_orders keyUpdates:0 locks(micros) w:75 247ms
+Sat Jan 19 15:53:42 [conn12] end connection 127.0.0.1:58707 (0 connections now open)
+Sun Jan 20 00:30:14 Ctrl-C signal
+Sun Jan 20 00:30:14 [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+Sun Jan 20 00:30:14 [consoleTerminate] now exiting
+Sun Jan 20 00:30:14 dbexit: 
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Jan 20 00:30:14 [consoleTerminate] closing listening socket: 504
+Sun Jan 20 00:30:14 [consoleTerminate] closing listening socket: 512
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: going to close sockets...
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: lock for final commit...
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: final commit...
+Sun Jan 20 00:30:14 [consoleTerminate] shutdown: closing all files...
+Sun Jan 20 00:30:15 [consoleTerminate] closeAllFiles() finished
+Sun Jan 20 00:30:15 [consoleTerminate] journalCleanup...
+Sun Jan 20 00:30:15 [consoleTerminate] removeJournalFiles
+Sun Jan 20 00:30:15 [consoleTerminate] shutdown: removing fs lock...
+Sun Jan 20 00:30:15 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Jan 20 00:33:47 [initandlisten] MongoDB starting : pid=13612 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Sun Jan 20 00:33:47 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Jan 20 00:33:47 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Jan 20 00:33:47 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Jan 20 00:33:47 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Sun Jan 20 00:33:48 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Sun Jan 20 00:33:48 [initandlisten] recover : no journal files present, no recovery needed
+Sun Jan 20 00:33:49 [websvr] admin web console waiting for connections on port 28017
+Sun Jan 20 00:33:49 [initandlisten] waiting for connections on port 27017
+Sun Jan 20 00:35:21 CTRL_CLOSE_EVENT signal
+Sun Jan 20 00:35:21 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Jan 20 00:35:21 [consoleTerminate] now exiting
+Sun Jan 20 00:35:21 dbexit: 
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Jan 20 00:35:21 [consoleTerminate] closing listening socket: 464
+Sun Jan 20 00:35:21 [consoleTerminate] closing listening socket: 524
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: going to close sockets...
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: lock for final commit...
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: final commit...
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: closing all files...
+Sun Jan 20 00:35:21 [consoleTerminate] closeAllFiles() finished
+Sun Jan 20 00:35:21 [consoleTerminate] journalCleanup...
+Sun Jan 20 00:35:21 [consoleTerminate] removeJournalFiles
+Sun Jan 20 00:35:21 [consoleTerminate] shutdown: removing fs lock...
+Sun Jan 20 00:35:21 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sun Jan 20 00:36:06 [initandlisten] MongoDB starting : pid=16068 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Sun Jan 20 00:36:06 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sun Jan 20 00:36:06 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sun Jan 20 00:36:06 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sun Jan 20 00:36:06 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Sun Jan 20 00:36:06 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Sun Jan 20 00:36:06 [initandlisten] recover : no journal files present, no recovery needed
+Sun Jan 20 00:36:06 [initandlisten] waiting for connections on port 27017
+Sun Jan 20 00:36:06 [websvr] admin web console waiting for connections on port 28017
+Sun Jan 20 01:17:00 [initandlisten] connection accepted from 127.0.0.1:55120 #1 (1 connection now open)
+Sun Jan 20 01:17:00 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/db2mongodb.ns, filling with zeroes...
+Sun Jan 20 01:17:00 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Sun Jan 20 01:17:00 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/db2mongodb.ns, size: 16MB,  took 0.117 secs
+Sun Jan 20 01:17:00 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/db2mongodb.0, filling with zeroes...
+Sun Jan 20 01:17:01 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/db2mongodb.0, size: 64MB,  took 0.462 secs
+Sun Jan 20 01:17:01 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/db2mongodb.1, filling with zeroes...
+Sun Jan 20 01:17:01 [conn1] build index db2mongodb.employees { _id: 1 }
+Sun Jan 20 01:17:01 [conn1] build index done.  scanned 0 total records. 0.001 secs
+Sun Jan 20 01:17:01 [conn1] insert db2mongodb.employees keyUpdates:0 locks(micros) w:590539 590ms
+Sun Jan 20 01:17:02 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/db2mongodb.1, size: 128MB,  took 0.863 secs
+Sun Jan 20 01:18:00 [initandlisten] connection accepted from 127.0.0.1:55226 #2 (2 connections now open)
+Sun Jan 20 01:18:25 [conn2] end connection 127.0.0.1:55226 (1 connection now open)
+Sun Jan 20 01:18:25 [conn1] end connection 127.0.0.1:55120 (0 connections now open)
+Sun Jan 20 01:24:00 [initandlisten] connection accepted from 127.0.0.1:55388 #3 (1 connection now open)
+Sun Jan 20 01:25:00 [initandlisten] connection accepted from 127.0.0.1:55407 #4 (2 connections now open)
+Sun Jan 20 01:26:00 [initandlisten] connection accepted from 127.0.0.1:55424 #5 (3 connections now open)
+Sun Jan 20 01:26:03 [conn5] end connection 127.0.0.1:55424 (2 connections now open)
+Sun Jan 20 01:26:03 [conn3] end connection 127.0.0.1:55388 (1 connection now open)
+Sun Jan 20 01:26:03 [conn4] end connection 127.0.0.1:55407 (1 connection now open)
+Sun Jan 20 01:37:00 [initandlisten] connection accepted from 127.0.0.1:55681 #6 (1 connection now open)
+Sun Jan 20 01:38:00 [initandlisten] connection accepted from 127.0.0.1:55719 #7 (2 connections now open)
+Sun Jan 20 01:38:10 [conn7] end connection 127.0.0.1:55719 (1 connection now open)
+Sun Jan 20 01:38:10 [conn6] end connection 127.0.0.1:55681 (0 connections now open)
+Sun Jan 20 01:57:00 [initandlisten] connection accepted from 127.0.0.1:56328 #8 (1 connection now open)
+Sun Jan 20 01:57:04 [conn8] end connection 127.0.0.1:56328 (0 connections now open)
+Sun Jan 20 02:15:00 [initandlisten] connection accepted from 127.0.0.1:56769 #9 (1 connection now open)
+Sun Jan 20 02:16:00 [initandlisten] connection accepted from 127.0.0.1:56790 #10 (2 connections now open)
+Sun Jan 20 02:17:00 [initandlisten] connection accepted from 127.0.0.1:56809 #11 (3 connections now open)
+Sun Jan 20 02:17:06 [conn10] end connection 127.0.0.1:56790 (2 connections now open)
+Sun Jan 20 02:17:06 [conn9] end connection 127.0.0.1:56769 (1 connection now open)
+Sun Jan 20 02:17:06 [conn11] end connection 127.0.0.1:56809 (0 connections now open)
+Sun Jan 20 02:27:00 [initandlisten] connection accepted from 127.0.0.1:57013 #12 (1 connection now open)
+Sun Jan 20 02:27:59 [conn12] end connection 127.0.0.1:57013 (0 connections now open)
+Sun Jan 20 18:24:00 [initandlisten] connection accepted from 127.0.0.1:55732 #13 (1 connection now open)
+Sun Jan 20 18:24:19 [conn13] end connection 127.0.0.1:55732 (0 connections now open)
+Sun Jan 20 18:45:00 [initandlisten] connection accepted from 127.0.0.1:56538 #14 (1 connection now open)
+Sun Jan 20 18:45:18 [conn14] end connection 127.0.0.1:56538 (0 connections now open)
+Sun Jan 20 21:09:42 CTRL_CLOSE_EVENT signal
+Sun Jan 20 21:09:42 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Jan 20 21:09:42 [consoleTerminate] now exiting
+Sun Jan 20 21:09:42 dbexit: 
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Jan 20 21:09:42 [consoleTerminate] closing listening socket: 496
+Sun Jan 20 21:09:42 [consoleTerminate] closing listening socket: 512
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: going to close sockets...
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: lock for final commit...
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: final commit...
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: closing all files...
+Sun Jan 20 21:09:42 [consoleTerminate] closeAllFiles() finished
+Sun Jan 20 21:09:42 [consoleTerminate] journalCleanup...
+Sun Jan 20 21:09:42 [consoleTerminate] removeJournalFiles
+Sun Jan 20 21:09:42 [consoleTerminate] shutdown: removing fs lock...
+Sun Jan 20 21:09:42 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Wed Jan 23 15:52:38 [initandlisten] MongoDB starting : pid=7360 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Wed Jan 23 15:52:38 [initandlisten] db version v2.2.0, pdfile version 4.5
+Wed Jan 23 15:52:38 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Wed Jan 23 15:52:38 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Wed Jan 23 15:52:38 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Wed Jan 23 15:52:38 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Wed Jan 23 15:52:38 [initandlisten] recover : no journal files present, no recovery needed
+Wed Jan 23 15:52:38 [initandlisten] waiting for connections on port 27017
+Wed Jan 23 15:52:38 [websvr] admin web console waiting for connections on port 28017
+Wed Jan 23 16:02:11 CTRL_CLOSE_EVENT signal
+Wed Jan 23 16:02:11 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Wed Jan 23 16:02:11 [consoleTerminate] now exiting
+Wed Jan 23 16:02:11 dbexit: 
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: going to close listening sockets...
+Wed Jan 23 16:02:11 [consoleTerminate] closing listening socket: 496
+Wed Jan 23 16:02:11 [consoleTerminate] closing listening socket: 516
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: going to flush diaglog...
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: going to close sockets...
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: waiting for fs preallocator...
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: lock for final commit...
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: final commit...
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: closing all files...
+Wed Jan 23 16:02:11 [consoleTerminate] closeAllFiles() finished
+Wed Jan 23 16:02:11 [consoleTerminate] journalCleanup...
+Wed Jan 23 16:02:11 [consoleTerminate] removeJournalFiles
+Wed Jan 23 16:02:11 [consoleTerminate] shutdown: removing fs lock...
+Wed Jan 23 16:02:11 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Wed Jan 23 16:02:39 [initandlisten] MongoDB starting : pid=7256 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Wed Jan 23 16:02:39 [initandlisten] db version v2.2.0, pdfile version 4.5
+Wed Jan 23 16:02:39 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Wed Jan 23 16:02:39 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Wed Jan 23 16:02:39 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Wed Jan 23 16:02:39 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Wed Jan 23 16:02:39 [initandlisten] recover : no journal files present, no recovery needed
+Wed Jan 23 16:02:39 [initandlisten] waiting for connections on port 27017
+Wed Jan 23 16:02:39 [websvr] admin web console waiting for connections on port 28017
+Wed Jan 23 16:02:44 [initandlisten] connection accepted from 127.0.0.1:62709 #1 (1 connection now open)
+Wed Jan 23 16:05:27 [initandlisten] connection accepted from 127.0.0.1:62761 #2 (2 connections now open)
+Wed Jan 23 16:05:27 [conn2] end connection 127.0.0.1:62761 (1 connection now open)
+Wed Jan 23 16:05:27 [initandlisten] connection accepted from 127.0.0.1:62763 #3 (2 connections now open)
+Wed Jan 23 16:05:27 [conn3] end connection 127.0.0.1:62763 (1 connection now open)
+Wed Jan 23 16:05:27 [initandlisten] connection accepted from 127.0.0.1:62769 #4 (2 connections now open)
+Wed Jan 23 16:05:27 [conn4] end connection 127.0.0.1:62769 (1 connection now open)
+Wed Jan 23 16:05:27 [initandlisten] connection accepted from 127.0.0.1:62770 #5 (2 connections now open)
+Wed Jan 23 16:05:28 [conn5] command db2mongodb.$cmd command: { $eval: CodeWScope( function (){ return db.getCollectionNames(); }, {}), args: {} } ntoreturn:1 keyUpdates:0 locks(micros) W:131553 reslen:89 132ms
+Wed Jan 23 16:05:28 [conn5] end connection 127.0.0.1:62770 (1 connection now open)
+Wed Jan 23 16:05:28 [initandlisten] connection accepted from 127.0.0.1:62772 #6 (2 connections now open)
+Wed Jan 23 16:05:28 [conn6] end connection 127.0.0.1:62772 (1 connection now open)
+Wed Jan 23 16:05:34 [initandlisten] connection accepted from 127.0.0.1:62775 #7 (2 connections now open)
+Wed Jan 23 16:05:34 [conn7] end connection 127.0.0.1:62775 (1 connection now open)
+Wed Jan 23 16:05:34 [initandlisten] connection accepted from 127.0.0.1:62776 #8 (2 connections now open)
+Wed Jan 23 16:05:34 [conn8] end connection 127.0.0.1:62776 (1 connection now open)
+Wed Jan 23 16:05:38 [initandlisten] connection accepted from 127.0.0.1:62780 #9 (2 connections now open)
+Wed Jan 23 16:05:38 [conn9] end connection 127.0.0.1:62780 (1 connection now open)
+Wed Jan 23 16:05:38 [initandlisten] connection accepted from 127.0.0.1:62781 #10 (2 connections now open)
+Wed Jan 23 16:05:38 [conn10] end connection 127.0.0.1:62781 (1 connection now open)
+Wed Jan 23 16:05:40 [initandlisten] connection accepted from 127.0.0.1:62783 #11 (2 connections now open)
+Wed Jan 23 16:05:40 [conn11] end connection 127.0.0.1:62783 (1 connection now open)
+Wed Jan 23 16:05:45 [initandlisten] connection accepted from 127.0.0.1:62786 #12 (2 connections now open)
+Wed Jan 23 16:05:46 [conn12] end connection 127.0.0.1:62786 (1 connection now open)
+Wed Jan 23 16:29:16 [conn1] end connection 127.0.0.1:62709 (0 connections now open)
+Wed Jan 23 18:33:12 CTRL_CLOSE_EVENT signal
+Wed Jan 23 18:33:12 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Wed Jan 23 18:33:12 [consoleTerminate] now exiting
+Wed Jan 23 18:33:12 dbexit: 
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: going to close listening sockets...
+Wed Jan 23 18:33:12 [consoleTerminate] closing listening socket: 512
+Wed Jan 23 18:33:12 [consoleTerminate] closing listening socket: 516
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: going to flush diaglog...
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: going to close sockets...
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: waiting for fs preallocator...
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: lock for final commit...
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: final commit...
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: closing all files...
+Wed Jan 23 18:33:12 [consoleTerminate] closeAllFiles() finished
+Wed Jan 23 18:33:12 [consoleTerminate] journalCleanup...
+Wed Jan 23 18:33:12 [consoleTerminate] removeJournalFiles
+Wed Jan 23 18:33:12 [consoleTerminate] shutdown: removing fs lock...
+Wed Jan 23 18:33:12 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sat Feb 09 19:51:39 [initandlisten] MongoDB starting : pid=7476 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Sat Feb 09 19:51:39 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sat Feb 09 19:51:39 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sat Feb 09 19:51:39 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sat Feb 09 19:51:39 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Sat Feb 09 19:51:39 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Sat Feb 09 19:51:39 [initandlisten] recover : no journal files present, no recovery needed
+Sat Feb 09 19:51:39 [initandlisten] waiting for connections on port 27017
+Sat Feb 09 19:51:39 [websvr] admin web console waiting for connections on port 28017
+Sat Feb 09 19:52:11 [initandlisten] connection accepted from 127.0.0.1:57407 #1 (1 connection now open)
+Sat Feb 09 19:52:11 [conn1] CMD: drop test.messages
+Sat Feb 09 19:52:11 [conn1] CMD: drop test.data
+Sat Feb 09 19:52:11 [conn1] end connection 127.0.0.1:57407 (0 connections now open)
+Sat Feb 09 19:53:42 [initandlisten] connection accepted from 127.0.0.1:57428 #2 (1 connection now open)
+Sat Feb 09 19:53:42 [conn2] CMD: drop test.messages
+Sat Feb 09 19:53:42 [conn2] CMD: drop test.data
+Sat Feb 09 19:53:42 [conn2] end connection 127.0.0.1:57428 (0 connections now open)
+Sat Feb 09 19:54:51 [initandlisten] connection accepted from 127.0.0.1:57435 #3 (1 connection now open)
+Sat Feb 09 19:54:51 [conn3] CMD: drop test.messages
+Sat Feb 09 19:54:51 [conn3] CMD: drop test.data
+Sat Feb 09 19:54:52 [conn3] end connection 127.0.0.1:57435 (0 connections now open)
+Sat Feb 09 20:01:09 [initandlisten] connection accepted from 127.0.0.1:57554 #4 (1 connection now open)
+Sat Feb 09 20:01:09 [conn4] CMD: drop test.messages
+Sat Feb 09 20:01:09 [conn4] CMD: drop test.data
+Sat Feb 09 20:01:09 [conn4] end connection 127.0.0.1:57554 (0 connections now open)
+Sat Feb 09 21:46:31 [initandlisten] connection accepted from 127.0.0.1:58670 #5 (1 connection now open)
+Sat Feb 09 21:46:31 [conn5] CMD: drop test.messages
+Sat Feb 09 21:46:31 [conn5] CMD: drop test.data
+Sat Feb 09 21:46:31 [conn5] end connection 127.0.0.1:58670 (0 connections now open)
+Sat Feb 09 21:51:01 [initandlisten] connection accepted from 127.0.0.1:58722 #6 (1 connection now open)
+Sat Feb 09 21:51:01 [conn6] CMD: drop test.messages
+Sat Feb 09 21:51:01 [conn6] CMD: drop test.data
+Sat Feb 09 21:51:02 [initandlisten] connection accepted from 127.0.0.1:58723 #7 (2 connections now open)
+Sat Feb 09 21:51:02 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/test.ns, filling with zeroes...
+Sat Feb 09 21:51:02 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Sat Feb 09 21:51:03 [conn6] end connection 127.0.0.1:58722 (1 connection now open)
+Sat Feb 09 21:51:03 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/test.ns, size: 16MB,  took 0.119 secs
+Sat Feb 09 21:51:03 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/test.0, filling with zeroes...
+Sat Feb 09 21:51:03 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/test.0, size: 64MB,  took 0.305 secs
+Sat Feb 09 21:51:03 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/test.1, filling with zeroes...
+Sat Feb 09 21:51:03 [conn7] build index test.data { _id: 1 }
+Sat Feb 09 21:51:03 [conn7] build index done.  scanned 0 total records. 0.001 secs
+Sat Feb 09 21:51:03 [conn7] insert test.data keyUpdates:0 locks(micros) w:433930 434ms
+Sat Feb 09 21:51:03 [conn7] end connection 127.0.0.1:58723 (0 connections now open)
+Sat Feb 09 21:51:04 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/test.1, size: 128MB,  took 0.702 secs
+Sat Feb 09 21:51:25 [initandlisten] connection accepted from 127.0.0.1:58728 #8 (1 connection now open)
+Sat Feb 09 21:51:25 [conn8] CMD: drop test.messages
+Sat Feb 09 21:51:25 [conn8] CMD: drop test.data
+Sat Feb 09 21:51:27 [initandlisten] connection accepted from 127.0.0.1:58729 #9 (2 connections now open)
+Sat Feb 09 21:51:27 [conn9] build index test.data { _id: 1 }
+Sat Feb 09 21:51:27 [conn9] build index done.  scanned 0 total records. 0.002 secs
+Sat Feb 09 21:51:27 [conn8] end connection 127.0.0.1:58728 (1 connection now open)
+Sat Feb 09 21:51:27 [conn9] end connection 127.0.0.1:58729 (1 connection now open)
+Sat Feb 09 21:51:54 [initandlisten] connection accepted from 127.0.0.1:58735 #10 (1 connection now open)
+Sat Feb 09 21:53:10 [initandlisten] connection accepted from 127.0.0.1:58747 #11 (2 connections now open)
+Sat Feb 09 21:53:10 [conn11] CMD: drop test.messages
+Sat Feb 09 21:53:10 [conn11] CMD: drop test.data
+Sat Feb 09 21:53:12 [initandlisten] connection accepted from 127.0.0.1:58748 #12 (3 connections now open)
+Sat Feb 09 21:53:12 [conn12] build index test.data { _id: 1 }
+Sat Feb 09 21:53:12 [conn12] build index done.  scanned 0 total records. 0.002 secs
+Sat Feb 09 21:53:12 [conn11] end connection 127.0.0.1:58747 (2 connections now open)
+Sat Feb 09 21:53:12 [conn12] end connection 127.0.0.1:58748 (2 connections now open)
+Sat Feb 09 21:53:27 [conn10] CMD: drop test.data
+Sat Feb 09 21:53:38 [initandlisten] connection accepted from 127.0.0.1:58754 #13 (2 connections now open)
+Sat Feb 09 21:53:38 [conn13] CMD: drop test.messages
+Sat Feb 09 21:53:38 [conn13] CMD: drop test.data
+Sat Feb 09 21:53:40 [initandlisten] connection accepted from 127.0.0.1:58755 #14 (3 connections now open)
+Sat Feb 09 21:53:40 [conn14] build index test.data { _id: 1 }
+Sat Feb 09 21:53:40 [conn14] build index done.  scanned 0 total records. 0.002 secs
+Sat Feb 09 21:53:40 [conn13] end connection 127.0.0.1:58754 (2 connections now open)
+Sat Feb 09 21:53:40 [conn14] end connection 127.0.0.1:58755 (2 connections now open)
+Sat Feb 09 21:57:22 [conn10] CMD: drop test.data
+Sat Feb 09 21:57:39 [initandlisten] connection accepted from 127.0.0.1:58792 #15 (2 connections now open)
+Sat Feb 09 21:57:39 [conn15] CMD: drop test.messages
+Sat Feb 09 21:57:39 [conn15] CMD: drop test.data
+Sat Feb 09 21:57:40 [initandlisten] connection accepted from 127.0.0.1:58793 #16 (3 connections now open)
+Sat Feb 09 21:57:40 [conn16] build index test.data { _id: 1 }
+Sat Feb 09 21:57:40 [conn16] build index done.  scanned 0 total records. 0.002 secs
+Sat Feb 09 21:57:40 [conn15] end connection 127.0.0.1:58792 (2 connections now open)
+Sat Feb 09 21:57:40 [conn16] end connection 127.0.0.1:58793 (2 connections now open)
+Sat Feb 09 22:02:13 [initandlisten] connection accepted from 127.0.0.1:58863 #17 (2 connections now open)
+Sat Feb 09 22:02:13 [conn17] CMD: drop test.messages
+Sat Feb 09 22:02:13 [conn17] CMD: drop test.data
+Sat Feb 09 22:02:15 [initandlisten] connection accepted from 127.0.0.1:58864 #18 (3 connections now open)
+Sat Feb 09 22:02:15 [conn18] build index test.data { _id: 1 }
+Sat Feb 09 22:02:15 [conn18] build index done.  scanned 0 total records. 0.003 secs
+Sat Feb 09 22:02:15 [conn18] end connection 127.0.0.1:58864 (2 connections now open)
+Sat Feb 09 22:02:15 [conn17] end connection 127.0.0.1:58863 (2 connections now open)
+Sat Feb 09 22:02:46 [initandlisten] connection accepted from 127.0.0.1:58872 #19 (2 connections now open)
+Sat Feb 09 22:02:46 [conn19] CMD: drop test.messages
+Sat Feb 09 22:02:46 [conn19] CMD: drop test.data
+Sat Feb 09 22:02:47 [initandlisten] connection accepted from 127.0.0.1:58873 #20 (3 connections now open)
+Sat Feb 09 22:02:47 [conn20] build index test.data { _id: 1 }
+Sat Feb 09 22:02:47 [conn20] build index done.  scanned 0 total records. 0.003 secs
+Sat Feb 09 22:02:48 [initandlisten] connection accepted from 127.0.0.1:58874 #21 (4 connections now open)
+Sat Feb 09 22:03:23 [conn19] end connection 127.0.0.1:58872 (3 connections now open)
+Sat Feb 09 22:03:23 [conn21] end connection 127.0.0.1:58874 (3 connections now open)
+Sat Feb 09 22:03:23 [conn20] end connection 127.0.0.1:58873 (1 connection now open)
+Sun Feb 10 21:02:27 [conn10] end connection 127.0.0.1:58735 (0 connections now open)
+Sun Feb 10 21:02:33 CTRL_CLOSE_EVENT signal
+Sun Feb 10 21:02:33 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sun Feb 10 21:02:33 [consoleTerminate] now exiting
+Sun Feb 10 21:02:33 dbexit: 
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: going to close listening sockets...
+Sun Feb 10 21:02:33 [consoleTerminate] closing listening socket: 508
+Sun Feb 10 21:02:33 [consoleTerminate] closing listening socket: 512
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: going to flush diaglog...
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: going to close sockets...
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: lock for final commit...
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: final commit...
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: closing all files...
+Sun Feb 10 21:02:33 [consoleTerminate] closeAllFiles() finished
+Sun Feb 10 21:02:33 [consoleTerminate] journalCleanup...
+Sun Feb 10 21:02:33 [consoleTerminate] removeJournalFiles
+Sun Feb 10 21:02:33 [consoleTerminate] shutdown: removing fs lock...
+Sun Feb 10 21:02:33 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Mon Feb 25 17:12:52 [initandlisten] MongoDB starting : pid=6672 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Mon Feb 25 17:12:52 [initandlisten] db version v2.2.0, pdfile version 4.5
+Mon Feb 25 17:12:52 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Mon Feb 25 17:12:52 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Mon Feb 25 17:12:52 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Mon Feb 25 17:12:52 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Mon Feb 25 17:12:52 [initandlisten] recover : no journal files present, no recovery needed
+Mon Feb 25 17:12:53 [initandlisten] waiting for connections on port 27017
+Mon Feb 25 17:12:53 [websvr] admin web console waiting for connections on port 28017
+Mon Feb 25 17:14:01 [initandlisten] connection accepted from 127.0.0.1:58381 #1 (1 connection now open)
+Mon Feb 25 17:14:01 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural-person.ns, filling with zeroes...
+Mon Feb 25 17:14:01 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Mon Feb 25 17:14:02 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural-person.ns, size: 16MB,  took 0.093 secs
+Mon Feb 25 17:14:02 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural-person.0, filling with zeroes...
+Mon Feb 25 17:14:02 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural-person.0, size: 64MB,  took 0.373 secs
+Mon Feb 25 17:14:02 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural-person.1, filling with zeroes...
+Mon Feb 25 17:14:02 [conn1] build index natural-person.users { _id: 1 }
+Mon Feb 25 17:14:02 [conn1] build index done.  scanned 0 total records. 0.001 secs
+Mon Feb 25 17:14:02 [conn1] insert natural-person.users keyUpdates:0 locks(micros) w:476266 477ms
+Mon Feb 25 17:14:02 [conn1] end connection 127.0.0.1:58381 (0 connections now open)
+Mon Feb 25 17:14:03 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural-person.1, size: 128MB,  took 0.719 secs
+Mon Feb 25 18:46:29 CTRL_CLOSE_EVENT signal
+Mon Feb 25 18:46:29 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Mon Feb 25 18:46:29 [consoleTerminate] now exiting
+Mon Feb 25 18:46:29 dbexit: 
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: going to close listening sockets...
+Mon Feb 25 18:46:29 [consoleTerminate] closing listening socket: 500
+Mon Feb 25 18:46:29 [consoleTerminate] closing listening socket: 516
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: going to flush diaglog...
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: going to close sockets...
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: waiting for fs preallocator...
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: lock for final commit...
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: final commit...
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: closing all files...
+Mon Feb 25 18:46:29 [consoleTerminate] closeAllFiles() finished
+Mon Feb 25 18:46:29 [consoleTerminate] journalCleanup...
+Mon Feb 25 18:46:29 [consoleTerminate] removeJournalFiles
+Mon Feb 25 18:46:29 [consoleTerminate] shutdown: removing fs lock...
+Mon Feb 25 18:46:29 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Feb 26 00:09:08 [initandlisten] MongoDB starting : pid=13492 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Tue Feb 26 00:09:08 [initandlisten] db version v2.2.0, pdfile version 4.5
+Tue Feb 26 00:09:08 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Tue Feb 26 00:09:08 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Tue Feb 26 00:09:08 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Tue Feb 26 00:09:08 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Tue Feb 26 00:09:08 [initandlisten] recover : no journal files present, no recovery needed
+Tue Feb 26 00:09:09 [initandlisten] waiting for connections on port 27017
+Tue Feb 26 00:09:09 [websvr] admin web console waiting for connections on port 28017
+Tue Feb 26 00:13:08 [initandlisten] connection accepted from 127.0.0.1:63499 #1 (1 connection now open)
+Tue Feb 26 00:13:08 [initandlisten] connection accepted from 127.0.0.1:63500 #2 (2 connections now open)
+Tue Feb 26 00:13:09 [conn1] end connection 127.0.0.1:63499 (1 connection now open)
+Tue Feb 26 00:13:09 [initandlisten] connection accepted from 127.0.0.1:63501 #3 (2 connections now open)
+Tue Feb 26 00:13:09 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.ns, filling with zeroes...
+Tue Feb 26 00:13:09 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Tue Feb 26 00:13:09 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.ns, size: 16MB,  took 0.096 secs
+Tue Feb 26 00:13:09 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.0, filling with zeroes...
+Tue Feb 26 00:13:09 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.0, size: 64MB,  took 0.433 secs
+Tue Feb 26 00:13:09 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.1, filling with zeroes...
+Tue Feb 26 00:13:09 [conn3] build index natural.person { _id: 1 }
+Tue Feb 26 00:13:09 [conn3] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:13:09 [conn3] info: creating collection natural.person on add index
+Tue Feb 26 00:13:09 [conn3] build index natural.person { lastName: 1, age: -1 }
+Tue Feb 26 00:13:09 [conn3] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:13:09 [conn3] insert natural.system.indexes keyUpdates:0 locks(micros) w:545226 545ms
+Tue Feb 26 00:13:09 [conn3] build index natural.person { ssn: 1 }
+Tue Feb 26 00:13:09 [conn3] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:13:09 [conn3] build index natural.person { lastName: 1 }
+Tue Feb 26 00:13:09 [conn3] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:13:10 [conn2] end connection 127.0.0.1:63500 (1 connection now open)
+Tue Feb 26 00:13:10 [conn3] end connection 127.0.0.1:63501 (0 connections now open)
+Tue Feb 26 00:13:10 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.1, size: 128MB,  took 0.834 secs
+Tue Feb 26 00:24:17 [initandlisten] connection accepted from 127.0.0.1:63847 #4 (1 connection now open)
+Tue Feb 26 00:24:17 [initandlisten] connection accepted from 127.0.0.1:63848 #5 (2 connections now open)
+Tue Feb 26 00:24:17 [conn4] end connection 127.0.0.1:63847 (1 connection now open)
+Tue Feb 26 00:24:17 [initandlisten] connection accepted from 127.0.0.1:63849 #6 (2 connections now open)
+Tue Feb 26 00:24:18 [conn5] end connection 127.0.0.1:63848 (1 connection now open)
+Tue Feb 26 00:24:18 [conn6] end connection 127.0.0.1:63849 (1 connection now open)
+Tue Feb 26 00:24:50 [initandlisten] connection accepted from 127.0.0.1:63853 #7 (1 connection now open)
+Tue Feb 26 00:24:50 [initandlisten] connection accepted from 127.0.0.1:63854 #8 (2 connections now open)
+Tue Feb 26 00:24:51 [conn7] end connection 127.0.0.1:63853 (1 connection now open)
+Tue Feb 26 00:24:51 [initandlisten] connection accepted from 127.0.0.1:63855 #9 (2 connections now open)
+Tue Feb 26 00:24:51 [conn9] build index natural.users { _id: 1 }
+Tue Feb 26 00:24:51 [conn9] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:24:51 [conn9] end connection 127.0.0.1:63855 (1 connection now open)
+Tue Feb 26 00:24:51 [conn8] end connection 127.0.0.1:63854 (1 connection now open)
+Tue Feb 26 00:27:31 [initandlisten] connection accepted from 127.0.0.1:63866 #10 (1 connection now open)
+Tue Feb 26 00:27:31 [initandlisten] connection accepted from 127.0.0.1:63867 #11 (2 connections now open)
+Tue Feb 26 00:27:31 [conn10] end connection 127.0.0.1:63866 (1 connection now open)
+Tue Feb 26 00:27:32 [initandlisten] connection accepted from 127.0.0.1:63868 #12 (2 connections now open)
+Tue Feb 26 00:27:32 [initandlisten] connection accepted from 127.0.0.1:63869 #13 (3 connections now open)
+Tue Feb 26 00:27:32 [initandlisten] connection accepted from 127.0.0.1:63870 #14 (4 connections now open)
+Tue Feb 26 00:27:32 [initandlisten] connection accepted from 127.0.0.1:63871 #15 (5 connections now open)
+Tue Feb 26 00:27:32 [conn12] end connection 127.0.0.1:63868 (4 connections now open)
+Tue Feb 26 00:27:32 [conn11] end connection 127.0.0.1:63867 (3 connections now open)
+Tue Feb 26 00:27:32 [conn15] end connection 127.0.0.1:63871 (2 connections now open)
+Tue Feb 26 00:27:32 [conn14] end connection 127.0.0.1:63870 (2 connections now open)
+Tue Feb 26 00:27:32 [conn13] end connection 127.0.0.1:63869 (2 connections now open)
+Tue Feb 26 00:28:50 [initandlisten] connection accepted from 127.0.0.1:63881 #16 (1 connection now open)
+Tue Feb 26 00:28:50 [initandlisten] connection accepted from 127.0.0.1:63882 #17 (2 connections now open)
+Tue Feb 26 00:28:50 [conn16] end connection 127.0.0.1:63881 (1 connection now open)
+Tue Feb 26 00:28:51 [initandlisten] connection accepted from 127.0.0.1:63883 #18 (2 connections now open)
+Tue Feb 26 00:28:51 [conn17] end connection 127.0.0.1:63882 (1 connection now open)
+Tue Feb 26 00:28:51 [conn18] end connection 127.0.0.1:63883 (0 connections now open)
+Tue Feb 26 00:29:51 [initandlisten] connection accepted from 127.0.0.1:63890 #19 (1 connection now open)
+Tue Feb 26 00:29:51 [initandlisten] connection accepted from 127.0.0.1:63891 #20 (2 connections now open)
+Tue Feb 26 00:29:51 [conn19] end connection 127.0.0.1:63890 (1 connection now open)
+Tue Feb 26 00:29:51 [initandlisten] connection accepted from 127.0.0.1:63892 #21 (2 connections now open)
+Tue Feb 26 00:29:52 [conn21] end connection 127.0.0.1:63892 (1 connection now open)
+Tue Feb 26 00:29:52 [conn20] end connection 127.0.0.1:63891 (0 connections now open)
+Tue Feb 26 00:37:03 [initandlisten] connection accepted from 127.0.0.1:64008 #22 (1 connection now open)
+Tue Feb 26 00:37:03 [initandlisten] connection accepted from 127.0.0.1:64009 #23 (2 connections now open)
+Tue Feb 26 00:37:03 [conn22] end connection 127.0.0.1:64008 (1 connection now open)
+Tue Feb 26 00:37:03 [initandlisten] connection accepted from 127.0.0.1:64010 #24 (2 connections now open)
+Tue Feb 26 00:37:03 [conn23] end connection 127.0.0.1:64009 (1 connection now open)
+Tue Feb 26 00:37:03 [conn24] end connection 127.0.0.1:64010 (0 connections now open)
+Tue Feb 26 00:37:47 [initandlisten] connection accepted from 127.0.0.1:64017 #25 (1 connection now open)
+Tue Feb 26 00:37:47 [initandlisten] connection accepted from 127.0.0.1:64018 #26 (2 connections now open)
+Tue Feb 26 00:37:47 [conn25] end connection 127.0.0.1:64017 (1 connection now open)
+Tue Feb 26 00:37:47 [initandlisten] connection accepted from 127.0.0.1:64020 #27 (2 connections now open)
+Tue Feb 26 00:37:47 [conn27] build index natural.fs.files { _id: 1 }
+Tue Feb 26 00:37:47 [conn27] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:37:47 [conn27] info: creating collection natural.fs.files on add index
+Tue Feb 26 00:37:47 [conn27] build index natural.fs.files { filename: 1, uploadDate: 1 }
+Tue Feb 26 00:37:47 [conn27] build index done.  scanned 0 total records. 0.001 secs
+Tue Feb 26 00:37:47 [conn27] build index natural.fs.chunks { _id: 1 }
+Tue Feb 26 00:37:47 [conn27] build index done.  scanned 0 total records. 0.001 secs
+Tue Feb 26 00:37:47 [conn27] info: creating collection natural.fs.chunks on add index
+Tue Feb 26 00:37:47 [conn27] build index natural.fs.chunks { files_id: 1, n: 1 }
+Tue Feb 26 00:37:47 [conn27] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 00:37:48 [conn27] end connection 127.0.0.1:64020 (1 connection now open)
+Tue Feb 26 00:37:48 [conn26] end connection 127.0.0.1:64018 (0 connections now open)
+Tue Feb 26 00:38:27 [initandlisten] connection accepted from 127.0.0.1:64024 #28 (1 connection now open)
+Tue Feb 26 00:38:27 [initandlisten] connection accepted from 127.0.0.1:64025 #29 (2 connections now open)
+Tue Feb 26 00:38:27 [conn28] end connection 127.0.0.1:64024 (1 connection now open)
+Tue Feb 26 00:38:27 [initandlisten] connection accepted from 127.0.0.1:64026 #30 (2 connections now open)
+Tue Feb 26 00:38:27 [conn30] end connection 127.0.0.1:64026 (1 connection now open)
+Tue Feb 26 00:38:27 [conn29] end connection 127.0.0.1:64025 (0 connections now open)
+Tue Feb 26 00:39:15 [initandlisten] connection accepted from 127.0.0.1:64032 #31 (1 connection now open)
+Tue Feb 26 00:39:15 [initandlisten] connection accepted from 127.0.0.1:64033 #32 (2 connections now open)
+Tue Feb 26 00:39:15 [conn31] end connection 127.0.0.1:64032 (1 connection now open)
+Tue Feb 26 00:39:15 [initandlisten] connection accepted from 127.0.0.1:64034 #33 (2 connections now open)
+Tue Feb 26 00:39:15 [conn33] build index natural.my1 { _id: 1 }
+Tue Feb 26 00:39:15 [conn33] build index done.  scanned 0 total records. 0.004 secs
+Tue Feb 26 00:40:10 [conn33] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 102ms
+Tue Feb 26 00:40:24 [conn33] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 134ms
+Tue Feb 26 00:40:35 [conn33] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 166ms
+Tue Feb 26 00:40:36 [conn33] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 156ms
+Tue Feb 26 00:40:36 [conn33] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 101ms
+Tue Feb 26 00:40:38 [initandlisten] connection accepted from 127.0.0.1:64042 #34 (3 connections now open)
+Tue Feb 26 00:40:38 [initandlisten] connection accepted from 127.0.0.1:64043 #35 (4 connections now open)
+Tue Feb 26 00:40:38 [conn34] end connection 127.0.0.1:64042 (3 connections now open)
+Tue Feb 26 00:40:38 [initandlisten] connection accepted from 127.0.0.1:64044 #36 (4 connections now open)
+Tue Feb 26 00:41:53 [conn35] end connection 127.0.0.1:64043 (3 connections now open)
+Tue Feb 26 00:41:54 [conn36] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:64044] 
+Tue Feb 26 00:41:57 [conn32] end connection 127.0.0.1:64033 (1 connection now open)
+Tue Feb 26 00:41:57 [conn33] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:64034] 
+Tue Feb 26 00:42:07 [initandlisten] connection accepted from 127.0.0.1:64060 #37 (1 connection now open)
+Tue Feb 26 00:42:07 [initandlisten] connection accepted from 127.0.0.1:64061 #38 (2 connections now open)
+Tue Feb 26 00:42:08 [conn37] end connection 127.0.0.1:64060 (1 connection now open)
+Tue Feb 26 00:42:08 [initandlisten] connection accepted from 127.0.0.1:64062 #39 (2 connections now open)
+Tue Feb 26 00:42:44 [conn38] end connection 127.0.0.1:64061 (1 connection now open)
+Tue Feb 26 00:42:44 [conn39] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:64062] 
+Tue Feb 26 00:43:12 [initandlisten] connection accepted from 127.0.0.1:64068 #40 (1 connection now open)
+Tue Feb 26 00:43:13 [initandlisten] connection accepted from 127.0.0.1:64069 #41 (2 connections now open)
+Tue Feb 26 00:43:13 [conn40] end connection 127.0.0.1:64068 (1 connection now open)
+Tue Feb 26 00:43:13 [initandlisten] connection accepted from 127.0.0.1:64070 #42 (2 connections now open)
+Tue Feb 26 00:43:14 [conn42] end connection 127.0.0.1:64070 (1 connection now open)
+Tue Feb 26 00:43:14 [conn41] end connection 127.0.0.1:64069 (0 connections now open)
+Tue Feb 26 00:48:10 CTRL_CLOSE_EVENT signal
+Tue Feb 26 00:48:10 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Tue Feb 26 00:48:10 [consoleTerminate] now exiting
+Tue Feb 26 00:48:10 dbexit: 
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: going to close listening sockets...
+Tue Feb 26 00:48:10 [consoleTerminate] closing listening socket: 460
+Tue Feb 26 00:48:10 [consoleTerminate] closing listening socket: 512
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: going to flush diaglog...
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: going to close sockets...
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: waiting for fs preallocator...
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: lock for final commit...
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: final commit...
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: closing all files...
+Tue Feb 26 00:48:10 [consoleTerminate] closeAllFiles() finished
+Tue Feb 26 00:48:10 [consoleTerminate] journalCleanup...
+Tue Feb 26 00:48:10 [consoleTerminate] removeJournalFiles
+Tue Feb 26 00:48:10 [consoleTerminate] shutdown: removing fs lock...
+Tue Feb 26 00:48:10 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Tue Feb 26 09:03:02 [initandlisten] MongoDB starting : pid=5628 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Tue Feb 26 09:03:02 [initandlisten] db version v2.2.0, pdfile version 4.5
+Tue Feb 26 09:03:02 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Tue Feb 26 09:03:02 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Tue Feb 26 09:03:02 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Tue Feb 26 09:03:02 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Tue Feb 26 09:03:02 [initandlisten] recover : no journal files present, no recovery needed
+Tue Feb 26 09:03:03 [initandlisten] waiting for connections on port 27017
+Tue Feb 26 09:03:03 [websvr] admin web console waiting for connections on port 28017
+Tue Feb 26 09:12:25 [initandlisten] connection accepted from 127.0.0.1:49697 #1 (1 connection now open)
+Tue Feb 26 09:12:25 [initandlisten] connection accepted from 127.0.0.1:49698 #2 (2 connections now open)
+Tue Feb 26 09:12:25 [conn1] end connection 127.0.0.1:49697 (1 connection now open)
+Tue Feb 26 09:12:25 [initandlisten] connection accepted from 127.0.0.1:49699 #3 (2 connections now open)
+Tue Feb 26 09:12:26 [conn3] end connection 127.0.0.1:49699 (1 connection now open)
+Tue Feb 26 09:12:26 [conn2] end connection 127.0.0.1:49698 (0 connections now open)
+Tue Feb 26 09:18:36 [initandlisten] connection accepted from 127.0.0.1:49852 #4 (1 connection now open)
+Tue Feb 26 09:18:36 [initandlisten] connection accepted from 127.0.0.1:49853 #5 (2 connections now open)
+Tue Feb 26 09:18:36 [conn4] end connection 127.0.0.1:49852 (1 connection now open)
+Tue Feb 26 09:18:36 [initandlisten] connection accepted from 127.0.0.1:49854 #6 (2 connections now open)
+Tue Feb 26 09:18:36 [conn5] end connection 127.0.0.1:49853 (1 connection now open)
+Tue Feb 26 09:18:36 [conn6] end connection 127.0.0.1:49854 (0 connections now open)
+Tue Feb 26 09:40:17 [initandlisten] connection accepted from 127.0.0.1:50135 #7 (1 connection now open)
+Tue Feb 26 09:40:17 [initandlisten] connection accepted from 127.0.0.1:50136 #8 (2 connections now open)
+Tue Feb 26 09:40:17 [initandlisten] connection accepted from 127.0.0.1:50137 #9 (3 connections now open)
+Tue Feb 26 09:40:17 [conn9] build index natural.location { _id: 1 }
+Tue Feb 26 09:40:17 [conn9] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 09:40:17 [conn9] info: creating collection natural.location on add index
+Tue Feb 26 09:40:17 [conn9] build index natural.location { position: "2d" }
+Tue Feb 26 09:40:17 [conn9] build index done.  scanned 0 total records. 0.002 secs
+Tue Feb 26 09:40:18 [conn8] end connection 127.0.0.1:50136 (2 connections now open)
+Tue Feb 26 09:40:18 [conn9] end connection 127.0.0.1:50137 (1 connection now open)
+Tue Feb 26 09:40:18 [conn7] end connection 127.0.0.1:50135 (0 connections now open)
+Tue Feb 26 09:41:23 [initandlisten] connection accepted from 127.0.0.1:50157 #10 (1 connection now open)
+Tue Feb 26 09:41:23 [initandlisten] connection accepted from 127.0.0.1:50158 #11 (2 connections now open)
+Tue Feb 26 09:41:24 [initandlisten] connection accepted from 127.0.0.1:50159 #12 (3 connections now open)
+Tue Feb 26 09:41:24 [conn12] end connection 127.0.0.1:50159 (2 connections now open)
+Tue Feb 26 09:41:24 [conn11] end connection 127.0.0.1:50158 (1 connection now open)
+Tue Feb 26 09:41:24 [conn10] end connection 127.0.0.1:50157 (0 connections now open)
+Tue Feb 26 09:48:34 [initandlisten] connection accepted from 127.0.0.1:50268 #13 (1 connection now open)
+Tue Feb 26 09:48:34 [initandlisten] connection accepted from 127.0.0.1:50269 #14 (2 connections now open)
+Tue Feb 26 09:48:34 [conn13] end connection 127.0.0.1:50268 (1 connection now open)
+Tue Feb 26 09:48:35 [initandlisten] connection accepted from 127.0.0.1:50270 #15 (2 connections now open)
+Tue Feb 26 09:48:35 [conn15] end connection 127.0.0.1:50270 (1 connection now open)
+Tue Feb 26 09:48:35 [conn14] end connection 127.0.0.1:50269 (0 connections now open)
+Tue Feb 26 09:50:55 [initandlisten] connection accepted from 127.0.0.1:50295 #16 (1 connection now open)
+Tue Feb 26 09:50:55 [initandlisten] connection accepted from 127.0.0.1:50296 #17 (2 connections now open)
+Tue Feb 26 09:50:55 [initandlisten] connection accepted from 127.0.0.1:50297 #18 (3 connections now open)
+Tue Feb 26 09:50:56 [conn17] end connection 127.0.0.1:50296 (2 connections now open)
+Tue Feb 26 09:50:56 [conn18] end connection 127.0.0.1:50297 (1 connection now open)
+Tue Feb 26 09:50:56 [conn16] end connection 127.0.0.1:50295 (0 connections now open)
+Tue Feb 26 09:55:17 [initandlisten] connection accepted from 127.0.0.1:50336 #19 (1 connection now open)
+Tue Feb 26 10:17:44 [initandlisten] connection accepted from 127.0.0.1:50658 #20 (2 connections now open)
+Tue Feb 26 10:17:44 [initandlisten] connection accepted from 127.0.0.1:50659 #21 (3 connections now open)
+Tue Feb 26 10:17:45 [initandlisten] connection accepted from 127.0.0.1:50660 #22 (4 connections now open)
+Tue Feb 26 10:17:45 [conn22] end connection 127.0.0.1:50660 (3 connections now open)
+Tue Feb 26 10:17:45 [conn21] end connection 127.0.0.1:50659 (2 connections now open)
+Tue Feb 26 10:17:45 [conn20] end connection 127.0.0.1:50658 (1 connection now open)
+Tue Feb 26 10:58:28 [initandlisten] connection accepted from 127.0.0.1:51137 #23 (2 connections now open)
+Tue Feb 26 10:58:28 [initandlisten] connection accepted from 127.0.0.1:51138 #24 (3 connections now open)
+Tue Feb 26 10:58:28 [initandlisten] connection accepted from 127.0.0.1:51139 #25 (4 connections now open)
+Tue Feb 26 10:58:28 [conn25] end connection 127.0.0.1:51139 (3 connections now open)
+Tue Feb 26 10:58:28 [conn24] end connection 127.0.0.1:51138 (2 connections now open)
+Tue Feb 26 10:58:29 [conn23] end connection 127.0.0.1:51137 (1 connection now open)
+Tue Feb 26 10:59:25 [initandlisten] connection accepted from 127.0.0.1:51155 #26 (2 connections now open)
+Tue Feb 26 10:59:25 [initandlisten] connection accepted from 127.0.0.1:51156 #27 (3 connections now open)
+Tue Feb 26 10:59:26 [initandlisten] connection accepted from 127.0.0.1:51157 #28 (4 connections now open)
+Tue Feb 26 10:59:26 [conn27] end connection 127.0.0.1:51156 (3 connections now open)
+Tue Feb 26 10:59:26 [conn28] end connection 127.0.0.1:51157 (2 connections now open)
+Tue Feb 26 10:59:26 [conn26] end connection 127.0.0.1:51155 (1 connection now open)
+Tue Feb 26 10:59:43 [initandlisten] connection accepted from 127.0.0.1:51160 #29 (2 connections now open)
+Tue Feb 26 10:59:43 [initandlisten] connection accepted from 127.0.0.1:51161 #30 (3 connections now open)
+Tue Feb 26 10:59:43 [initandlisten] connection accepted from 127.0.0.1:51162 #31 (4 connections now open)
+Tue Feb 26 10:59:47 [conn31] end connection 127.0.0.1:51162 (3 connections now open)
+Tue Feb 26 10:59:47 [conn30] end connection 127.0.0.1:51161 (2 connections now open)
+Tue Feb 26 10:59:47 [conn29] end connection 127.0.0.1:51160 (1 connection now open)
+Tue Feb 26 11:01:16 [initandlisten] connection accepted from 127.0.0.1:51196 #32 (2 connections now open)
+Tue Feb 26 11:01:16 [initandlisten] connection accepted from 127.0.0.1:51197 #33 (3 connections now open)
+Tue Feb 26 11:01:16 [initandlisten] connection accepted from 127.0.0.1:51198 #34 (4 connections now open)
+Tue Feb 26 11:01:20 [conn34] end connection 127.0.0.1:51198 (3 connections now open)
+Tue Feb 26 11:01:20 [conn33] end connection 127.0.0.1:51197 (2 connections now open)
+Tue Feb 26 11:01:20 [conn32] end connection 127.0.0.1:51196 (1 connection now open)
+Tue Feb 26 11:02:25 [initandlisten] connection accepted from 127.0.0.1:51230 #35 (2 connections now open)
+Tue Feb 26 11:02:25 [conn35] end connection 127.0.0.1:51230 (1 connection now open)
+Tue Feb 26 11:02:25 [initandlisten] connection accepted from 127.0.0.1:51231 #36 (2 connections now open)
+Tue Feb 26 11:02:26 [initandlisten] connection accepted from 127.0.0.1:51232 #37 (3 connections now open)
+Tue Feb 26 11:02:29 [conn37] end connection 127.0.0.1:51232 (2 connections now open)
+Tue Feb 26 11:02:29 [conn36] end connection 127.0.0.1:51231 (1 connection now open)
+Tue Feb 26 11:19:03 [initandlisten] connection accepted from 127.0.0.1:51430 #38 (2 connections now open)
+Tue Feb 26 11:19:03 [initandlisten] connection accepted from 127.0.0.1:51431 #39 (3 connections now open)
+Tue Feb 26 11:19:04 [initandlisten] connection accepted from 127.0.0.1:51432 #40 (4 connections now open)
+Tue Feb 26 11:19:23 [conn38] end connection 127.0.0.1:51430 (3 connections now open)
+Tue Feb 26 11:19:58 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 837ms
+Tue Feb 26 11:19:59 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 822ms
+Tue Feb 26 11:19:59 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 421ms
+Tue Feb 26 11:20:00 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 855ms
+Tue Feb 26 11:21:22 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 157ms
+Tue Feb 26 11:24:58 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 325ms
+Tue Feb 26 11:25:07 [conn40] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 115ms
+Tue Feb 26 11:25:26 [conn39] end connection 127.0.0.1:51431 (2 connections now open)
+Tue Feb 26 11:25:26 [conn40] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:51432] 
+Tue Feb 26 11:27:14 [initandlisten] connection accepted from 127.0.0.1:51541 #41 (2 connections now open)
+Tue Feb 26 11:27:14 [initandlisten] connection accepted from 127.0.0.1:51542 #42 (3 connections now open)
+Tue Feb 26 11:27:14 [initandlisten] connection accepted from 127.0.0.1:51543 #43 (4 connections now open)
+Tue Feb 26 11:27:16 [conn43] remove natural.person keyUpdates:0 numYields: 8 locks(micros) w:1881041 978ms
+Tue Feb 26 11:27:29 [conn43] end connection 127.0.0.1:51543 (3 connections now open)
+Tue Feb 26 11:27:29 [conn41] end connection 127.0.0.1:51541 (2 connections now open)
+Tue Feb 26 11:27:29 [conn42] end connection 127.0.0.1:51542 (3 connections now open)
+Tue Feb 26 11:28:03 [initandlisten] connection accepted from 127.0.0.1:51548 #44 (2 connections now open)
+Tue Feb 26 11:28:03 [initandlisten] connection accepted from 127.0.0.1:51549 #45 (3 connections now open)
+Tue Feb 26 11:28:04 [initandlisten] connection accepted from 127.0.0.1:51550 #46 (4 connections now open)
+Tue Feb 26 11:28:13 [conn44] end connection 127.0.0.1:51548 (3 connections now open)
+Tue Feb 26 11:28:13 [conn45] end connection 127.0.0.1:51549 (2 connections now open)
+Tue Feb 26 11:28:13 [conn46] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:51550] 
+Tue Feb 26 11:28:25 [initandlisten] connection accepted from 127.0.0.1:51559 #47 (2 connections now open)
+Tue Feb 26 11:28:25 [initandlisten] connection accepted from 127.0.0.1:51560 #48 (3 connections now open)
+Tue Feb 26 11:28:26 [initandlisten] connection accepted from 127.0.0.1:51561 #49 (4 connections now open)
+Tue Feb 26 11:28:30 [conn47] end connection 127.0.0.1:51559 (3 connections now open)
+Tue Feb 26 11:29:04 [conn49] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 828ms
+Tue Feb 26 11:29:04 [conn48] end connection 127.0.0.1:51560 (2 connections now open)
+Tue Feb 26 11:29:06 [conn49] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 1720ms
+Tue Feb 26 11:29:06 [conn49] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:51561] 
+Tue Feb 26 11:29:21 [initandlisten] connection accepted from 127.0.0.1:51582 #50 (2 connections now open)
+Tue Feb 26 11:29:21 [initandlisten] connection accepted from 127.0.0.1:51583 #51 (3 connections now open)
+Tue Feb 26 11:29:21 [initandlisten] connection accepted from 127.0.0.1:51584 #52 (4 connections now open)
+Tue Feb 26 11:29:22 [conn50] end connection 127.0.0.1:51582 (3 connections now open)
+Tue Feb 26 11:31:06 [conn51] end connection 127.0.0.1:51583 (2 connections now open)
+Tue Feb 26 11:31:06 [conn52] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:51584] 
+Tue Feb 26 11:31:12 [initandlisten] connection accepted from 127.0.0.1:51609 #53 (2 connections now open)
+Tue Feb 26 11:31:12 [initandlisten] connection accepted from 127.0.0.1:51610 #54 (3 connections now open)
+Tue Feb 26 11:31:12 [initandlisten] connection accepted from 127.0.0.1:51611 #55 (4 connections now open)
+Tue Feb 26 11:31:13 [conn55] remove natural.person keyUpdates:0 numYields: 2 locks(micros) w:411564 261ms
+Tue Feb 26 11:31:13 [conn53] end connection 127.0.0.1:51609 (3 connections now open)
+Tue Feb 26 11:31:59 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 134ms
+Tue Feb 26 11:32:06 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 109ms
+Tue Feb 26 11:32:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 267ms
+Tue Feb 26 11:32:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 386ms
+Tue Feb 26 11:32:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 194ms
+Tue Feb 26 11:32:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 319ms
+Tue Feb 26 11:32:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 346ms
+Tue Feb 26 11:33:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 253ms
+Tue Feb 26 11:33:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 297ms
+Tue Feb 26 11:33:34 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 828ms
+Tue Feb 26 11:33:35 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 1097ms
+Tue Feb 26 11:33:36 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 801ms
+Tue Feb 26 11:33:36 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 574ms
+Tue Feb 26 11:33:38 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 1693ms
+Tue Feb 26 11:33:38 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 226ms
+Tue Feb 26 11:33:38 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 241ms
+Tue Feb 26 11:40:40 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 849ms
+Tue Feb 26 11:40:40 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 832ms
+Tue Feb 26 11:40:41 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 799ms
+Tue Feb 26 11:40:42 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 467ms
+Tue Feb 26 11:42:36 [initandlisten] connection accepted from 127.0.0.1:51848 #56 (4 connections now open)
+Tue Feb 26 11:42:36 [conn56] end connection 127.0.0.1:51848 (3 connections now open)
+Tue Feb 26 11:43:01 [initandlisten] connection accepted from 127.0.0.1:51858 #57 (4 connections now open)
+Tue Feb 26 11:43:01 [conn57] end connection 127.0.0.1:51858 (3 connections now open)
+Tue Feb 26 11:43:03 [initandlisten] connection accepted from 127.0.0.1:51860 #58 (4 connections now open)
+Tue Feb 26 11:43:03 [conn58] end connection 127.0.0.1:51860 (3 connections now open)
+Tue Feb 26 11:43:10 [initandlisten] connection accepted from 127.0.0.1:51868 #59 (4 connections now open)
+Tue Feb 26 11:43:10 [conn59] end connection 127.0.0.1:51868 (3 connections now open)
+Tue Feb 26 11:43:10 [initandlisten] connection accepted from 127.0.0.1:51870 #60 (4 connections now open)
+Tue Feb 26 11:43:10 [conn60] end connection 127.0.0.1:51870 (3 connections now open)
+Tue Feb 26 11:43:10 [initandlisten] connection accepted from 127.0.0.1:51873 #61 (4 connections now open)
+Tue Feb 26 11:43:10 [conn61] end connection 127.0.0.1:51873 (3 connections now open)
+Tue Feb 26 11:43:10 [initandlisten] connection accepted from 127.0.0.1:51875 #62 (4 connections now open)
+Tue Feb 26 11:43:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 145ms
+Tue Feb 26 11:43:11 [conn62] end connection 127.0.0.1:51875 (3 connections now open)
+Tue Feb 26 11:43:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 109ms
+Tue Feb 26 11:43:11 [initandlisten] connection accepted from 127.0.0.1:51877 #63 (4 connections now open)
+Tue Feb 26 11:43:11 [conn63] end connection 127.0.0.1:51877 (3 connections now open)
+Tue Feb 26 11:43:13 [initandlisten] connection accepted from 127.0.0.1:51880 #64 (4 connections now open)
+Tue Feb 26 11:43:14 [conn64] end connection 127.0.0.1:51880 (3 connections now open)
+Tue Feb 26 11:43:14 [initandlisten] connection accepted from 127.0.0.1:51881 #65 (4 connections now open)
+Tue Feb 26 11:43:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 108ms
+Tue Feb 26 11:43:14 [conn65] end connection 127.0.0.1:51881 (3 connections now open)
+Tue Feb 26 11:43:16 [initandlisten] connection accepted from 127.0.0.1:51884 #66 (4 connections now open)
+Tue Feb 26 11:43:16 [conn66] end connection 127.0.0.1:51884 (3 connections now open)
+Tue Feb 26 11:43:16 [initandlisten] connection accepted from 127.0.0.1:51885 #67 (5 connections now open)
+Tue Feb 26 11:43:16 [conn67] end connection 127.0.0.1:51885 (3 connections now open)
+Tue Feb 26 11:43:19 [initandlisten] connection accepted from 127.0.0.1:51888 #68 (4 connections now open)
+Tue Feb 26 11:43:19 [conn68] end connection 127.0.0.1:51888 (3 connections now open)
+Tue Feb 26 11:43:19 [initandlisten] connection accepted from 127.0.0.1:51889 #69 (5 connections now open)
+Tue Feb 26 11:43:19 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 128ms
+Tue Feb 26 11:43:19 [conn69] end connection 127.0.0.1:51889 (3 connections now open)
+Tue Feb 26 11:43:21 [initandlisten] connection accepted from 127.0.0.1:51892 #70 (4 connections now open)
+Tue Feb 26 11:43:22 [conn70] end connection 127.0.0.1:51892 (3 connections now open)
+Tue Feb 26 11:43:23 [initandlisten] connection accepted from 127.0.0.1:51894 #71 (4 connections now open)
+Tue Feb 26 11:43:24 [conn71] end connection 127.0.0.1:51894 (3 connections now open)
+Tue Feb 26 11:43:29 [initandlisten] connection accepted from 127.0.0.1:51896 #72 (4 connections now open)
+Tue Feb 26 11:43:29 [conn72] end connection 127.0.0.1:51896 (3 connections now open)
+Tue Feb 26 11:43:31 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 152ms
+Tue Feb 26 11:43:36 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 129ms
+Tue Feb 26 11:45:50 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 146ms
+Tue Feb 26 11:46:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 712ms
+Tue Feb 26 11:46:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 743ms
+Tue Feb 26 11:46:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 755ms
+Tue Feb 26 11:46:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 389ms
+Tue Feb 26 11:47:08 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 140ms
+Tue Feb 26 11:47:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 110ms
+Tue Feb 26 11:47:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 363ms
+Tue Feb 26 11:47:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 309ms
+Tue Feb 26 11:47:15 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 112ms
+Tue Feb 26 11:47:41 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 356ms
+Tue Feb 26 11:47:42 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 661ms
+Tue Feb 26 11:47:48 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 149ms
+Tue Feb 26 11:48:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 857ms
+Tue Feb 26 11:48:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 842ms
+Tue Feb 26 11:48:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 811ms
+Tue Feb 26 11:48:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 533ms
+Tue Feb 26 11:49:06 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 209ms
+Tue Feb 26 11:49:06 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 259ms
+Tue Feb 26 11:49:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 104ms
+Tue Feb 26 11:49:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 109ms
+Tue Feb 26 11:49:15 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 162ms
+Tue Feb 26 11:49:24 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 121ms
+Tue Feb 26 11:49:25 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 176ms
+Tue Feb 26 11:49:26 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 113ms
+Tue Feb 26 11:49:29 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 180ms
+Tue Feb 26 11:49:30 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 101ms
+Tue Feb 26 11:49:31 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 114ms
+Tue Feb 26 11:49:31 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 268ms
+Tue Feb 26 11:49:31 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 103ms
+Tue Feb 26 11:49:34 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 102ms
+Tue Feb 26 11:50:07 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 425ms
+Tue Feb 26 11:50:08 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 111ms
+Tue Feb 26 11:50:08 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 111ms
+Tue Feb 26 11:50:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 276ms
+Tue Feb 26 11:50:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 233ms
+Tue Feb 26 11:50:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 273ms
+Tue Feb 26 11:50:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 220ms
+Tue Feb 26 11:50:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 302ms
+Tue Feb 26 11:50:13 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 209ms
+Tue Feb 26 11:50:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 255ms
+Tue Feb 26 11:50:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 242ms
+Tue Feb 26 11:50:14 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 173ms
+Tue Feb 26 11:50:15 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 236ms
+Tue Feb 26 11:50:15 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 172ms
+Tue Feb 26 11:50:35 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 118ms
+Tue Feb 26 11:50:46 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 136ms
+Tue Feb 26 11:51:06 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 168ms
+Tue Feb 26 11:51:06 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 132ms
+Tue Feb 26 11:51:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 253ms
+Tue Feb 26 11:51:09 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 197ms
+Tue Feb 26 11:51:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 179ms
+Tue Feb 26 11:51:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 124ms
+Tue Feb 26 11:51:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 118ms
+Tue Feb 26 11:51:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 222ms
+Tue Feb 26 11:51:57 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 349ms
+Tue Feb 26 11:51:58 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 202ms
+Tue Feb 26 11:51:58 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 266ms
+Tue Feb 26 11:51:59 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 278ms
+Tue Feb 26 11:52:00 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 303ms
+Tue Feb 26 11:52:00 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 300ms
+Tue Feb 26 11:52:00 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 110ms
+Tue Feb 26 11:52:00 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 112ms
+Tue Feb 26 11:52:01 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 266ms
+Tue Feb 26 11:53:07 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 179ms
+Tue Feb 26 11:53:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 377ms
+Tue Feb 26 11:53:10 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 726ms
+Tue Feb 26 11:53:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 632ms
+Tue Feb 26 11:53:11 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 525ms
+Tue Feb 26 11:53:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 404ms
+Tue Feb 26 11:53:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 308ms
+Tue Feb 26 11:53:12 [initandlisten] connection accepted from 127.0.0.1:52198 #73 (4 connections now open)
+Tue Feb 26 11:53:12 [conn73] end connection 127.0.0.1:52198 (3 connections now open)
+Tue Feb 26 11:53:12 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 198ms
+Tue Feb 26 11:53:28 [initandlisten] connection accepted from 127.0.0.1:52200 #74 (4 connections now open)
+Tue Feb 26 11:53:28 [conn74] end connection 127.0.0.1:52200 (3 connections now open)
+Tue Feb 26 11:53:36 [initandlisten] connection accepted from 127.0.0.1:52202 #75 (4 connections now open)
+Tue Feb 26 11:53:36 [conn75] end connection 127.0.0.1:52202 (3 connections now open)
+Tue Feb 26 11:53:50 [initandlisten] connection accepted from 127.0.0.1:52212 #76 (4 connections now open)
+Tue Feb 26 11:53:50 [conn76] end connection 127.0.0.1:52212 (3 connections now open)
+Tue Feb 26 11:54:22 [initandlisten] connection accepted from 127.0.0.1:52215 #77 (4 connections now open)
+Tue Feb 26 11:54:22 [conn77] end connection 127.0.0.1:52215 (3 connections now open)
+Tue Feb 26 11:54:24 [initandlisten] connection accepted from 127.0.0.1:52217 #78 (4 connections now open)
+Tue Feb 26 11:54:24 [conn78] end connection 127.0.0.1:52217 (3 connections now open)
+Tue Feb 26 11:54:32 [initandlisten] connection accepted from 127.0.0.1:52219 #79 (4 connections now open)
+Tue Feb 26 11:54:32 [conn79] end connection 127.0.0.1:52219 (3 connections now open)
+Tue Feb 26 11:54:34 [initandlisten] connection accepted from 127.0.0.1:52221 #80 (4 connections now open)
+Tue Feb 26 11:54:34 [conn80] end connection 127.0.0.1:52221 (3 connections now open)
+Tue Feb 26 11:54:34 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 125ms
+Tue Feb 26 11:54:37 [initandlisten] connection accepted from 127.0.0.1:52223 #81 (4 connections now open)
+Tue Feb 26 11:54:37 [conn81] end connection 127.0.0.1:52223 (3 connections now open)
+Tue Feb 26 11:54:39 [initandlisten] connection accepted from 127.0.0.1:52225 #82 (4 connections now open)
+Tue Feb 26 11:54:39 [conn82] end connection 127.0.0.1:52225 (3 connections now open)
+Tue Feb 26 11:54:44 [initandlisten] connection accepted from 127.0.0.1:52229 #83 (4 connections now open)
+Tue Feb 26 11:54:44 [conn83] end connection 127.0.0.1:52229 (3 connections now open)
+Tue Feb 26 11:54:44 [initandlisten] connection accepted from 127.0.0.1:52230 #84 (5 connections now open)
+Tue Feb 26 11:54:44 [conn55] command natural.$cmd command: { getlasterror: 1, w: 1, wtimeout: 0, fsync: true } ntoreturn:1 keyUpdates:0  reslen:90 107ms
+Tue Feb 26 11:54:44 [conn84] end connection 127.0.0.1:52230 (3 connections now open)
+Tue Feb 26 11:54:54 [conn54] end connection 127.0.0.1:51610 (2 connections now open)
+Tue Feb 26 11:54:54 [conn55] SocketException handling request, closing client connection: 9001 socket exception [2] server [127.0.0.1:51611] 
+Tue Feb 26 13:47:10 [conn19] end connection 127.0.0.1:50336 (0 connections now open)
+Tue Feb 26 13:47:41 CTRL_CLOSE_EVENT signal
+Tue Feb 26 13:47:41 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Tue Feb 26 13:47:41 [consoleTerminate] now exiting
+Tue Feb 26 13:47:41 dbexit: 
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: going to close listening sockets...
+Tue Feb 26 13:47:41 [consoleTerminate] closing listening socket: 460
+Tue Feb 26 13:47:41 [consoleTerminate] closing listening socket: 476
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: going to flush diaglog...
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: going to close sockets...
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: waiting for fs preallocator...
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: lock for final commit...
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: final commit...
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: closing all files...
+Tue Feb 26 13:47:41 [consoleTerminate] closeAllFiles() finished
+Tue Feb 26 13:47:41 [consoleTerminate] journalCleanup...
+Tue Feb 26 13:47:41 [consoleTerminate] removeJournalFiles
+Tue Feb 26 13:47:41 [consoleTerminate] shutdown: removing fs lock...
+Tue Feb 26 13:47:41 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Wed Feb 27 23:06:16 [initandlisten] MongoDB starting : pid=1396 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Wed Feb 27 23:06:16 [initandlisten] db version v2.2.0, pdfile version 4.5
+Wed Feb 27 23:06:16 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Wed Feb 27 23:06:16 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Wed Feb 27 23:06:16 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Wed Feb 27 23:06:16 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Wed Feb 27 23:06:16 [initandlisten] recover : no journal files present, no recovery needed
+Wed Feb 27 23:06:16 [initandlisten] waiting for connections on port 27017
+Wed Feb 27 23:06:17 [websvr] admin web console waiting for connections on port 28017
+Wed Feb 27 23:08:34 [initandlisten] connection accepted from 127.0.0.1:53560 #1 (1 connection now open)
+Wed Feb 27 23:08:34 [initandlisten] connection accepted from 127.0.0.1:53561 #2 (2 connections now open)
+Wed Feb 27 23:08:35 [conn1] end connection 127.0.0.1:53560 (1 connection now open)
+Wed Feb 27 23:08:35 [initandlisten] connection accepted from 127.0.0.1:53562 #3 (2 connections now open)
+Wed Feb 27 23:08:35 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.ns, filling with zeroes...
+Wed Feb 27 23:08:35 [FileAllocator] creating directory I:/env-nosql/mongodb/db/_tmp
+Wed Feb 27 23:08:35 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.ns, size: 16MB,  took 0.074 secs
+Wed Feb 27 23:08:35 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.0, filling with zeroes...
+Wed Feb 27 23:08:35 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.0, size: 64MB,  took 0.258 secs
+Wed Feb 27 23:08:35 [FileAllocator] allocating new datafile I:/env-nosql/mongodb/db/natural.1, filling with zeroes...
+Wed Feb 27 23:08:35 [conn3] build index natural.person { _id: 1 }
+Wed Feb 27 23:08:35 [conn3] build index done.  scanned 0 total records. 0.027 secs
+Wed Feb 27 23:08:35 [conn3] info: creating collection natural.person on add index
+Wed Feb 27 23:08:35 [conn3] build index natural.person { lastName: 1, age: -1 }
+Wed Feb 27 23:08:35 [conn3] build index done.  scanned 0 total records. 0.001 secs
+Wed Feb 27 23:08:35 [conn3] insert natural.system.indexes keyUpdates:0 locks(micros) w:385896 386ms
+Wed Feb 27 23:08:35 [conn3] build index natural.person { ssn: 1 }
+Wed Feb 27 23:08:35 [conn3] build index done.  scanned 0 total records. 0.001 secs
+Wed Feb 27 23:08:35 [conn3] build index natural.person { lastName: 1 }
+Wed Feb 27 23:08:35 [conn3] build index done.  scanned 0 total records. 0 secs
+Wed Feb 27 23:08:36 [FileAllocator] done allocating datafile I:/env-nosql/mongodb/db/natural.1, size: 128MB,  took 0.611 secs
+Wed Feb 27 23:11:16 [initandlisten] connection accepted from 127.0.0.1:53628 #4 (3 connections now open)
+Wed Feb 27 23:11:50 [initandlisten] connection accepted from 127.0.0.1:53645 #5 (4 connections now open)
+Wed Feb 27 23:11:50 [initandlisten] connection accepted from 127.0.0.1:53646 #6 (5 connections now open)
+Wed Feb 27 23:11:51 [initandlisten] connection accepted from 127.0.0.1:53648 #7 (6 connections now open)
+Wed Feb 27 23:11:53 [conn5] end connection 127.0.0.1:53645 (5 connections now open)
+Wed Feb 27 23:11:56 [conn7] end connection 127.0.0.1:53648 (4 connections now open)
+Wed Feb 27 23:11:56 [conn6] end connection 127.0.0.1:53646 (3 connections now open)
+Wed Feb 27 23:12:12 [initandlisten] connection accepted from 127.0.0.1:53658 #8 (4 connections now open)
+Wed Feb 27 23:16:58 [conn3] end connection 127.0.0.1:53562 (3 connections now open)
+Wed Feb 27 23:16:58 [conn4] end connection 127.0.0.1:53628 (2 connections now open)
+Wed Feb 27 23:16:58 [conn8] end connection 127.0.0.1:53658 (1 connection now open)
+Wed Feb 27 23:16:58 [conn2] end connection 127.0.0.1:53561 (0 connections now open)
+Wed Feb 27 23:17:12 [initandlisten] connection accepted from 127.0.0.1:53757 #9 (1 connection now open)
+Wed Feb 27 23:17:12 [initandlisten] connection accepted from 127.0.0.1:53758 #10 (2 connections now open)
+Wed Feb 27 23:17:12 [conn9] end connection 127.0.0.1:53757 (1 connection now open)
+Wed Feb 27 23:17:12 [initandlisten] connection accepted from 127.0.0.1:53760 #11 (2 connections now open)
+Wed Feb 27 23:17:18 [initandlisten] connection accepted from 127.0.0.1:53763 #12 (3 connections now open)
+Wed Feb 27 23:18:02 [initandlisten] connection accepted from 127.0.0.1:53783 #13 (4 connections now open)
+Wed Feb 27 23:19:51 [conn13] end connection 127.0.0.1:53783 (3 connections now open)
+Wed Feb 27 23:19:51 [conn11] end connection 127.0.0.1:53760 (2 connections now open)
+Wed Feb 27 23:19:51 [conn12] end connection 127.0.0.1:53763 (1 connection now open)
+Wed Feb 27 23:19:51 [conn10] end connection 127.0.0.1:53758 (0 connections now open)
+Wed Feb 27 23:20:11 [initandlisten] connection accepted from 127.0.0.1:53821 #14 (1 connection now open)
+Wed Feb 27 23:20:11 [initandlisten] connection accepted from 127.0.0.1:53822 #15 (2 connections now open)
+Wed Feb 27 23:20:11 [conn14] end connection 127.0.0.1:53821 (1 connection now open)
+Wed Feb 27 23:20:11 [initandlisten] connection accepted from 127.0.0.1:53823 #16 (2 connections now open)
+Wed Feb 27 23:20:13 [initandlisten] connection accepted from 127.0.0.1:53836 #17 (3 connections now open)
+Wed Feb 27 23:23:15 [initandlisten] connection accepted from 127.0.0.1:53899 #18 (4 connections now open)
+Wed Feb 27 23:23:56 [initandlisten] connection accepted from 127.0.0.1:53913 #19 (5 connections now open)
+Wed Feb 27 23:34:10 [conn16] end connection 127.0.0.1:53823 (4 connections now open)
+Wed Feb 27 23:34:10 [conn17] end connection 127.0.0.1:53836 (3 connections now open)
+Wed Feb 27 23:34:10 [conn18] end connection 127.0.0.1:53899 (2 connections now open)
+Wed Feb 27 23:34:10 [conn19] end connection 127.0.0.1:53913 (1 connection now open)
+Wed Feb 27 23:34:10 [conn15] end connection 127.0.0.1:53822 (0 connections now open)
+Wed Feb 27 23:34:23 [initandlisten] connection accepted from 127.0.0.1:54123 #20 (1 connection now open)
+Wed Feb 27 23:34:23 [initandlisten] connection accepted from 127.0.0.1:54124 #21 (2 connections now open)
+Wed Feb 27 23:34:24 [conn20] end connection 127.0.0.1:54123 (1 connection now open)
+Wed Feb 27 23:34:24 [initandlisten] connection accepted from 127.0.0.1:54125 #22 (2 connections now open)
+Wed Feb 27 23:34:26 [initandlisten] connection accepted from 127.0.0.1:54136 #23 (3 connections now open)
+Wed Feb 27 23:34:30 [initandlisten] connection accepted from 127.0.0.1:54141 #24 (4 connections now open)
+Wed Feb 27 23:35:06 [conn22] end connection 127.0.0.1:54125 (3 connections now open)
+Wed Feb 27 23:35:06 [conn23] end connection 127.0.0.1:54136 (2 connections now open)
+Wed Feb 27 23:35:06 [conn24] end connection 127.0.0.1:54141 (1 connection now open)
+Wed Feb 27 23:35:06 [conn21] end connection 127.0.0.1:54124 (0 connections now open)
+Wed Feb 27 23:35:58 [initandlisten] connection accepted from 127.0.0.1:54178 #25 (1 connection now open)
+Wed Feb 27 23:35:58 [initandlisten] connection accepted from 127.0.0.1:54182 #26 (2 connections now open)
+Wed Feb 27 23:35:58 [conn25] end connection 127.0.0.1:54178 (1 connection now open)
+Wed Feb 27 23:35:59 [initandlisten] connection accepted from 127.0.0.1:54188 #27 (2 connections now open)
+Wed Feb 27 23:36:05 [initandlisten] connection accepted from 127.0.0.1:54197 #28 (3 connections now open)
+Wed Feb 27 23:37:56 [conn27] end connection 127.0.0.1:54188 (2 connections now open)
+Wed Feb 27 23:37:56 [conn28] end connection 127.0.0.1:54197 (1 connection now open)
+Wed Feb 27 23:37:56 [conn26] end connection 127.0.0.1:54182 (0 connections now open)
+Wed Feb 27 23:38:09 [initandlisten] connection accepted from 127.0.0.1:54236 #29 (1 connection now open)
+Wed Feb 27 23:38:09 [initandlisten] connection accepted from 127.0.0.1:54237 #30 (2 connections now open)
+Wed Feb 27 23:38:09 [conn29] end connection 127.0.0.1:54236 (1 connection now open)
+Wed Feb 27 23:38:09 [initandlisten] connection accepted from 127.0.0.1:54238 #31 (2 connections now open)
+Wed Feb 27 23:38:14 [initandlisten] connection accepted from 127.0.0.1:54241 #32 (3 connections now open)
+Wed Feb 27 23:39:15 [conn31] end connection 127.0.0.1:54238 (2 connections now open)
+Wed Feb 27 23:39:15 [conn32] end connection 127.0.0.1:54241 (1 connection now open)
+Wed Feb 27 23:39:15 [conn30] end connection 127.0.0.1:54237 (0 connections now open)
+Wed Feb 27 23:39:28 [initandlisten] connection accepted from 127.0.0.1:54261 #33 (1 connection now open)
+Wed Feb 27 23:39:28 [initandlisten] connection accepted from 127.0.0.1:54262 #34 (2 connections now open)
+Wed Feb 27 23:39:28 [initandlisten] connection accepted from 127.0.0.1:54263 #35 (3 connections now open)
+Wed Feb 27 23:39:35 [initandlisten] connection accepted from 127.0.0.1:54275 #36 (4 connections now open)
+Wed Feb 27 23:41:35 [conn35] end connection 127.0.0.1:54263 (3 connections now open)
+Wed Feb 27 23:41:35 [conn36] end connection 127.0.0.1:54275 (2 connections now open)
+Wed Feb 27 23:41:35 [conn34] end connection 127.0.0.1:54262 (1 connection now open)
+Wed Feb 27 23:41:35 [conn33] end connection 127.0.0.1:54261 (0 connections now open)
+Wed Feb 27 23:41:50 [initandlisten] connection accepted from 127.0.0.1:54321 #37 (1 connection now open)
+Wed Feb 27 23:41:50 [initandlisten] connection accepted from 127.0.0.1:54322 #38 (2 connections now open)
+Wed Feb 27 23:41:50 [conn37] end connection 127.0.0.1:54321 (1 connection now open)
+Wed Feb 27 23:41:51 [initandlisten] connection accepted from 127.0.0.1:54323 #39 (2 connections now open)
+Wed Feb 27 23:42:05 [initandlisten] connection accepted from 127.0.0.1:54330 #40 (3 connections now open)
+Wed Feb 27 23:42:08 [initandlisten] connection accepted from 127.0.0.1:54332 #41 (4 connections now open)
+Wed Feb 27 23:42:22 [conn41] end connection 127.0.0.1:54332 (3 connections now open)
+Wed Feb 27 23:42:22 [conn39] end connection 127.0.0.1:54323 (2 connections now open)
+Wed Feb 27 23:42:22 [conn40] end connection 127.0.0.1:54330 (1 connection now open)
+Wed Feb 27 23:42:22 [conn38] end connection 127.0.0.1:54322 (0 connections now open)
+Wed Feb 27 23:42:36 [initandlisten] connection accepted from 127.0.0.1:54344 #42 (1 connection now open)
+Wed Feb 27 23:42:36 [initandlisten] connection accepted from 127.0.0.1:54345 #43 (2 connections now open)
+Wed Feb 27 23:42:36 [conn42] end connection 127.0.0.1:54344 (1 connection now open)
+Wed Feb 27 23:42:36 [initandlisten] connection accepted from 127.0.0.1:54347 #44 (2 connections now open)
+Wed Feb 27 23:42:52 [initandlisten] connection accepted from 127.0.0.1:54353 #45 (3 connections now open)
+Wed Feb 27 23:44:05 [conn44] end connection 127.0.0.1:54347 (2 connections now open)
+Wed Feb 27 23:44:05 [conn45] end connection 127.0.0.1:54353 (1 connection now open)
+Wed Feb 27 23:44:05 [conn43] end connection 127.0.0.1:54345 (0 connections now open)
+Wed Feb 27 23:44:18 [initandlisten] connection accepted from 127.0.0.1:54379 #46 (1 connection now open)
+Wed Feb 27 23:44:18 [initandlisten] connection accepted from 127.0.0.1:54380 #47 (2 connections now open)
+Wed Feb 27 23:44:18 [conn46] end connection 127.0.0.1:54379 (1 connection now open)
+Wed Feb 27 23:44:18 [initandlisten] connection accepted from 127.0.0.1:54382 #48 (2 connections now open)
+Wed Feb 27 23:44:51 [initandlisten] connection accepted from 127.0.0.1:54394 #49 (3 connections now open)
+Wed Feb 27 23:46:31 [conn49] end connection 127.0.0.1:54394 (2 connections now open)
+Wed Feb 27 23:46:31 [conn48] end connection 127.0.0.1:54382 (1 connection now open)
+Wed Feb 27 23:46:31 [conn47] end connection 127.0.0.1:54380 (0 connections now open)
+Wed Feb 27 23:46:45 [initandlisten] connection accepted from 127.0.0.1:54436 #50 (1 connection now open)
+Wed Feb 27 23:46:45 [initandlisten] connection accepted from 127.0.0.1:54437 #51 (2 connections now open)
+Wed Feb 27 23:46:45 [conn50] end connection 127.0.0.1:54436 (1 connection now open)
+Wed Feb 27 23:46:45 [initandlisten] connection accepted from 127.0.0.1:54438 #52 (2 connections now open)
+Wed Feb 27 23:46:49 [initandlisten] connection accepted from 127.0.0.1:54442 #53 (3 connections now open)
+Wed Feb 27 23:50:15 [conn52] end connection 127.0.0.1:54438 (2 connections now open)
+Wed Feb 27 23:50:15 [conn53] end connection 127.0.0.1:54442 (1 connection now open)
+Wed Feb 27 23:50:15 [conn51] end connection 127.0.0.1:54437 (0 connections now open)
+Wed Feb 27 23:50:33 [initandlisten] connection accepted from 127.0.0.1:54515 #54 (1 connection now open)
+Wed Feb 27 23:50:33 [initandlisten] connection accepted from 127.0.0.1:54516 #55 (2 connections now open)
+Wed Feb 27 23:50:33 [conn54] end connection 127.0.0.1:54515 (1 connection now open)
+Wed Feb 27 23:50:34 [initandlisten] connection accepted from 127.0.0.1:54517 #56 (2 connections now open)
+Wed Feb 27 23:51:25 [initandlisten] connection accepted from 127.0.0.1:54543 #57 (3 connections now open)
+Wed Feb 27 23:53:22 [conn56] end connection 127.0.0.1:54517 (2 connections now open)
+Wed Feb 27 23:53:22 [conn57] end connection 127.0.0.1:54543 (1 connection now open)
+Wed Feb 27 23:53:22 [conn55] end connection 127.0.0.1:54516 (0 connections now open)
+Wed Feb 27 23:53:35 [initandlisten] connection accepted from 127.0.0.1:54599 #58 (1 connection now open)
+Wed Feb 27 23:53:35 [initandlisten] connection accepted from 127.0.0.1:54600 #59 (2 connections now open)
+Wed Feb 27 23:53:35 [conn58] end connection 127.0.0.1:54599 (1 connection now open)
+Wed Feb 27 23:53:35 [initandlisten] connection accepted from 127.0.0.1:54601 #60 (2 connections now open)
+Wed Feb 27 23:53:43 [initandlisten] connection accepted from 127.0.0.1:54608 #61 (3 connections now open)
+Wed Feb 27 23:53:55 [conn59] end connection 127.0.0.1:54600 (2 connections now open)
+Wed Feb 27 23:53:55 [conn60] end connection 127.0.0.1:54601 (1 connection now open)
+Wed Feb 27 23:53:55 [conn61] end connection 127.0.0.1:54608 (0 connections now open)
+Thu Feb 28 00:01:03 [initandlisten] connection accepted from 127.0.0.1:54880 #62 (1 connection now open)
+Thu Feb 28 00:01:03 [initandlisten] connection accepted from 127.0.0.1:54881 #63 (2 connections now open)
+Thu Feb 28 00:01:04 [initandlisten] connection accepted from 127.0.0.1:54882 #64 (3 connections now open)
+Thu Feb 28 00:01:05 [conn62] end connection 127.0.0.1:54880 (2 connections now open)
+Thu Feb 28 00:01:30 [initandlisten] connection accepted from 127.0.0.1:54892 #65 (3 connections now open)
+Thu Feb 28 00:01:37 [initandlisten] connection accepted from 127.0.0.1:54897 #66 (4 connections now open)
+Thu Feb 28 00:04:52 [conn64] end connection 127.0.0.1:54882 (3 connections now open)
+Thu Feb 28 00:04:52 [conn65] end connection 127.0.0.1:54892 (2 connections now open)
+Thu Feb 28 00:04:52 [conn63] end connection 127.0.0.1:54881 (1 connection now open)
+Thu Feb 28 00:04:52 [conn66] end connection 127.0.0.1:54897 (1 connection now open)
+Thu Feb 28 00:05:05 [initandlisten] connection accepted from 127.0.0.1:54959 #67 (1 connection now open)
+Thu Feb 28 00:05:05 [initandlisten] connection accepted from 127.0.0.1:54960 #68 (2 connections now open)
+Thu Feb 28 00:05:05 [conn67] end connection 127.0.0.1:54959 (1 connection now open)
+Thu Feb 28 00:05:06 [initandlisten] connection accepted from 127.0.0.1:54961 #69 (2 connections now open)
+Thu Feb 28 00:05:14 [initandlisten] connection accepted from 127.0.0.1:54965 #70 (3 connections now open)
+Thu Feb 28 00:06:35 [conn69] end connection 127.0.0.1:54961 (2 connections now open)
+Thu Feb 28 00:06:35 [conn68] end connection 127.0.0.1:54960 (1 connection now open)
+Thu Feb 28 00:06:35 [conn70] end connection 127.0.0.1:54965 (0 connections now open)
+Thu Feb 28 00:16:42 CTRL_CLOSE_EVENT signal
+Thu Feb 28 00:16:42 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Thu Feb 28 00:16:42 [consoleTerminate] now exiting
+Thu Feb 28 00:16:42 dbexit: 
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: going to close listening sockets...
+Thu Feb 28 00:16:42 [consoleTerminate] closing listening socket: 512
+Thu Feb 28 00:16:42 [consoleTerminate] closing listening socket: 516
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: going to flush diaglog...
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: going to close sockets...
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: waiting for fs preallocator...
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: lock for final commit...
+Thu Feb 28 00:16:42 [consoleTerminate] shutdown: final commit...
+Thu Feb 28 00:16:43 [consoleTerminate] shutdown: closing all files...
+Thu Feb 28 00:16:43 [consoleTerminate] closeAllFiles() finished
+Thu Feb 28 00:16:43 [consoleTerminate] journalCleanup...
+Thu Feb 28 00:16:43 [consoleTerminate] removeJournalFiles
+Thu Feb 28 00:16:43 [consoleTerminate] shutdown: removing fs lock...
+Thu Feb 28 00:16:43 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Thu Feb 28 23:25:42 [initandlisten] MongoDB starting : pid=3336 port=27017 dbpath=I:/env-nosql/mongodb/db 64-bit host=jamesmo-PC
+Thu Feb 28 23:25:42 [initandlisten] db version v2.2.0, pdfile version 4.5
+Thu Feb 28 23:25:42 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Thu Feb 28 23:25:42 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Thu Feb 28 23:25:42 [initandlisten] options: { dbpath: "I:/env-nosql/mongodb/db", logappend: true, logpath: "I:/env-nosql/mongodb/logs/r0.log", oplogSize: 32, rest: true }
+Thu Feb 28 23:25:42 [initandlisten] journal dir=I:/env-nosql/mongodb/db/journal
+Thu Feb 28 23:25:42 [initandlisten] recover : no journal files present, no recovery needed
+Thu Feb 28 23:25:42 [initandlisten] waiting for connections on port 27017
+Thu Feb 28 23:25:42 [websvr] admin web console waiting for connections on port 28017
+Thu Feb 28 23:26:28 [initandlisten] connection accepted from 127.0.0.1:63570 #1 (1 connection now open)
+Thu Feb 28 23:26:28 [initandlisten] connection accepted from 127.0.0.1:63571 #2 (2 connections now open)
+Thu Feb 28 23:26:28 [initandlisten] connection accepted from 127.0.0.1:63573 #3 (3 connections now open)
+Thu Feb 28 23:26:28 [conn3] build index natural.person { name: 1 }
+Thu Feb 28 23:26:29 [conn3] build index done.  scanned 30000 total records. 0.259 secs
+Thu Feb 28 23:26:29 [conn3] insert natural.system.indexes keyUpdates:0 locks(micros) w:260246 260ms
+Thu Feb 28 23:26:29 [conn3] end connection 127.0.0.1:63573 (2 connections now open)
+Thu Feb 28 23:26:29 [conn2] end connection 127.0.0.1:63571 (1 connection now open)
+Thu Feb 28 23:26:29 [conn1] end connection 127.0.0.1:63570 (0 connections now open)
+Thu Feb 28 23:28:11 [initandlisten] connection accepted from 127.0.0.1:63637 #4 (1 connection now open)
+Thu Feb 28 23:28:11 [initandlisten] connection accepted from 127.0.0.1:63638 #5 (2 connections now open)
+Thu Feb 28 23:28:11 [initandlisten] connection accepted from 127.0.0.1:63639 #6 (3 connections now open)
+Thu Feb 28 23:28:11 [conn6] end connection 127.0.0.1:63639 (2 connections now open)
+Thu Feb 28 23:28:11 [conn4] end connection 127.0.0.1:63637 (1 connection now open)
+Thu Feb 28 23:28:11 [conn5] end connection 127.0.0.1:63638 (1 connection now open)
+Thu Feb 28 23:28:45 [initandlisten] connection accepted from 127.0.0.1:63654 #7 (1 connection now open)
+Thu Feb 28 23:28:45 [initandlisten] connection accepted from 127.0.0.1:63655 #8 (2 connections now open)
+Thu Feb 28 23:28:45 [initandlisten] connection accepted from 127.0.0.1:63656 #9 (3 connections now open)
+Thu Feb 28 23:28:45 [conn9] end connection 127.0.0.1:63656 (2 connections now open)
+Thu Feb 28 23:28:45 [conn8] end connection 127.0.0.1:63655 (1 connection now open)
+Thu Feb 28 23:28:46 [conn7] end connection 127.0.0.1:63654 (0 connections now open)
+Thu Feb 28 23:30:48 [initandlisten] connection accepted from 127.0.0.1:63725 #10 (1 connection now open)
+Thu Feb 28 23:30:48 [initandlisten] connection accepted from 127.0.0.1:63726 #11 (2 connections now open)
+Thu Feb 28 23:30:48 [initandlisten] connection accepted from 127.0.0.1:63727 #12 (3 connections now open)
+Thu Feb 28 23:30:48 [conn12] build index natural.fs.files { _id: 1 }
+Thu Feb 28 23:30:48 [conn12] build index done.  scanned 0 total records. 0.001 secs
+Thu Feb 28 23:30:48 [conn12] info: creating collection natural.fs.files on add index
+Thu Feb 28 23:30:48 [conn12] build index natural.fs.files { filename: 1, uploadDate: 1 }
+Thu Feb 28 23:30:48 [conn12] build index done.  scanned 0 total records. 0.001 secs
+Thu Feb 28 23:30:48 [conn12] build index natural.fs.chunks { _id: 1 }
+Thu Feb 28 23:30:48 [conn12] build index done.  scanned 0 total records. 0.001 secs
+Thu Feb 28 23:30:48 [conn12] info: creating collection natural.fs.chunks on add index
+Thu Feb 28 23:30:48 [conn12] build index natural.fs.chunks { files_id: 1, n: 1 }
+Thu Feb 28 23:30:48 [conn12] build index done.  scanned 0 total records. 0.001 secs
+Thu Feb 28 23:30:49 [conn12] end connection 127.0.0.1:63727 (2 connections now open)
+Thu Feb 28 23:30:49 [conn11] end connection 127.0.0.1:63726 (1 connection now open)
+Thu Feb 28 23:30:49 [conn10] end connection 127.0.0.1:63725 (0 connections now open)
+
+
+***** SERVER RESTARTED *****
+
+
+Thu Mar 21 23:14:49 [initandlisten] MongoDB starting : pid=14560 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Thu Mar 21 23:14:49 [initandlisten] db version v2.2.0, pdfile version 4.5
+Thu Mar 21 23:14:49 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Thu Mar 21 23:14:49 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Thu Mar 21 23:14:49 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Thu Mar 21 23:14:49 [initandlisten] journal dir=db/journal
+Thu Mar 21 23:14:49 [initandlisten] recover : no journal files present, no recovery needed
+Thu Mar 21 23:14:49 [websvr] admin web console waiting for connections on port 28017
+Thu Mar 21 23:14:49 [initandlisten] waiting for connections on port 27017
+Thu Mar 21 23:26:04 [initandlisten] connection accepted from 127.0.0.1:58764 #1 (1 connection now open)
+Thu Mar 21 23:26:34 [FileAllocator] allocating new datafile db/mongolog.ns, filling with zeroes...
+Thu Mar 21 23:26:34 [FileAllocator] creating directory db/_tmp
+Thu Mar 21 23:26:34 [FileAllocator] done allocating datafile db/mongolog.ns, size: 16MB,  took 0.091 secs
+Thu Mar 21 23:26:34 [FileAllocator] allocating new datafile db/mongolog.0, filling with zeroes...
+Thu Mar 21 23:26:34 [FileAllocator] done allocating datafile db/mongolog.0, size: 64MB,  took 0.403 secs
+Thu Mar 21 23:26:34 [conn1] build index mongolog.log { _id: 1 }
+Thu Mar 21 23:26:34 [conn1] build index done.  scanned 0 total records. 0.019 secs
+Thu Mar 21 23:26:34 [conn1] command mongolog.$cmd command: { create: "log", capped: true, size: 100000.0 } ntoreturn:1 keyUpdates:0 locks(micros) w:524799 reslen:37 525ms
+Fri Mar 22 00:19:16 CTRL_CLOSE_EVENT signal
+Fri Mar 22 00:19:16 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Fri Mar 22 00:19:16 [consoleTerminate] now exiting
+Fri Mar 22 00:19:16 dbexit: 
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: going to close listening sockets...
+Fri Mar 22 00:19:16 [consoleTerminate] closing listening socket: 508
+Fri Mar 22 00:19:16 [consoleTerminate] closing listening socket: 512
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: going to flush diaglog...
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: going to close sockets...
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: waiting for fs preallocator...
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: lock for final commit...
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: final commit...
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: closing all files...
+Fri Mar 22 00:19:16 [consoleTerminate] closeAllFiles() finished
+Fri Mar 22 00:19:16 [consoleTerminate] journalCleanup...
+Fri Mar 22 00:19:16 [conn1] end connection 127.0.0.1:58764 (0 connections now open)
+Fri Mar 22 00:19:16 [consoleTerminate] removeJournalFiles
+Fri Mar 22 00:19:16 [consoleTerminate] shutdown: removing fs lock...
+Fri Mar 22 00:19:16 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sat Mar 23 16:29:33 [initandlisten] MongoDB starting : pid=3276 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sat Mar 23 16:29:33 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sat Mar 23 16:29:33 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sat Mar 23 16:29:33 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sat Mar 23 16:29:33 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sat Mar 23 16:29:33 [initandlisten] journal dir=db/journal
+Sat Mar 23 16:29:33 [initandlisten] recover : no journal files present, no recovery needed
+Sat Mar 23 16:29:34 [initandlisten] waiting for connections on port 27017
+Sat Mar 23 16:29:34 [websvr] admin web console waiting for connections on port 28017
+Sat Mar 23 16:29:45 [initandlisten] connection accepted from 127.0.0.1:50023 #1 (1 connection now open)
+Sat Mar 23 16:29:45 [conn1] CMD: drop weblog.log
+Sat Mar 23 16:29:45 [conn1] end connection 127.0.0.1:50023 (0 connections now open)
+Sat Mar 23 16:30:30 [initandlisten] connection accepted from 127.0.0.1:50026 #2 (1 connection now open)
+Sat Mar 23 16:30:30 [conn2] CMD: drop weblog.log
+Sat Mar 23 16:30:30 [conn2] end connection 127.0.0.1:50026 (0 connections now open)
+Sat Mar 23 17:32:44 [initandlisten] connection accepted from 127.0.0.1:51311 #3 (1 connection now open)
+Sat Mar 23 17:32:44 [conn3] CMD: drop weblog.log
+Sat Mar 23 17:32:44 [conn3] end connection 127.0.0.1:51311 (0 connections now open)
+Sat Mar 23 17:34:23 [initandlisten] connection accepted from 127.0.0.1:51320 #4 (1 connection now open)
+Sat Mar 23 17:34:24 [conn4] CMD: drop weblog.log
+Sat Mar 23 17:34:24 [FileAllocator] allocating new datafile db/weblog.ns, filling with zeroes...
+Sat Mar 23 17:34:24 [FileAllocator] creating directory db/_tmp
+Sat Mar 23 17:34:24 [FileAllocator] done allocating datafile db/weblog.ns, size: 16MB,  took 0.124 secs
+Sat Mar 23 17:34:24 [FileAllocator] allocating new datafile db/weblog.0, filling with zeroes...
+Sat Mar 23 17:34:24 [FileAllocator] done allocating datafile db/weblog.0, size: 64MB,  took 0.362 secs
+Sat Mar 23 17:34:24 [FileAllocator] allocating new datafile db/weblog.1, filling with zeroes...
+Sat Mar 23 17:34:24 [conn4] build index weblog.log { _id: 1 }
+Sat Mar 23 17:34:24 [conn4] build index done.  scanned 0 total records. 0.019 secs
+Sat Mar 23 17:34:24 [conn4] insert weblog.log keyUpdates:0 locks(micros) w:640013 640ms
+Sat Mar 23 17:34:24 [conn4] end connection 127.0.0.1:51320 (0 connections now open)
+Sat Mar 23 17:34:25 [FileAllocator] done allocating datafile db/weblog.1, size: 128MB,  took 0.787 secs
+Sat Mar 23 17:36:17 [initandlisten] connection accepted from 127.0.0.1:51330 #5 (1 connection now open)
+Sat Mar 23 17:47:01 [initandlisten] connection accepted from 127.0.0.1:51376 #6 (2 connections now open)
+Sat Mar 23 17:47:01 [conn6] CMD: drop weblog.log
+Sat Mar 23 17:47:01 [conn6] build index weblog.log { _id: 1 }
+Sat Mar 23 17:47:01 [conn6] build index done.  scanned 0 total records. 0.014 secs
+Sat Mar 23 17:47:01 [conn6] end connection 127.0.0.1:51376 (1 connection now open)
+Sat Mar 23 17:49:36 CTRL_CLOSE_EVENT signal
+Sat Mar 23 17:49:36 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sat Mar 23 17:49:36 [consoleTerminate] now exiting
+Sat Mar 23 17:49:36 dbexit: 
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: going to close listening sockets...
+Sat Mar 23 17:49:36 [consoleTerminate] closing listening socket: 508
+Sat Mar 23 17:49:36 [consoleTerminate] closing listening socket: 512
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: going to flush diaglog...
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: going to close sockets...
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: lock for final commit...
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: final commit...
+Sat Mar 23 17:49:36 [conn5] end connection 127.0.0.1:51330 (0 connections now open)
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: closing all files...
+Sat Mar 23 17:49:36 [consoleTerminate] closeAllFiles() finished
+Sat Mar 23 17:49:36 [consoleTerminate] journalCleanup...
+Sat Mar 23 17:49:36 [consoleTerminate] removeJournalFiles
+Sat Mar 23 17:49:36 [consoleTerminate] shutdown: removing fs lock...
+Sat Mar 23 17:49:36 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Sat Mar 23 17:50:22 [initandlisten] MongoDB starting : pid=8164 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Sat Mar 23 17:50:22 [initandlisten] db version v2.2.0, pdfile version 4.5
+Sat Mar 23 17:50:22 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Sat Mar 23 17:50:22 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Sat Mar 23 17:50:22 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Sat Mar 23 17:50:22 [initandlisten] journal dir=db/journal
+Sat Mar 23 17:50:22 [initandlisten] recover : no journal files present, no recovery needed
+Sat Mar 23 17:50:22 [initandlisten] waiting for connections on port 27017
+Sat Mar 23 17:50:22 [websvr] admin web console waiting for connections on port 28017
+Sat Mar 23 17:50:25 [initandlisten] connection accepted from 127.0.0.1:51385 #1 (1 connection now open)
+Sat Mar 23 17:51:27 [initandlisten] connection accepted from 127.0.0.1:51388 #2 (2 connections now open)
+Sat Mar 23 17:51:28 [conn2] end connection 127.0.0.1:51388 (1 connection now open)
+Sat Mar 23 17:56:33 [initandlisten] connection accepted from 127.0.0.1:51518 #3 (2 connections now open)
+Sat Mar 23 17:56:33 [FileAllocator] allocating new datafile db/test.ns, filling with zeroes...
+Sat Mar 23 17:56:33 [FileAllocator] creating directory db/_tmp
+Sat Mar 23 17:56:33 [FileAllocator] done allocating datafile db/test.ns, size: 16MB,  took 0.1 secs
+Sat Mar 23 17:56:33 [FileAllocator] allocating new datafile db/test.0, filling with zeroes...
+Sat Mar 23 17:56:33 [FileAllocator] done allocating datafile db/test.0, size: 64MB,  took 0.47 secs
+Sat Mar 23 17:56:33 [FileAllocator] allocating new datafile db/test.1, filling with zeroes...
+Sat Mar 23 17:56:33 [conn3] build index test.weblog { _id: 1 }
+Sat Mar 23 17:56:33 [conn3] build index done.  scanned 0 total records. 0.001 secs
+Sat Mar 23 17:56:33 [conn3] insert test.weblog keyUpdates:0 locks(micros) w:580033 580ms
+Sat Mar 23 17:56:33 [conn3] end connection 127.0.0.1:51518 (1 connection now open)
+Sat Mar 23 17:56:34 [FileAllocator] done allocating datafile db/test.1, size: 128MB,  took 0.887 secs
+Sat Mar 23 18:45:50 CTRL_CLOSE_EVENT signal
+Sat Mar 23 18:45:50 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Sat Mar 23 18:45:50 [consoleTerminate] now exiting
+Sat Mar 23 18:45:50 dbexit: 
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: going to close listening sockets...
+Sat Mar 23 18:45:50 [consoleTerminate] closing listening socket: 504
+Sat Mar 23 18:45:50 [consoleTerminate] closing listening socket: 508
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: going to flush diaglog...
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: going to close sockets...
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: waiting for fs preallocator...
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: lock for final commit...
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: final commit...
+Sat Mar 23 18:45:50 [conn1] end connection 127.0.0.1:51385 (0 connections now open)
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: closing all files...
+Sat Mar 23 18:45:50 [consoleTerminate] closeAllFiles() finished
+Sat Mar 23 18:45:50 [consoleTerminate] journalCleanup...
+Sat Mar 23 18:45:50 [consoleTerminate] removeJournalFiles
+Sat Mar 23 18:45:50 [consoleTerminate] shutdown: removing fs lock...
+Sat Mar 23 18:45:50 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Mon Mar 25 09:20:18 [initandlisten] MongoDB starting : pid=6456 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Mon Mar 25 09:20:18 [initandlisten] db version v2.2.0, pdfile version 4.5
+Mon Mar 25 09:20:18 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Mon Mar 25 09:20:18 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Mon Mar 25 09:20:18 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Mon Mar 25 09:20:18 [initandlisten] journal dir=db/journal
+Mon Mar 25 09:20:18 [initandlisten] recover : no journal files present, no recovery needed
+Mon Mar 25 09:20:19 [websvr] admin web console waiting for connections on port 28017
+Mon Mar 25 09:20:19 [initandlisten] waiting for connections on port 27017
+Mon Mar 25 09:20:23 [initandlisten] connection accepted from 127.0.0.1:49373 #1 (1 connection now open)
+Mon Mar 25 09:21:20 [TTLMonitor] query mongolog.system.indexes query: { expireAfterSeconds: { $exists: true } } ntoreturn:0 ntoskip:0 nscanned:1 keyUpdates:0 locks(micros) r:744052 nreturned:0 reslen:20 733ms
+Mon Mar 25 09:22:07 [conn1] query test.weblog ntoreturn:0 ntoskip:0 nscanned:33 keyUpdates:0 locks(micros) r:398029 nreturned:33 reslen:11925 390ms
+Mon Mar 25 09:22:11 [conn1] end connection 127.0.0.1:49373 (0 connections now open)
+
+
+***** SERVER RESTARTED *****
+
+
+Mon Mar 25 14:50:22 [initandlisten] MongoDB starting : pid=8552 port=27017 dbpath=db 64-bit host=jamesmo-PC
+Mon Mar 25 14:50:22 [initandlisten] db version v2.2.0, pdfile version 4.5
+Mon Mar 25 14:50:22 [initandlisten] git version: f5e83eae9cfbec7fb7a071321928f00d1b0c5207
+Mon Mar 25 14:50:22 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+Mon Mar 25 14:50:22 [initandlisten] options: { dbpath: "db", logappend: true, logpath: "logs/r0.log", oplogSize: 32, rest: true }
+Mon Mar 25 14:50:22 [initandlisten] journal dir=db/journal
+Mon Mar 25 14:50:22 [initandlisten] recover begin
+Mon Mar 25 14:50:22 [initandlisten] info no lsn file in journal/ directory
+Mon Mar 25 14:50:22 [initandlisten] recover lsn: 0
+Mon Mar 25 14:50:22 [initandlisten] recover db/journal/j._0
+Mon Mar 25 14:50:22 [initandlisten] recover cleaning up
+Mon Mar 25 14:50:22 [initandlisten] removeJournalFiles
+Mon Mar 25 14:50:22 [initandlisten] recover done
+Mon Mar 25 14:50:23 [websvr] admin web console waiting for connections on port 28017
+Mon Mar 25 14:50:23 [initandlisten] waiting for connections on port 27017
+Mon Mar 25 21:33:27 CTRL_CLOSE_EVENT signal
+Mon Mar 25 21:33:27 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+Mon Mar 25 21:33:27 [consoleTerminate] now exiting
+Mon Mar 25 21:33:27 dbexit: 
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: going to close listening sockets...
+Mon Mar 25 21:33:27 [consoleTerminate] closing listening socket: 464
+Mon Mar 25 21:33:27 [consoleTerminate] closing listening socket: 468
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: going to flush diaglog...
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: going to close sockets...
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: waiting for fs preallocator...
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: lock for final commit...
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: final commit...
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: closing all files...
+Mon Mar 25 21:33:27 [consoleTerminate] closeAllFiles() finished
+Mon Mar 25 21:33:27 [consoleTerminate] journalCleanup...
+Mon Mar 25 21:33:27 [consoleTerminate] removeJournalFiles
+Mon Mar 25 21:33:27 [consoleTerminate] shutdown: removing fs lock...
+Mon Mar 25 21:33:27 dbexit: really exiting now
