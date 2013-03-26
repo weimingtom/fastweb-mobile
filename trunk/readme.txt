@@ -97,6 +97,10 @@ done
 #每天0点01分启动。
 #01 00 * * * /路径/log2mongodb.sh 
 
+==一键启动开发环境，一键清理开发环境==
+  #.windows 环境下 php + nginx
+  
+
 
 ==HTML5项目配置==
   #.访问路径：http://localhost/
