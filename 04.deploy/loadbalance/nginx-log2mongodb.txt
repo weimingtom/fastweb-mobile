@@ -37,3 +37,6 @@ done
 #chmod +x log2mongodb.sh 
 #每天0点01分启动。
 #01 00 * * * /路径/log2mongodb.sh 
+
+4.Sessions Problem with PHP-FPM on Nginx
+设置/var/lib/php/session 的读写权限  /tmp
