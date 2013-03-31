@@ -98,7 +98,7 @@ done
 #01 00 * * * /路径/log2mongodb.sh 
 
 ==一键启动开发环境，一键清理开发环境==
-  #.windows 环境下 php + nginx
+  #.windows 环境下 php + nginx( 已经移除，详见mysmarty项目 )
   
 
 
