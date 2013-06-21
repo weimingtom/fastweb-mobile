@@ -1,6 +1,10 @@
 20130621
-
+    增加
     加入新的html5前端框架，AppFramework(原jqMobi,css进行了升级)。相对于jquerymobile是轻量级的，纯html5 and css3 生成的。
+    使用mustache模板引擎动态数据加载。
+    左侧菜单组件高度调整(css)。
+    表单元素组件。
+	面板元素切换。
 
 
 目标：前端基于组件的快速开发，平台基于引擎的逻辑开发，基于分享的RestApi。
