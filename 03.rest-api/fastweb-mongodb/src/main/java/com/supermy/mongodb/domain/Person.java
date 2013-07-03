@@ -28,13 +28,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @CompoundIndexes({
     @CompoundIndex(name = "age_idx", def = "{'name': 1, 'age': -1}")
 })
-@JsonAutoDetect
+//@JsonAutoDetect
 public class Person<T extends Address> implements Serializable{
 
   @Id
   private String id;
+  
   @Indexed(unique = true)
   private Integer ssn;
+  
   @Indexed
   private String name;
   
@@ -116,6 +118,15 @@ public T getAddress() {
 public void setAddress(T address) {
 	this.address = address;
 }
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
 	
+
   
 }

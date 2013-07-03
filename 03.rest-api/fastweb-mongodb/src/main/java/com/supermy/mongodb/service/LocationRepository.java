@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.data.mongodb.core.geo.Box;
 import org.springframework.data.mongodb.core.geo.Distance;
+import org.springframework.data.mongodb.core.geo.GeoResults;
 import org.springframework.data.mongodb.core.geo.Point;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
@@ -16,12 +17,29 @@ import com.supermy.mongodb.domain.Location;
  * @author jamesmo
  *
  */
+
 public interface LocationRepository extends MongoRepository<Location, String> {
- 
+  
+	// {'geoNear' : 'location', 'near' : [x, y] }
+	//GeoResults<Location> findByLocationNear(Location location);
+	
+	
 	List<Location> findByPositionNear(Point p, Distance d);
  
 	List<Location> findByPositionWithin(Box b);
 	
+	
+//	Near（查询地理位置相近的） 
+//	findByLocationNear(Point point) 
+//	{"location" : {"$near" : [x,y]}}
+//
+//	Within（在地理位置范围内的） 
+//	findByLocationWithin(Circle circle) 
+//	{"location" : {"$within" : {"$center" : [ [x, y], distance]}}}
+//
+//	Within（在地理位置范围内的） 
+//	findByLocationWithin(Box box) 
+//	{"location" : {"$within" : {"$box" : [ [x1, y1], x2, y2]}}}
 	
  
 }

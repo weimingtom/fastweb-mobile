@@ -26,8 +26,39 @@ support:
 
 !!!*------------------------------------------------------------------------------------*!!!
 
+20130703
+	1.增加测试更新内容
+		template.updateFirst(new Query(where("name").is("张三")),
+                new Update().inc("age", 80),
+                Person.class);
+		template.updateMulti(new Query(where("name").is("张三")),
+                new Update().inc("age", 80),
+                Person.class);                
+    2.增加mongodb数据库日志
+	
+20130629
+
+	http://localhost:8080/fastweb-mongodb/
+	http://localhost:8080/fastweb-mongodb/person/list/2/10
+	http://localhost:8080/fastweb-mongodb/person/51ce5c8a6538969a01f3a972
+	
+	http://localhost:8080/fastweb-mongodb/menu/list/0/2
+	
+	菜单构造:domain,service,test
+	
+	map 可以存储。
+	测试类都ok
+	//	@DateTimeFormat(iso = ISO.DATE_TIME)
+	
+	
+
+20130625
+	api 方式提供json数据，支持html5跨域调用；
+	
+	
+
 20130228
-domain 必须的属性：@JsonAutoDetect
+domain 非必要的属性：@JsonAutoDetect
 domain 必须要有get set 方法
 
 2013-02-25

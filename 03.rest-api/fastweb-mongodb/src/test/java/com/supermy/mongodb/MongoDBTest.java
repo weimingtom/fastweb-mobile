@@ -141,7 +141,7 @@ public class MongoDBTest {
 		//Mongo db = new Mongo("127.0.0.1", 27017);
 		Mongo m=null;
 		try {
-			m = new Mongo( "192.168.6.53" , 27017 );
+			m = new Mongo( "127.0.0.1" , 27017 );
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}

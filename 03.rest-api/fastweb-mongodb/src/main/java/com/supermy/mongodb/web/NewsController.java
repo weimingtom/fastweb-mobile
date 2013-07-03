@@ -1,8 +1,10 @@
 package com.supermy.mongodb.web;
 
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 import org.bson.types.ObjectId;
@@ -22,24 +24,24 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.mongodb.gridfs.GridFSDBFile;
-import com.supermy.mongodb.domain.Person;
+import com.supermy.mongodb.domain.News;
+import com.supermy.mongodb.service.NewsRepository;
 import com.supermy.mongodb.service.CommonDao;
-import com.supermy.mongodb.service.PersonRepository;
 
 /**
- * 增删改查；所有的数据都是以对象集的形式传递。
+ * 新闻管理
  * 
  * @author james mo
  * 
  */
 @Controller
-@RequestMapping("person")
-public class PersonController {
+@RequestMapping("news")
+public class NewsController {
 	private final Logger logger = LoggerFactory
-			.getLogger(PersonController.class);
+			.getLogger(NewsController.class);
 
 	@Autowired
-	private PersonRepository cs;
+	private NewsRepository cs;
 
 	/**
 	 * 分页查询
@@ -49,10 +51,10 @@ public class PersonController {
 	@RequestMapping(value = "/list/{currentPage}/{limit}", method = RequestMethod.GET)
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	List<Person> getPersons(@PathVariable int currentPage,
+	List<News> getPersons(@PathVariable int currentPage,
 			@PathVariable int limit) throws Exception {
-		logger.debug("get Persons called");
-		Page<Person> result = cs.findAll(new PageRequest(currentPage, limit));
+		logger.debug("get news called");
+		Page<News> result = cs.findAll(new PageRequest(currentPage, limit));
 		return result.getContent();
 	}
 
@@ -65,7 +67,7 @@ public class PersonController {
 	@RequestMapping(value = "/{id}")
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	Person getPerson(@PathVariable("id") String id) {
+	News getPerson(@PathVariable("id") String id) {
 		return cs.findOne(new ObjectId(id));
 	}
 
@@ -77,8 +79,14 @@ public class PersonController {
 	@RequestMapping(value = "/add")
 	@Transactional(readOnly = false)
 	public @ResponseBody
-	Person addPerson() {
-		Person person = new Person(new Integer(new Date().getMinutes()));
+	News addPerson() {
+		
+		
+		Integer integer = new Integer(new Date().getMinutes());
+		News person = new News("a",integer);
+//		person.put("person", integer);
+		
+		
 		return person;
 	}
 
@@ -91,9 +99,9 @@ public class PersonController {
 	@RequestMapping(method = RequestMethod.POST)
 	@Transactional(readOnly = false)
 	public @ResponseBody
-	Person createPerson(@RequestBody Person person) {
-		logger.debug("create Person called" + person);
-		logger.debug("create Person called", person);
+	News createPerson(@RequestBody News person) {
+		logger.debug("create News called" + person);
+		logger.debug("create News called", person);
 
 		cs.save(person);
 
@@ -112,9 +120,9 @@ public class PersonController {
 	HashMap<String, Object> createPerson4Map(
 			@RequestBody HashMap<String, Object> person) {
 		System.out
-				.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create Person called"
+				.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create News called"
 						+ person);
-		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create Person called",
+		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create News called",
 				person);
 
 		// cs.addPerson(person);
@@ -132,7 +140,7 @@ public class PersonController {
 	@RequestMapping(value = "/{id}/edit")
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	Person edit(@PathVariable("id") String id) {
+	News edit(@PathVariable("id") String id) {
 		return cs.findOne(new ObjectId(id));
 
 	}
@@ -145,7 +153,7 @@ public class PersonController {
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	public @ResponseBody
-	Person updatePersons(@RequestBody Person person, @PathVariable String id) {
+	News updatePersons(@RequestBody News person, @PathVariable String id) {
 		logger.debug("updatePersons called");
 		cs.save(person);
 		return person;
@@ -161,7 +169,7 @@ public class PersonController {
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public @ResponseBody
 	boolean deletePersons(@PathVariable String id) {
-		logger.debug("delete Person called" + id);
+		logger.debug("delete News called" + id);
 		cs.delete(new ObjectId(id));
 		return true;
 	}

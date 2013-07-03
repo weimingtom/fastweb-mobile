@@ -15,11 +15,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
  *
  */
 @Document//MongoDb
-@JsonAutoDetect//JSON
+//@JsonAutoDetect//JSON
 public class Address implements Serializable{
 
-  @Id
-  private ObjectId id;
+//  @Id
+//  private ObjectId id;
   
   private String address;
   
@@ -35,12 +35,12 @@ public Address(String address) {
 	super();
 	this.address = address;
 }
-public ObjectId getId() {
-	return id;
-}
-public void setId(ObjectId id) {
-	this.id = id;
-}
+//public ObjectId getId() {
+//	return id;
+//}
+//public void setId(ObjectId id) {
+//	this.id = id;
+//}
 public String getAddress() {
 	return address;
 }
