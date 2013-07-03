@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.gridfs.GridFsOperations;
@@ -24,13 +25,16 @@ import com.mongodb.gridfs.GridFSFile;
  */
 
 @Repository
-public class PersonDao {
+public class CommonDao {
 	
 	@Autowired
-	GridFsTemplate gridTemplate;
+	public MongoTemplate template;
 	
 	@Autowired
-	private GridFsOperations gridOperation;
+	public GridFsTemplate gridTemplate;
+	
+	@Autowired
+	public GridFsOperations gridOperation;
 
 	/**
 	 * 保存文件到数据库

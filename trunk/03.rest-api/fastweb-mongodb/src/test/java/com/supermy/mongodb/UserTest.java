@@ -1,7 +1,10 @@
 package com.supermy.mongodb;
 
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +16,7 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.mongodb.BasicDBObject;
 import com.supermy.mongodb.domain.User;
 
 
@@ -25,6 +29,25 @@ public class UserTest {
 	
 	@Test
 	public void crud() {
+		List<Map<String,String>> l=new ArrayList<Map<String,String>>();
+		//Map 构造数据 
+		Map<String,String> o=new HashMap<String,String>();
+		o.put("testmap1", "testmap");
+		l.add(o);
+		Map<String,String> o1=new HashMap<String,String>();
+		o1.put("testmap2", "testmap");
+		l.add(o1);
+		Map<String,String> o2=new HashMap<String,String>();
+		o2.put("testmap3", "testmap");
+		l.add(o2);
+		mongoOperation.save(o2, "testmap");
+		mongoOperation.dropCollection("testmap");
+		
+		
+		BasicDBObject newobj = new BasicDBObject ();
+		newobj.put("a","a");
+		newobj.put("b","b");
+		
 
 		User user = new User("jamesmo", "password");
 

@@ -21,21 +21,34 @@
 		</layout>
 	</appender>
 
+	<logger name="org.springframework">
+		<level value="error" />
+	</logger>
+		
 	<logger name="org.springframework.cache">
 		<level value="error" />		
 	</logger>	
 	<logger name="org.springframework.web">
-		<level value="debug" />		
+		<level value="error" />		
 	</logger>	
 	
-
+	<logger name="org.codehaus.jackson">
+		<level value="error" />
+	</logger>
 	
 	<logger name="org.springframework.data.mongodb.repository">
-		<level value="info" />
+		<level value="error" />
 	</logger>	
 
-	<logger name="org.codehaus.jackson">
-		<level value="debug" />
+	<logger name="org.springframework.data.document.mongodb">
+		<level value="error" />
+	</logger>
+	<logger name="org.springframework.transaction">
+		<level value="error" />
+	</logger>
+	
+	<logger name="org.springframework.data.mongodb.core.MongoTemplate">
+		<level value="error" />
 	</logger>
 
 	<!-- Root Logger -->
