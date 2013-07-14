@@ -1,3 +1,30 @@
+20130706
+动态构造提示信息框
+<script type="text/html" id="p-template">
+	<div data-role="popup" id="popupBasic1">
+		<h1>{{title}}</h1>
+		<p>{{msg}}</p>
+	</div>  
+</script>
+
+<div  id="p-view">
+</div>
+
+$(document).on('pageshow','[data-role=page]', function(){
+	//动态构造提示框；创建提示框；显示提示框
+	template=$('#p-template');
+	data={msg:"这是我定制的提示信息",title:"提示信息!"};
+	pupopview= Mustache.to_html(template.html(),data).replace(/^\s*/mg, '');
+	$('#p-view').empty().append(pupopview).trigger('create');//.popup('refresh');
+	$('#popupBasic1').popup();
+	$('#popupBasic1').popup('open');
+});
+
+JS动态页面加载页面跳转不能刷新
+	 加入元素 rel= external  actives
+     
+    
+
 20130621
     增加
     加入新的html5前端框架，AppFramework(原jqMobi,css进行了升级)。相对于jquerymobile是轻量级的，纯html5 and css3 生成的。

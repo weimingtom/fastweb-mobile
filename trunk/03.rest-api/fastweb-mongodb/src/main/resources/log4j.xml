@@ -13,8 +13,9 @@
 
 	<appender name="RollingFileAppender" class="org.apache.log4j.RollingFileAppender">
 		<param name="Append" value="false" />
-		<param name="MaxFileSize" value="1KB" />
-		<param name="File" value="log/my.log" />
+		<param name="MaxFileSize" value="100MB" />
+		<param name="File" value="${webapp.root}/logs/my.log" />		
+		<param name="File" value="logs/my.log" />		
 		<param name="MaxBackupIndex" value="3" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d{yyyy-MM-dd hh:mm:ss}:%p %t %c - %m%n" />
@@ -29,7 +30,7 @@
 		<level value="error" />		
 	</logger>	
 	<logger name="org.springframework.web">
-		<level value="error" />		
+		<level value="debug" />		
 	</logger>	
 	
 	<logger name="org.codehaus.jackson">
@@ -50,6 +51,18 @@
 	<logger name="org.springframework.data.mongodb.core.MongoTemplate">
 		<level value="error" />
 	</logger>
+
+	<logger name="org.springframework.web.client">
+		<level value="debug" />
+	</logger>
+	<logger name="com.supermy.mongodb">
+		<level value="debug" />
+	</logger>
+	<logger name="org.springframework.web.client.RestTemplate">
+		<level value="debug" />
+	</logger>
+	
+
 
 	<!-- Root Logger -->
 	<root>

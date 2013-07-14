@@ -1,8 +1,12 @@
-$(function(){
-	$.slides();
+$(document).on('pageinit','[data-role=page]', function(){
+	$.load_home();	
+});
+
+$.load_home = function (){
+	//$.slides();
 	
-	console.debug("start dyna news ... ... ");
 	$.getJSON('pagedata/slides.json', function(data) {
+		console.debug("开始加载幻灯片 ... ... ");
 
 		imgtemplate=$('#slides-template');
 		//console.debug(template);
@@ -10,18 +14,21 @@ $(function(){
 		//console.debug($('#slides'));
 		$('#slides-list').html(imgview);//.trigger('create').listview('refresh');
 		$.slides();
+		console.debug("开始加载幻灯片 ... ... 完成");
 	});
 
 	$.getJSON('pagedata/news.json', function(data) {
+		console.debug("开始加载新闻 ... ... 完成");
 
 		template=$('#news-template');
 		//console.debug(template);
 		newsview= Mustache.to_html(template.html(),data).replace(/^\s*/mg, '');
 		//console.debug(newsview);
 		$('#news-listview').empty().append(newsview).trigger('create').listview('refresh');
+		console.debug("开始加载新闻 ... ... 完成");
 	});
 
-});
+};
 
 
 (function($){

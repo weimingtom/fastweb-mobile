@@ -1,7 +1,5 @@
 package com.supermy.mongodb.web;
 
-
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -24,7 +22,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.mongodb.gridfs.GridFSDBFile;
 import com.supermy.mongodb.domain.Menu;
-import com.supermy.mongodb.domain.News;
 import com.supermy.mongodb.service.CommonDao;
 import com.supermy.mongodb.service.MenuRepository;
 
@@ -37,8 +34,7 @@ import com.supermy.mongodb.service.MenuRepository;
 @Controller
 @RequestMapping("menu")
 public class MenuController {
-	private final Logger logger = LoggerFactory
-			.getLogger(MenuController.class);
+	private final Logger logger = LoggerFactory.getLogger(MenuController.class);
 
 	@Autowired
 	private MenuRepository cs;
@@ -51,14 +47,14 @@ public class MenuController {
 	@RequestMapping(value = "/list/{currentPage}/{limit}", method = RequestMethod.GET)
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	List<Menu> getPersons(@PathVariable int currentPage,
-			@PathVariable int limit) throws Exception {
+	List<Menu> getPersons(@PathVariable int currentPage, @PathVariable int limit)
+			throws Exception {
 		logger.debug("get news called");
 		PageRequest pageRequest = new PageRequest(currentPage, limit);
-		
+
 		System.out.println(pageRequest.getPageNumber());
 		System.out.println(pageRequest.getPageSize());
-		
+
 		Page<Menu> result = cs.findAll(pageRequest);
 		return result.getContent();
 	}
@@ -71,68 +67,66 @@ public class MenuController {
 	 */
 	@RequestMapping(value = "/{id}")
 	@Transactional(readOnly = true)
-	public @ResponseBody
-	Menu getPerson(@PathVariable("id") String id) {
+	public @ResponseBody Menu getMenu(@PathVariable("id") String id) {
 		return cs.findOne(new ObjectId(id));
 	}
 
 	/**
-	 * 新增
+	 * 新增（编辑之前的动作，客户端的操作方式应该用不到。）
 	 * 
 	 * @return
 	 */
 	@RequestMapping(value = "/add")
 	@Transactional(readOnly = false)
-	public @ResponseBody
-	Menu addPerson() {
-		
-		
-		Integer integer = new Integer(new Date().getMinutes());
-		Menu person = new Menu();
-//		person.put("person", integer);
-		
-		
-		return person;
+	@Deprecated
+	public @ResponseBody 
+		Menu addMenu() {
+		Menu m = new Menu();
+
+		return m;
 	}
 
 	/**
 	 * 创建
-	 * 
-	 * @param person
+	 * curl -i -X POST -H "Content-Type: application/json" -H "Accept: application/json"  -d '{"id":"123"}' http://127.0.0.1:8080/fastweb-mongodb/menu
+
+	 * @param menu
 	 * @return
 	 */
 	@RequestMapping(method = RequestMethod.POST)
 	@Transactional(readOnly = false)
 	public @ResponseBody
-	Menu createPerson(@RequestBody Menu person) {
-		logger.debug("create Menu called" + person);
-		logger.debug("create Menu called", person);
-
-		cs.save(person);
-
-		return person;
+//	Menu createMenu(@RequestBody String  menujson) {
+	Menu createMenu(@RequestBody Menu  menujson) {
+		System.out.println("input json:"+menujson);
+		logger.debug("create Menu called" + menujson);
+		cs.save(menujson);
+		return menujson;
+//		Menu m=new Menu();
+//		m.setSubtitle(menujson);
+//		return m;
 	}
 
 	/**
 	 * 创建
 	 * 
-	 * @param person
+	 * @param menu
 	 * @return
 	 */
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	@Transactional(readOnly = false)
 	public @ResponseBody
-	HashMap<String, Object> createPerson4Map(
-			@RequestBody HashMap<String, Object> person) {
+	HashMap<String, Object> createMenu4Map(
+			@RequestBody HashMap<String, Object> menu) {
 		System.out
 				.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create Menu called"
-						+ person);
+						+ menu);
 		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create Menu called",
-				person);
+				menu);
 
 		// cs.addPerson(person);
 		//
-		return person;
+		return menu;
 
 	}
 
@@ -196,29 +190,32 @@ public class MenuController {
 	 ** 上传单多文档
 	 */
 	@RequestMapping(value = "/upload")
-	public String upload2(@RequestParam("file") MultipartFile files[], 	@RequestParam("text") String text 	) throws Exception {
+	public String upload2(@RequestParam("file") MultipartFile files[],
+			@RequestParam("text") String text) throws Exception {
 		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>upload start:");
 
 		logger.debug("[ text ] : " + text); // 打印 页面上的控件值
-		
-		//List<MultipartFile> files = file.getrequest.getFiles("file");
-		
-		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>upload file count:"+files.length);
-		
+
+		// List<MultipartFile> files = file.getrequest.getFiles("file");
+
+		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>upload file count:" + files.length);
+
 		for (int i = 0; i < files.length; i++) {
 			if (!files[i].isEmpty()) {
-				//存储文件到数据库
-				String filename=StringUtils.isBlank(text)?files[i].getOriginalFilename():text;
-				String id = personDao.save(files[i].getInputStream(),files[i].getContentType(),filename);
-				//查询文件
+				// 存储文件到数据库
+				String filename = StringUtils.isBlank(text) ? files[i]
+						.getOriginalFilename() : text;
+				String id = personDao.save(files[i].getInputStream(),
+						files[i].getContentType(), filename);
+				// 查询文件
 				GridFSDBFile file1 = personDao.get(id);
-				logger.debug(file1.getMetaData().toString());				
-				
-				//查询数据表里面的所有文件
+				logger.debug(file1.getMetaData().toString());
+
+				// 查询数据表里面的所有文件
 				List<GridFSDBFile> file2s = personDao.listFiles();
 
-				for (GridFSDBFile file2: file2s) {
-					logger.debug(">>>>>>>>>>>>>>>>>>:"+file2);
+				for (GridFSDBFile file2 : file2s) {
+					logger.debug(">>>>>>>>>>>>>>>>>>:" + file2);
 				}
 
 			}

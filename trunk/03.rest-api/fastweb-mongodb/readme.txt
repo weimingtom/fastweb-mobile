@@ -25,6 +25,19 @@ support:
 	service:包的默认规范  **.service
 
 !!!*------------------------------------------------------------------------------------*!!!
+20130715
+	json 方式的增删改查方式
+	RestTemplate 测试通过
+	手动测试通过
+	
+	todo ajax :实现   Post  使用反向代理整合地址，解决跨域不能Post的问题。
+	
+20130709
+	1.MenuRepositoryTest初始化菜单数据；
+	2.http://localhost:8080/fastweb-mongodb/menu/list/0/100.jsonp?callback=aa 获取Json数据；
+	3.与前端框架联调left-panel-menu.lbi(Dreamweaver) common.js：原有的json替换为可跨域获取的url地址；
+	4.刷新新的菜单在页面上动态刷新。
+	
 
 20130703
 	1.增加测试更新内容
@@ -34,7 +47,7 @@ support:
 		template.updateMulti(new Query(where("name").is("张三")),
                 new Update().inc("age", 80),
                 Person.class);                
-    2.增加mongodb数据库日志
+    2.增加mongodb数据库调试日志
 	
 20130629
 

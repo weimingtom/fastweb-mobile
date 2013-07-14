@@ -20,8 +20,7 @@ import com.mongodb.gridfs.GridFSFile;
 /**
  * GridFS
  * 
- * @author jamesmo
- *
+ * @author jamesmo 
  */
 
 @Repository

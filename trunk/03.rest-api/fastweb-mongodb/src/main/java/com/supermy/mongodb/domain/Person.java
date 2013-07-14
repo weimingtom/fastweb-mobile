@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
-import org.codehaus.jackson.annotate.JsonAutoDetect;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.PersistenceConstructor;
 import org.springframework.data.annotation.Transient;
