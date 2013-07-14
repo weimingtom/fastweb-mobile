@@ -2,9 +2,6 @@ package com.supermy.mongodb.domain;
 
 import java.io.Serializable;
 
-import org.bson.types.ObjectId;
-import org.codehaus.jackson.annotate.JsonAutoDetect;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 

@@ -21,7 +21,7 @@ import com.supermy.mongodb.service.MenuRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:META-INF/mongo-config.xml")
-public class MenuRepositoryTest {
+public class MenuRepositoryTest { 
 
 	@Autowired
 	private MenuRepository menuRepository;

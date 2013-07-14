@@ -1,141 +1,138 @@
-{
-    "subtitle": "分类",
-    "items": [
+[
         {
-            "title": "新闻..",		
-            "data": [
+            "subtitle": "新闻..",		
+            "items": [
                 {
-                    "name": "热点",
+                    "title": "热点",
                     "id": "1001",
                     "url": "index.html?type=hotspot"
                 },
                 {
-                    "name": "互联网",
+                    "title": "互联网",
                     "id": "1002",
                     "url": "index.html?type=internet"
                 },
                 {
-                    "name": "财经",
+                    "title": "财经",
                     "id": "1003",
                     "url": "index.html?type=finance"
                 },
                 {
-                    "name": "科技",
+                    "title": "科技",
                     "id": "1004",
                     "url": "index.html?type=technology"
                 }
             ]
         },
         {
-            "title": "活动",
-            "data": [
+            "subtitle": "活动",
+            "items": [
                 {
-                    "name": "精选",
+                    "title": "精选",
                     "id": "1101",
-                    "url": "#"
+                    "url": "actives.html"
                 },
                 {
-                    "name": "今天",
+                    "title": "今天",
                     "id": "1102",
-                    "url": "#"
+                    "url": "actives.html"
                 },
                 {
-                    "name": "电影",
+                    "title": "电影",
                     "id": "1103",
-                    "url": "#"
+                    "url": "actives.html"
                 },
                 {
-                    "name": "剧场",
+                    "title": "剧场",
                     "id": "1104",
-                    "url": "#"
+                    "url": "actives.html"
                 },
                 {
-                    "name": "旅游",
+                    "title": "旅游",
                     "id": "1104",
-                    "url": "#"
+                    "url": "actives.html"
                 },
                 {
-                    "name": "音乐",
+                    "title": "音乐",
                     "id": "1104",
-                    "url": "#"
+                    "url": "actives.html"
                 }
             ]
         },
         {
-            "title": "运动",
-            "data": [
+            "subtitle": "运动",
+            "items": [
                 {
-                    "name": "篮球",
+                    "title": "篮球",
                     "id": "1201",
                     "url": "#"
                 },
                 {
-                    "name": "足球",
+                    "title": "足球",
                     "id": "1202",
                     "url": "#"
                 },
                 {
-                    "name": "网球",
+                    "title": "网球",
                     "id": "1203",
                     "url": "#"
                 },
                 {
-                    "name": "乒乓球",
+                    "title": "乒乓球",
                     "id": "1204",
                     "url": "#"
                 }
             ]
         },
         {
-            "title": "地图",
-            "data": [
+            "subtitle": "地图",
+            "items": [
                 {
-                    "name": "首都体育场",
+                    "title": "首都体育场",
                     "id": "1301",
                     "url": "#"
                 },
                 {
-                    "name": "朝阳体育场",
+                    "title": "朝阳体育场",
                     "id": "1302",
                     "url": "#"
                 },
                 {
-                    "name": "工人体育场",
+                    "title": "工人体育场",
                     "id": "1303",
                     "url": "#"
                 },
                 {
-                    "name": "奥林匹克公园",
+                    "title": "奥林匹克公园",
                     "id": "1304",
                     "url": "#"
                 }
             ]
         },
         {
-            "title": "联系人1",
+            "subtitle": "联系人1",
             "data-collapsed": true,
-            "data": [
+            "items": [
                 {
-                    "name": "朋友",
+                    "title": "朋友",
                     "id": "1401",
                     "url": "persons.html?type=friend"
                 },
                 {
-                    "name": "同学",
+                    "title": "同学",
                     "id": "1402",
                     "url": "persons.html?type=student"
                 },
                 {
-                    "name": "同事",
+                    "title": "同事",
                     "id": "1403",
                     "url": "persons.html?type=colleague"
                 },
                 {
-                    "name": "邻居",
+                    "title": "邻居",
                     "id": "1404",
                     "url": "persons.html?type=neighbor"
                 }
             ]
         }
     ]
-}

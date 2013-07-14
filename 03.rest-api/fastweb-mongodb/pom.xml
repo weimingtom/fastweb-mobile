@@ -10,7 +10,6 @@
 	<version>0.1.0-SNAPSHOT</version>
 	<!--spring rest+mongodb-->
 	<properties>
-		<!--3.1.3.RELEASE -->
 		<spring.version>3.2.3.RELEASE</spring.version>
 		<!-- 异构数据整合，暂不使用 2.4.4.RELEASE
 		<springesb.version>2.2.1.RELEASE</springesb.version>
@@ -111,12 +110,36 @@
 
 
 
-		<!-- Jackson JSON Mapper -->
+		<!-- Jackson JSON Mapper
+<dependency>
+	<groupId>com.fasterxml.jackson.core</groupId>
+	<artifactId>jackson-core</artifactId>
+	<version>2.2.2</version>
+</dependency>
+		
+ 		<dependency>
+            <groupId>net.sf.flexjson</groupId>
+            <artifactId>flexjson</artifactId>
+            <version>3.1</version>
+        </dependency>
+						
+		   -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
-			<version>1.6.4</version>
+			<version>1.9.12</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-lgpl</artifactId>
+			<version>1.9.12</version>
+		</dependency>
+		
+     
+
+            
+        		
 
 
 		<!-- Servlet -->

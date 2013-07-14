@@ -14,6 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
  *
  */
 @Document(collection="menu")
+//@JsonAutoDetect
 public class Menu implements Serializable{
 
 	/**
@@ -33,6 +34,10 @@ public class Menu implements Serializable{
 	public void add(MenuItem e){
 		items.add(e);
 	}
+	
+//	public static Menu fromJsonToOwner(String json) {
+//		   return new JSONDeserializer<Menu>().use(null, Menu.class).deserialize(json);
+//		}
 
 	public String getId() {
 		return id;

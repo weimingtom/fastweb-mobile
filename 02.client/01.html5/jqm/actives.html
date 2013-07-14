@@ -5,7 +5,7 @@
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <!-- InstanceBeginEditable name="doctitle" -->
-	  <title>人员列表</title>
+	  <title>活动列表</title>
 	  <!-- InstanceEndEditable -->
 	  <link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.3.0.min.css">
 	  <link rel="stylesheet" href="_assets/css/jqm-demos.css">
@@ -40,7 +40,7 @@
 	  <link rel="stylesheet" href="css/menu.css">
     
 	  <!-- InstanceBeginEditable name="head" -->
-      <script src="pagejs/persons.js?v0.1"></script>
+      <script src="pagejs/actives.js?v0.1"></script>
 
 	  <!-- TODO -->
 
@@ -52,7 +52,7 @@
       <!-- InstanceBeginEditable name="footer" -->
 	  <div data-role="header" data-theme="c" data-position="fixed" > 
           <h1 id="head-title"> 
-             用户列表
+             活动列表
           </h1><!-- #BeginLibraryItem "/Library/body-header.lbi" -->        
           
          <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">菜单 </a>
@@ -98,33 +98,20 @@
         
         <!-- InstanceBeginEditable name="content" -->
 		<h1>
-          人员列表
+          活动列表
           <a href="persons-del.html" data-ajax="false" data-role="button" data-inline="true" data-mini="true" data-icon="arrow-r" data-iconpos="right" class="jqm-api-link">管理</a>
         </h1>
         
-<script type="text/html" id="persons-template">		
-		{{#persons}}
-              <li>
-                <a href="{{url}}" class="lineview" id="{{id}}"><img src="{{img}}" alt="{{name}}"><h2>{{name}}</h2>
-                   <p>{{type}}</p></a></li>
-		{{/persons}}
-</script>
+		<script type="text/html" id="p-template">
+            <div data-role="popup" id="popupBasic">
+                <h1>{{title}}</h1>
+                <p>{{msg}}</p>
+            </div>  
+        </script>
         
-        <ul data-role="listview" 
-        	data-inset="true"   data-dividers-theme="a" 
-            data-autodividers="true" id="person-listview">
-              <li>
-                <a href="#" class="lineview" id="bmw"><img src="_assets/img/bmw-thumb.jpg" alt="宝马"><h2>宝马</h2>
-                      <p>5系列</p></a></li>
-              <li>
-                <a href="#" class="lineview" id="landrover"><img src="_assets/img/landrover-thumb.jpg" alt="路虎"><h2>路虎</h2>
-                      <p>探索者4</p></a>
-              </li>
-                  <li>
-                <a href="#" class="lineview" id="tesla"><img src="_assets/img/tesla-thumb.jpg" alt="Tesla"><h2>探索者</h2>
-                      <p>模特S</p></a>
-              </li>
-        </ul>
+        <div  id="p-view">
+        </div>
+
 <!-- InstanceEndEditable -->
         </div>
         <!-- /content --><!-- #BeginLibraryItem "/Library/left-panel-menu.lbi" -->

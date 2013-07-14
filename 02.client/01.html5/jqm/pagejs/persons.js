@@ -1,21 +1,21 @@
 $(document).on('pageinit','[data-role=page]', function(){
-    $('[data-position=fixed]').fixedtoolbar({ tapToggle:false });
-    console.debug($( ".lineview" ));
-	$.lineview();		
+	$.load_persons()	
 });
 
-$(function(){
-	console.debug("start dyna persons ... ... ");
+$.load_persons = function (){
+	console.debug("动态加载页面数据 ... ... ");
 	$.getJSON('pagedata/persons.json', function(data) {
 		template=$('#persons-template');
 		//console.debug(template);
 		personview= Mustache.to_html(template.html(),data).replace(/^\s*/mg, '');
 		//console.debug(personview);
 		$('#person-listview').empty().append(personview).trigger('create').listview('refresh');
+		console.debug("动态加载页面数据 ... ... 完成");
 		$.lineview();		
+			
 	});
 
-});
+};
 
 $.lineview = function () {
 	
@@ -69,4 +69,6 @@ $( ".lineview" ).on( "click", function() {
 			$( this ).remove();	
 		}
 	});
+	console.debug("为每行增加点击事件......完成");
+
 };

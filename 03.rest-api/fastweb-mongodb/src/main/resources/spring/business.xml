@@ -26,5 +26,13 @@
 	<!--jmx-->
 	<import resource="classpath*:/spring/jmx.xml" />
 	
+	<bean id="restTemplate" class="org.springframework.web.client.RestTemplate">
+			<property name="messageConverters">
+				<list>
+					<bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+				</list>
+			</property>
+	</bean>
+	
 	
 </beans>
