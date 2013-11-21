@@ -17,6 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 //@JsonAutoDetect
 public class Menu implements Serializable{
 
+	
 	/**
 	 * 
 	 */

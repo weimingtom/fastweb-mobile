@@ -72,6 +72,7 @@
     	<!--Spring用于log4j初始化的监听器 -->
 	<listener>
 		<listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
+		 <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
 	</listener>
 	<!-- 设置log4j存放Log文件位置（通过spring统一进行管理） end -->
 

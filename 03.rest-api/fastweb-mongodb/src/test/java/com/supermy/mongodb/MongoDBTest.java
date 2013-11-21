@@ -16,18 +16,22 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.mongodb.BasicDBObject;
+import com.mongodb.Bytes;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
 import com.mongodb.Mongo;
+import com.mongodb.QueryOperators;
 import com.mongodb.gridfs.GridFS;
 import com.mongodb.gridfs.GridFSInputFile;
+import com.mongodb.util.JSON;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "classpath*:META-INF/mongo-config.xml")
 public class MongoDBTest {
 	private final Logger logger = LoggerFactory.getLogger(MongoDBTest.class);
-
+ 
 	@Autowired
 	MongoOperations mongoOperation;
 	
@@ -70,6 +74,95 @@ public class MongoDBTest {
 
 	}   
 
+	
+
+	@Test
+	public void json2dbsave() {
+		DBCollection collection = template.getDb().getCollection("json2db");
+		DBObject dbObject = (DBObject) JSON.parse("{'name':'mkyong','age':30}");
+		collection.save(dbObject);
+	}
+	
+	@Test
+	public void json2dbfind() {
+		DBCollection collection = template.getDb().getCollection("json2db");
+		DBObject dbObject = (DBObject) JSON.parse("{name:'mkyong',age:{$gt:3}}");
+		DBObject findOne = collection.findOne(dbObject);
+		System.out.println("==============="+findOne);
+	}
+	
+	
+	@Test
+	public void mongodbfind() {
+
+		DBCollection collection = template.getDb().getCollection("json2db");
+		// 查询age = 24
+		collection.find(new BasicDBObject("age", 24)).toArray();
+
+		// 查询age >= 24
+		System.out.println("find age >= 24: "
+				+ collection
+						.find(new BasicDBObject("age", new BasicDBObject(
+								"$gte", 24))).toArray());
+		System.out.println("find age <= 24: "
+				+ collection
+						.find(new BasicDBObject("age", new BasicDBObject(
+								"$lte", 24))).toArray());
+
+		System.out.println("查询age!=25："
+				+ collection.find(
+						new BasicDBObject("age", new BasicDBObject("$ne", 25)))
+						.toArray());
+		System.out.println("查询age in 25/26/27："
+				+ collection.find(
+						new BasicDBObject("age", new BasicDBObject(
+								QueryOperators.IN, new int[] { 25, 26, 27 })))
+						.toArray());
+		System.out.println("查询age not in 25/26/27："
+				+ collection.find(
+						new BasicDBObject("age", new BasicDBObject(
+								QueryOperators.NIN, new int[] { 25, 26, 27 })))
+						.toArray());
+		System.out.println("查询age exists 排序："
+				+ collection.find(
+						new BasicDBObject("age", new BasicDBObject(
+								QueryOperators.EXISTS, true))).toArray());
+
+		System.out.println("只查询age属性："
+				+ collection.find(null, new BasicDBObject("age", true))
+						.toArray());
+		System.out.println("只查属性："
+				+ collection.find(null, new BasicDBObject("age", true), 0, 2)
+						.toArray());
+		System.out.println("只查属性："
+				+ collection.find(null, new BasicDBObject("age", true), 0, 2,
+						Bytes.QUERYOPTION_NOTIMEOUT).toArray());
+
+		// 只查询一条数据，多条去第一条
+		System.out.println("findOne: " + collection.findOne());
+		System.out.println("findOne: "
+				+ collection.findOne(new BasicDBObject("age", 26)));
+		System.out.println("findOne: "
+				+ collection.findOne(new BasicDBObject("age", 26),
+						new BasicDBObject("name", true)));
+
+		// 查询修改、删除
+		System.out.println("findAndRemove 查询age=25的数据，并且删除: "
+				+ collection.findAndRemove(new BasicDBObject("age", 25)));
+
+		// 查询age=26的数据，并且修改name的值为Abc
+		System.out.println("findAndModify: "
+				+ collection.findAndModify(new BasicDBObject("age", 26),
+						new BasicDBObject("name", "Abc")));
+		System.out.println("findAndModify: "
+				+ collection.findAndModify(new BasicDBObject("age", 28), // 查询age=28的数据
+						new BasicDBObject("name", true), // 查询name属性
+						new BasicDBObject("age", true), // 按照age排序
+						false, // 是否删除，true表示删除
+						new BasicDBObject("name", "Abc"), // 修改的值，将name修改成Abc
+						true, true));
+	}
+	
 	@Test
 	public void initspring() {
 		DBCollection collection = template.getDb().getCollection("my1");
