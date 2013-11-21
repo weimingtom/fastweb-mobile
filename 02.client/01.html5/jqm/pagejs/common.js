@@ -85,7 +85,7 @@ $(function(){
 
 })(jQuery);
 
-
+//获取参数值
 (function($){
 	//$.getUrlParam('cid');
 	$.getUrlParam = function(name)
@@ -94,4 +94,41 @@ $(function(){
 		var r = window.location.search.substr(1).match(reg);
 		if (r!=null) return unescape(r[2]); return null;
 		}
-})(jQuery);
+})(jQuery)
+
+//返回结果处理
+function callback(data){
+	console.debug("此方法可以预定义......");
+	console.debug(data);
+}
+
+//提交数据基础方法
+function sendData(jsonurl,jsondata,ajaxtype,callback) {
+	$.ajax({
+	    type:ajaxtype,
+	    url: jsonurl,
+	    data:JSON.stringify(jsondata), // or JSON.stringify ({name: 'jonas'}),//data:data
+	    success: callback,
+	    contentType: "application/json",
+	    dataType: 'json'
+	});    
+}
+
+//POST方式提交数据
+function postData(url,data) {
+	sendData(url,data,"POST",callback);
+}
+
+//更新数据
+function updateData(url,data) {
+	sendData(url,data,"PUT",callback);
+}
+
+//删除数据
+function deleteData(url) {
+	sendData(url,{},'DELETE',callback);
+}
+//批量删除数据
+function deletelist(url,data) {
+	sendData(url,data,'DELETE',callback);
+}
