@@ -3,6 +3,8 @@ package com.supermy.mongodb.web;
 import java.util.HashMap;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.commons.lang.StringUtils;
 import org.bson.types.ObjectId;
 import org.slf4j.Logger;
@@ -10,6 +12,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -38,7 +41,39 @@ public class MenuController {
 
 	@Autowired
 	private MenuRepository cs;
+	
+	@Autowired
+	public MongoTemplate template;
+	
+	@Autowired
+	public  HttpServletRequest request;
 
+	/**
+	 * 分页查询
+	 * 
+	 * @return
+	 */
+	@RequestMapping(method = RequestMethod.GET)
+	@Transactional(readOnly = true)
+	public @ResponseBody
+	List<Menu> getMenuList(){
+		logger.debug("get news called");
+		
+		//@PathVariable int currentPage, @PathVariable int limit
+		int start=new Integer(request.getParameter("start"));
+		int limit=new Integer(request.getParameter("limit"));
+		int curPage=new Integer(request.getParameter("page"));
+		
+		PageRequest pageRequest = new PageRequest(curPage, limit);
+
+		System.out.println(pageRequest.getPageNumber());
+		System.out.println(pageRequest.getPageSize());
+
+		Page<Menu> result = cs.findAll(pageRequest);
+		return result.getContent();
+	}
+	
+	
 	/**
 	 * 分页查询
 	 * 
@@ -47,7 +82,7 @@ public class MenuController {
 	@RequestMapping(value = "/list/{currentPage}/{limit}", method = RequestMethod.GET)
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	List<Menu> getPersons(@PathVariable int currentPage, @PathVariable int limit)
+	List<Menu> getMenus(@PathVariable int currentPage, @PathVariable int limit)
 			throws Exception {
 		logger.debug("get news called");
 		PageRequest pageRequest = new PageRequest(currentPage, limit);
@@ -100,7 +135,7 @@ public class MenuController {
 	Menu createMenu(@RequestBody Menu  menujson) {
 		System.out.println("input json:"+menujson);
 		logger.debug("create Menu called" + menujson);
-		cs.save(menujson);
+		menujson=cs.save(menujson);
 		return menujson;
 //		Menu m=new Menu();
 //		m.setSubtitle(menujson);
@@ -124,8 +159,7 @@ public class MenuController {
 		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create Menu called",
 				menu);
 
-		// cs.addPerson(person);
-		//
+		template.save(menu, "menu");
 		return menu;
 
 	}
@@ -147,15 +181,15 @@ public class MenuController {
 	/**
 	 * 更新
 	 * 
-	 * @param persons
+	 * @param menus
 	 * @return
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	public @ResponseBody
-	Menu updatePersons(@RequestBody Menu person, @PathVariable String id) {
-		logger.debug("updatePersons called");
-		cs.save(person);
-		return person;
+	Menu updateMenu(@RequestBody Menu menu, @PathVariable String id) {
+		logger.debug("updateMenus called");
+		cs.save(menu);
+		return menu;
 
 	}
 
@@ -167,14 +201,14 @@ public class MenuController {
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
 	public @ResponseBody
-	boolean deletePersons(@PathVariable String id) {
+	boolean deleteMenus(@PathVariable String id) {
 		logger.debug("delete Menu called" + id);
 		cs.delete(new ObjectId(id));
 		return true;
 	}
 
 	/** 批量删除 */
-	@RequestMapping(value = "/list/del", method = RequestMethod.PUT)
+	@RequestMapping(value = "/delete", method = RequestMethod.DELETE)
 	public @ResponseBody
 	boolean batchDelete(@RequestBody String[] items) {
 		for (String e : items) {
@@ -183,8 +217,9 @@ public class MenuController {
 		return true;
 	}
 
+	
 	@Autowired
-	private CommonDao personDao;
+	private CommonDao menuDao;
 
 	/**
 	 ** 上传单多文档
@@ -205,19 +240,18 @@ public class MenuController {
 				// 存储文件到数据库
 				String filename = StringUtils.isBlank(text) ? files[i]
 						.getOriginalFilename() : text;
-				String id = personDao.save(files[i].getInputStream(),
+				String id = menuDao.save(files[i].getInputStream(),
 						files[i].getContentType(), filename);
 				// 查询文件
-				GridFSDBFile file1 = personDao.get(id);
+				GridFSDBFile file1 = menuDao.get(id);
 				logger.debug(file1.getMetaData().toString());
 
 				// 查询数据表里面的所有文件
-				List<GridFSDBFile> file2s = personDao.listFiles();
+				List<GridFSDBFile> file2s = menuDao.listFiles();
 
 				for (GridFSDBFile file2 : file2s) {
 					logger.debug(">>>>>>>>>>>>>>>>>>:" + file2);
 				}
-
 			}
 			logger.debug("Ok");
 		}

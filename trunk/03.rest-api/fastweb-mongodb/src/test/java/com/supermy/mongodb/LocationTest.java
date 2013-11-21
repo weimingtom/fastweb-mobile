@@ -24,7 +24,7 @@ public class LocationTest {
  
 	@Autowired
 	MongoTemplate template;
- 
+  
 	@Before
 	public void setUp() {
 		// 等同db.location.ensureIndex( {position: "2d"} )

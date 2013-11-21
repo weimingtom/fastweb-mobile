@@ -1,10 +1,9 @@
 package com.supermy.mongodb.web;
 
 
-import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang.StringUtils;
 import org.bson.types.ObjectId;
@@ -25,8 +24,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.mongodb.gridfs.GridFSDBFile;
 import com.supermy.mongodb.domain.News;
-import com.supermy.mongodb.service.NewsRepository;
 import com.supermy.mongodb.service.CommonDao;
+import com.supermy.mongodb.service.NewsRepository;
+import com.supermy.rest.web.MySort;
 
 /**
  * 新闻管理
@@ -43,107 +43,40 @@ public class NewsController {
 	@Autowired
 	private NewsRepository cs;
 
+	@Autowired
+	public  HttpServletRequest request;
+	
 	/**
 	 * 分页查询
 	 * 
 	 * @return
 	 */
-	@RequestMapping(value = "/list/{currentPage}/{limit}", method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	@Transactional(readOnly = true)
 	public @ResponseBody
-	List<News> getPersons(@PathVariable int currentPage,
-			@PathVariable int limit) throws Exception {
+	Page<News> getNewsList(
+			@RequestParam(value = "start", defaultValue = "1") int start,
+			@RequestParam(value = "limit", defaultValue = "20") int limit,
+			@RequestParam(value = "page", defaultValue = "1") int curPage,
+			@RequestParam(value = "filter", defaultValue = "") String filter,
+			@RequestParam(value = "sort", defaultValue = "[{\"property\":\"content\",\"direction\":\"ASC\"}]") MySort sort			
+			){
+		
 		logger.debug("get news called");
-		Page<News> result = cs.findAll(new PageRequest(currentPage, limit));
-		return result.getContent();
-	}
-
-	/**
-	 * 单个对象查询
-	 * 
-	 * @param id
-	 * @return
-	 */
-	@RequestMapping(value = "/{id}")
-	@Transactional(readOnly = true)
-	public @ResponseBody
-	News getPerson(@PathVariable("id") String id) {
-		return cs.findOne(new ObjectId(id));
-	}
-
-	/**
-	 * 新增
-	 * 
-	 * @return
-	 */
-	@RequestMapping(value = "/add")
-	@Transactional(readOnly = false)
-	public @ResponseBody
-	News addPerson() {
 		
 		
-		Integer integer = new Integer(new Date().getMinutes());
-		News person = new News("a",integer);
-//		person.put("person", integer);
+		//取得“search_”开头的请求参数，并放入searchParams容器中，search_*参数描述数据的过滤条件。
+		//Map<String, Object> searchParams = Servlets.getParametersStartingWith(request, "search_");
 		
+		PageRequest pageRequest = new PageRequest(curPage-1, limit,sort.getSort());
 		
-		return person;
+		Page<News> result = cs.find(filter,pageRequest);
+
+		//Page<News> result = cs.findAll(pageRequest);
+		
+		return result;
 	}
-
-	/**
-	 * 创建
-	 * 
-	 * @param person
-	 * @return
-	 */
-	@RequestMapping(method = RequestMethod.POST)
-	@Transactional(readOnly = false)
-	public @ResponseBody
-	News createPerson(@RequestBody News person) {
-		logger.debug("create News called" + person);
-		logger.debug("create News called", person);
-
-		cs.save(person);
-
-		return person;
-	}
-
-	/**
-	 * 创建
-	 * 
-	 * @param person
-	 * @return
-	 */
-	@RequestMapping(value = "/create", method = RequestMethod.POST)
-	@Transactional(readOnly = false)
-	public @ResponseBody
-	HashMap<String, Object> createPerson4Map(
-			@RequestBody HashMap<String, Object> person) {
-		System.out
-				.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create News called"
-						+ person);
-		logger.debug(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>create News called",
-				person);
-
-		// cs.addPerson(person);
-		//
-		return person;
-
-	}
-
-	/**
-	 * 编辑
-	 * 
-	 * @param id
-	 * @return
-	 */
-	@RequestMapping(value = "/{id}/edit")
-	@Transactional(readOnly = true)
-	public @ResponseBody
-	News edit(@PathVariable("id") String id) {
-		return cs.findOne(new ObjectId(id));
-
-	}
+	
 
 	/**
 	 * 更新
@@ -153,12 +86,13 @@ public class NewsController {
 	 */
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
 	public @ResponseBody
-	News updatePersons(@RequestBody News person, @PathVariable String id) {
+	News updatePersons(@RequestBody News news, @PathVariable String id) {
 		logger.debug("updatePersons called");
-		cs.save(person);
-		return person;
+		cs.save(news);
+		return news;
 
 	}
+	
 
 	/**
 	 * 删除
@@ -173,16 +107,41 @@ public class NewsController {
 		cs.delete(new ObjectId(id));
 		return true;
 	}
-
-	/** 批量删除 */
-	@RequestMapping(value = "/list/del", method = RequestMethod.PUT)
+	
+	
+	
+	/**
+	 * 单个对象查询
+	 * 
+	 * @param id
+	 * @return
+	 */
+	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
+	@Transactional(readOnly = true)
 	public @ResponseBody
-	boolean batchDelete(@RequestBody String[] items) {
-		for (String e : items) {
-			cs.delete(new ObjectId(e));
-		}
-		return true;
+	News getPerson(@PathVariable("id") String id) {
+		return cs.findOne(new ObjectId(id));
 	}
+	
+	/**
+	 * 创建
+	 * 
+	 * @param news
+	 * @return
+	 */
+	@RequestMapping(method = RequestMethod.POST)
+	@Transactional(readOnly = false)
+	public @ResponseBody
+	News createPerson(@RequestBody News news) {
+		logger.debug("create News called" + news);
+		logger.debug("create News called", news);
+
+		cs.save(news);
+
+		return news;
+	}
+		
+
 
 	@Autowired
 	private CommonDao personDao;

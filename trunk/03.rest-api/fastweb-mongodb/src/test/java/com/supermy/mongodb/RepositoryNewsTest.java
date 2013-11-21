@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -31,7 +32,17 @@ public class RepositoryNewsTest {
 	@Autowired
 	private CommonDao commonDao;
 
+	@Test
+	public void findByFilter() {
 
+//		String filter="10000";
+//		String filter="title:'10000'";
+		String filter="{'title':'10000'}";
+			Pageable page= new PageRequest(0,30);
+			Page<News> find = newsRepository.find(filter, page);
+			System.out.println("+++++++++++++++:"+find.getContent());
+
+	}
 	@Test
 	public void shouldListExistingFiles() {
 		// template.store(content, filename);
@@ -76,7 +87,7 @@ public class RepositoryNewsTest {
 		List<News> ps = new ArrayList<News>();
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < 30000; i++) {
-			News n=new News(i+"",i);
+			News n=new News(i+"",i+"内容",i+"author");
 			
 			ps.add(n);
 			if (i % 10000 == 1) {
