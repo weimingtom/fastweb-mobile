@@ -1,4 +1,4 @@
-#server='100.0.1.2'
+#server='192.168.0.2'
 server=$1
 echo $server
 ssh $server "mkdir -p /home/mymongo/mongodb-shard/"

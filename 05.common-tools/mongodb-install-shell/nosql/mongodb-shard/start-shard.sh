@@ -49,7 +49,7 @@ fi
 
 if [ "$test"x = "route"x ]; then
 
-#mongos -configdb 100.0.1.2:20000,100.0.1.3:20000,100.0.1.5:20000 -port 30000 -chunkSize 50 -logpath /home/mymongo/mongodb-shard/data/logs/route.log -logappend -fork
+#mongos -configdb 192.168.0.2:20000,192.168.0.3:20000,192.168.0.5:20000 -port 30000 -chunkSize 50 -logpath /home/mymongo/mongodb-shard/data/logs/route.log -logappend -fork
 mongos -configdb $2:20000 -port 30000 -chunkSize 50 -logpath /home/mymongo/mongodb-shard/data/logs/route.log -logappend -fork
 
 ps aux |grep mong
