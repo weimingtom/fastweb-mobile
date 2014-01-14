@@ -1,0 +1,96 @@
+一月 14, 2014 3:43:27 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_07\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\jamesmo\sencha\bin\Sencha\Cmd\4.0.0.203;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;I:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;c:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\app\jamesmo\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;I:\env_maven\apache-maven-3.0.3\bin;C:\Program Files\TortoiseSVN\bin;D:\env_java\opensource\apache-ant-1.8.2\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Live\Shared;C:\Python33\;I:\env-apk\nc111nt;I:\html5examples\21.mobile-market\03-server\gportal-interface;C:\app\jamesmo\product\11.2.0\dbhome_1\BIN;I:\Android\android-sdk\tools;C:\Program Files\Oracle\VirtualBox;I:\html5examples\scala-2.9.2\bin;I:\env_nosql\sbt\;I:\env_nosql\opensources\play2\play-2.0.3;I:\env-dev-tools\instantclient_11_2\;C:\Program Files\Java\jdk1.7.0_07\bin;C:\Python33\;I:\env-apk\nc111nt;I:\env-common-tools\apache-ant-1.9.2\bin;.
+一月 14, 2014 3:43:29 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:43:29 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:43:29 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3300 ms
+一月 14, 2014 3:43:29 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+一月 14, 2014 3:43:29 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+一月 14, 2014 3:43:29 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\solr.war
+一月 14, 2014 3:43:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\docs
+一月 14, 2014 3:43:40 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\examples
+一月 14, 2014 3:43:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\host-manager
+一月 14, 2014 3:43:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\manager
+一月 14, 2014 3:43:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\ROOT
+一月 14, 2014 3:43:42 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:43:42 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:43:42 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12421 ms
+一月 14, 2014 3:44:12 下午 org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/docs]
+一月 14, 2014 3:44:13 下午 org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/examples]
+一月 14, 2014 3:45:34 下午 org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/solr]
+一月 14, 2014 3:45:34 下午 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/solr] has started
+一月 14, 2014 3:45:38 下午 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/solr] is completed
+一月 14, 2014 3:45:45 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_07\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\jamesmo\sencha\bin\Sencha\Cmd\4.0.0.203;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;I:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;c:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\app\jamesmo\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;I:\env_maven\apache-maven-3.0.3\bin;C:\Program Files\TortoiseSVN\bin;D:\env_java\opensource\apache-ant-1.8.2\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Live\Shared;C:\Python33\;I:\env-apk\nc111nt;I:\html5examples\21.mobile-market\03-server\gportal-interface;C:\app\jamesmo\product\11.2.0\dbhome_1\BIN;I:\Android\android-sdk\tools;C:\Program Files\Oracle\VirtualBox;I:\html5examples\scala-2.9.2\bin;I:\env_nosql\sbt\;I:\env_nosql\opensources\play2\play-2.0.3;I:\env-dev-tools\instantclient_11_2\;C:\Program Files\Java\jdk1.7.0_07\bin;C:\Python33\;I:\env-apk\nc111nt;I:\env-common-tools\apache-ant-1.9.2\bin;.
+一月 14, 2014 3:45:45 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:45:45 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:45:45 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 818 ms
+一月 14, 2014 3:45:45 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+一月 14, 2014 3:45:45 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+一月 14, 2014 3:45:45 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\solr.war
+一月 14, 2014 3:45:53 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\host-manager
+一月 14, 2014 3:45:54 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\manager
+一月 14, 2014 3:45:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\ROOT
+一月 14, 2014 3:45:56 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:45:56 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:45:56 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11004 ms
+一月 14, 2014 3:46:26 下午 org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/solr]
+一月 14, 2014 3:46:26 下午 org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/solr] has started
+一月 14, 2014 3:46:30 下午 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_07\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\jamesmo\sencha\bin\Sencha\Cmd\4.0.0.203;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\Lib\site-packages\PyQt4;C:\Python33\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;I:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;c:\app\jamesmo\product\11.2.0\dbhome_1\bin;C:\app\jamesmo\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;I:\env_maven\apache-maven-3.0.3\bin;C:\Program Files\TortoiseSVN\bin;D:\env_java\opensource\apache-ant-1.8.2\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Live\Shared;C:\Python33\;I:\env-apk\nc111nt;I:\html5examples\21.mobile-market\03-server\gportal-interface;C:\app\jamesmo\product\11.2.0\dbhome_1\BIN;I:\Android\android-sdk\tools;C:\Program Files\Oracle\VirtualBox;I:\html5examples\scala-2.9.2\bin;I:\env_nosql\sbt\;I:\env_nosql\opensources\play2\play-2.0.3;I:\env-dev-tools\instantclient_11_2\;C:\Program Files\Java\jdk1.7.0_07\bin;C:\Python33\;I:\env-apk\nc111nt;I:\env-common-tools\apache-ant-1.9.2\bin;.
+一月 14, 2014 3:46:30 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:46:31 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:46:31 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 834 ms
+一月 14, 2014 3:46:31 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+一月 14, 2014 3:46:31 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.47
+一月 14, 2014 3:46:31 下午 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\solr.war
+一月 14, 2014 3:46:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\host-manager
+一月 14, 2014 3:46:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\manager
+一月 14, 2014 3:46:41 下午 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory I:\env-myopensource\fastweb-mobile\05.common-tools\fulltext\apache-tomcat-7.0.47\webapps\ROOT
+一月 14, 2014 3:46:42 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8983"]
+一月 14, 2014 3:46:42 下午 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+一月 14, 2014 3:46:42 下午 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11386 ms
