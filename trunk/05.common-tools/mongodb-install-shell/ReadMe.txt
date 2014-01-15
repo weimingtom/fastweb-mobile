@@ -6,3 +6,5 @@
 5.访问集群 mongo 192.168.0.4 -port 30000 
 6.系统的优化和分片机制的激活步骤详见:config-step.txt
 7.mongodb数据统计 MapReduce的使用详见：mongodb-统计分析脚本.txt
+
+https://fastweb-mobile.googlecode.com/svn/trunk/05.common-tools/mongodb-install-shell/
