@@ -7,3 +7,5 @@
 7.日志查询
 	oracle使用plsql
 	mongodb使用rockmongo
+8.使用rockmongo进行mongodb的查询
+http://rockmongo.com/wiki/installation?lang=zh_cn
