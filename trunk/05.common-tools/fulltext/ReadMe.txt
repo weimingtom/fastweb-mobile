@@ -1,3 +1,5 @@
+https://fastweb-mobile.googlecode.com/svn/trunk/05.common-tools/fulltext/
+
 http://127.0.0.1:8983/solr/
 http://127.0.0.1:8983/solr/browse
 
