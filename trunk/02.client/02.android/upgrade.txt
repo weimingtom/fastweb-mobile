@@ -1,8 +1,6 @@
-{
-apkVersion:1.3,
+{apkVersion:1.3,
 apkVerCode:1.4,
 apkSize:1.5M,
 apkName:路线图,
 apkDownloadUrl:https://fastweb-mobile.googlecode.com/svn/trunk/02.client/02.android/dist/supermy-roadmap-0.5.0-debug.apk,
-apklog:此次是升级测试
-}
+apklog:此次是升级测试}
