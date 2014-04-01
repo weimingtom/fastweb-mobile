@@ -1,4 +1,4 @@
-﻿{
+{
 apkVersion:1.3,
 apkVerCode:1.4,
 apkSize:1.5M,
