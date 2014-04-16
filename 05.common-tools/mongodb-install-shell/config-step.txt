@@ -1,21 +1,21 @@
-ÏµÍ³ÓÅ»¯
+ï»¿ç³»ç»Ÿä¼˜åŒ–
 * soft nproc 65536
 * hard nproc 65536
 * soft nofile 65536
 * hard nofile 65536
 
-ÄÚ´æÅäÖÃ,Ò»°ãÇé¿öÏÂ²»ÏŞÖÆÄÚ´æ£¬ÓëÆäËûÓ¦ÓÃÍ¬Ê±´æÔÚµÄÊ±ºòÏŞÖÆ¡£
+å†…å­˜é…ç½®,ä¸€èˆ¬æƒ…å†µä¸‹ä¸é™åˆ¶å†…å­˜ï¼Œä¸å…¶ä»–åº”ç”¨åŒæ—¶å­˜åœ¨çš„æ—¶å€™é™åˆ¶ã€‚
 ulimit -s 4096
 ulimit -m 15728640
 
 
-1.É±µôËùÓĞµÄmongodb½ø³Ì£ºsh kill-mongodb.sh 
-2.³õÊ¼»¯²¢ÇÒÆô¶¯mongodb: sh start-mn.sh (sync-mongodb.sh  start-shard.sh)
-3.ÉèÖÃ£ºshard1 and shard2;
-4.Ôö¼Ó£ºadd shard
+1.æ€æ‰æ‰€æœ‰çš„mongodbè¿›ç¨‹ï¼šsh kill-mongodb.sh 
+2.åˆå§‹åŒ–å¹¶ä¸”å¯åŠ¨mongodb: sh start-mn.sh (sync-mongodb.sh  start-shard.sh)
+3.è®¾ç½®ï¼šshard1 and shard2;
+4.å¢åŠ ï¼šadd shard
 
 
-ÓÃmongoÁ¬½ÓÆäÖĞÒ»¸ömongod£¬Ö´ĞĞ
+ç”¨mongoè¿æ¥å…¶ä¸­ä¸€ä¸ªmongodï¼Œæ‰§è¡Œ
  mongo 192.168.0.1:27021
 cfg= {_id: 'shard1', members: [
     {_id: 0, host: '192.168.0.1:27021'},
@@ -26,7 +26,7 @@ rs.initiate(cfg)
 rs.status()
 
 
-ÓÃmongoÁ¬½ÓÆäÖĞÒ»¸ömongod£¬Ö´ĞĞ
+ç”¨mongoè¿æ¥å…¶ä¸­ä¸€ä¸ªmongodï¼Œæ‰§è¡Œ
  mongo 192.168.0.3:27022
 cfg = {_id: 'shard2', members: [
     {_id: 2, host: '192.168.0.3:27022'},
@@ -36,9 +36,9 @@ cfg = {_id: 'shard2', members: [
 rs.initiate(cfg)
 rs.status()
 
-config½ÚµãÖ»ÄÜÊÇÒ»¸ö»òÕßÈı¸ö
+configèŠ‚ç‚¹åªèƒ½æ˜¯ä¸€ä¸ªæˆ–è€…ä¸‰ä¸ª
 
-route½ÚµãÅäÖÃ
+routeèŠ‚ç‚¹é…ç½®
 mongo 192.168.0.4:30000/admin
 mongos> db.runCommand({addshard:"shard1/192.168.0.1:27021,192.168.0.2:27021",name:"shard1", maxsize:20480} )
 
@@ -47,7 +47,7 @@ mongos> db.runCommand({addshard:"shard2/192.168.0.3:27022,192.168.0.5:27022",nam
 db.runCommand( {listshards : 1 } )
 db.runCommand({ismaster:1});
 
-¼¤»îÊı¾İ¿â·ÖÆ¬(Í¨¹ıÖ´ĞĞÒÔÉÏÃüÁî£¬¿ÉÒÔÈÃÊı¾İ¿â¿çshard£¬Èç¹û²»Ö´ĞĞÕâ²½£¬Êı¾İ¿âÖ»»á´æ·ÅÔÚÒ»¸öshard£¬Ò»µ©¼¤»îÊı¾İ¿â·ÖÆ¬£¬Êı¾İ¿âÖĞ²»Í¬µÄcollection ½«±»´æ·ÅÔÚ²»Í¬µÄshardÉÏ£¬µ«Ò»¸öcollectionÈÔ¾É´æ·ÅÔÚÍ¬Ò»¸öshardÉÏ£¬ÒªÊ¹µ¥¸öcollectionÒ²·ÖÆ¬£¬»¹Ğèµ¥¶À¶Ô collection×÷Ğ©²Ù×÷!
+æ¿€æ´»æ•°æ®åº“åˆ†ç‰‡(é€šè¿‡æ‰§è¡Œä»¥ä¸Šå‘½ä»¤ï¼Œå¯ä»¥è®©æ•°æ®åº“è·¨shardï¼Œå¦‚æœä¸æ‰§è¡Œè¿™æ­¥ï¼Œæ•°æ®åº“åªä¼šå­˜æ”¾åœ¨ä¸€ä¸ªshardï¼Œä¸€æ—¦æ¿€æ´»æ•°æ®åº“åˆ†ç‰‡ï¼Œæ•°æ®åº“ä¸­ä¸åŒçš„collection å°†è¢«å­˜æ”¾åœ¨ä¸åŒçš„shardä¸Šï¼Œä½†ä¸€ä¸ªcollectionä»æ—§å­˜æ”¾åœ¨åŒä¸€ä¸ªshardä¸Šï¼Œè¦ä½¿å•ä¸ªcollectionä¹Ÿåˆ†ç‰‡ï¼Œè¿˜éœ€å•ç‹¬å¯¹ collectionä½œäº›æ“ä½œ!
 )
 use admin
 //db.runCommand( { enablesharding : "use nosql" } );
@@ -63,11 +63,11 @@ use admin
 db.runCommand({shardcollection : "nosql.fans",key : {uid:1}})
 
 use nosql
-#ÔÙ´Î²åÈëÊı¾İ£¬Êı¾İ·Ö²¼µ½²»Í¬µÄshard1 shard2
+#å†æ¬¡æ’å…¥æ•°æ®ï¼Œæ•°æ®åˆ†å¸ƒåˆ°ä¸åŒçš„shard1 shard2
 for(var i=0;i<1000;i++)db.fans.insert({uid:i,uname:'nosqlfans'+i});
 db.fans.stats()
 
-²é¿´·ÖÆ¬×´Ì¬
+æŸ¥çœ‹åˆ†ç‰‡çŠ¶æ€
 printShardingStatus()
 
 
@@ -75,7 +75,7 @@ db.setProfilingLevel(2)
 
 
 
-²åÈë1000ÍòÎÄµµ£¬ÕâĞ©ÎÄµµÖĞ°üº¬ÁË½éÓÚ0ºÍ100ÍòÖ®¼äµÄµ¥Ò»ÕûÊıÖµ£¬ÕâÒâÎ¶×Å£¬Æ½¾ùÃ¿10¸öÎÄµµ¾ßÓĞÏàÍ¬µÄÖµ¡£
+æ’å…¥1000ä¸‡æ–‡æ¡£ï¼Œè¿™äº›æ–‡æ¡£ä¸­åŒ…å«äº†ä»‹äº0å’Œ100ä¸‡ä¹‹é—´çš„å•ä¸€æ•´æ•°å€¼ï¼Œè¿™æ„å‘³ç€ï¼Œå¹³å‡æ¯10ä¸ªæ–‡æ¡£å…·æœ‰ç›¸åŒçš„å€¼ã€‚
 
 
 db.runCommand({shardcollection : "nosql.uniques",key : {dim0:1}})
@@ -84,7 +84,7 @@ db.uniques.ensureIndex({dim0: 1})
 for (var i = 0; i < 10000000; ++i){ db.uniques.insert({ dim0: Math.floor(Math.random()*1000000) });}
 db.uniques.stats()
 
-µÃµ½ÎÄµµÖĞÎ¨Ò»ÖµµÄ¼ÆÊı£¬¿ÉÒÔÍ¨¹ıÏÂÃæµÄMRÈÎÎñÀ´ÇáËÉÍê³É£º
+å¾—åˆ°æ–‡æ¡£ä¸­å”¯ä¸€å€¼çš„è®¡æ•°ï¼Œå¯ä»¥é€šè¿‡ä¸‹é¢çš„MRä»»åŠ¡æ¥è½»æ¾å®Œæˆï¼š
  db.runCommand(
 { mapreduce: "uniques",map: function () { emit(this.dim0, 1); },reduce: function (key, values) { return Array.sum(values); },out: "mrout",sort: {dim0: 1} })
 

@@ -1,4 +1,4 @@
-db.runCommand({"distinct" : "weblogs", "key" : "remote_addr"})
+ï»¿db.runCommand({"distinct" : "weblogs", "key" : "remote_addr"})
 db.weblogs.count({"time" : {$gt:ISODate("2013-11-12T11:17:18.0Z")}})
 db.weblogs.find({"time" : {$lte:ISODate("2013-11-12T11:17:18.0Z")}}).limit(2);
 > db.runCommand({"group" : {
@@ -6,21 +6,21 @@ db.weblogs.find({"time" : {$lte:ISODate("2013-11-12T11:17:18.0Z")}}).limit(2);
  "key" : "remote_user",
  "initial" : {"time" : 0},
  "$reduce" : function(doc, prev) {
- ¡¡¡¡if (doc.time > prev.time) {
- ¡¡¡¡¡¡¡¡prev.remote_addr = doc.remote_addr;
- ¡¡¡¡¡¡¡¡prev.time = doc.time;
- ¡¡¡¡}
+ ã€€ã€€if (doc.time > prev.time) {
+ ã€€ã€€ã€€ã€€prev.remote_addr = doc.remote_addr;
+ ã€€ã€€ã€€ã€€prev.time = doc.time;
+ ã€€ã€€}
  }}}) 
  
 db.posts.save({"title" : "java sun", "author" : "jk", "day" : "2012-12-14", "tags" : ["java", "nosql", "spring"]})
-db.posts.save({"title" : "SSH2µÄÕûºÏ", "author" : "cj", "day" : "2012-5-10", "tags" : ["struts2", "hibernate", "spring"]})
-db.posts.save({"title" : "C#µÄ¸ß¼¶ÓÃ·¨", "author" : "zt", "day" : "2012-4-3", "tags" : ["C#", "SQL"]})
+db.posts.save({"title" : "SSH2çš„æ•´åˆ", "author" : "cj", "day" : "2012-5-10", "tags" : ["struts2", "hibernate", "spring"]})
+db.posts.save({"title" : "C#çš„é«˜çº§ç”¨æ³•", "author" : "zt", "day" : "2012-4-3", "tags" : ["C#", "SQL"]})
 db.posts.save({"title" : "PHP Mongo", "author" : "lx", "day" : "2012-12-14", "tags" : ["PHP", "nosql", "mongo"]})
 
-¡­
+â€¦
 db.runCommand({"distinct" : "posts", "key" : "tags"})
 
- Í³¼Æ×îÈÈµãµÄ±êÇ©
+ ç»Ÿè®¡æœ€çƒ­ç‚¹çš„æ ‡ç­¾
  >db.posts.group({
    "key" : {"day" : true},
    "initial" : {"tags" : {}},
@@ -73,11 +73,11 @@ db.posts.group({
    }
    
 })
-db.students.save({ "_id" : ObjectId("50f0c0ca323365ec0c000006"), "username" : "´óÅÖ", "age" : 23, "birthday" : ISODate("1989-10-29T16:00:00Z"), "interest" : [ "ÀºÇò", "×ãÇò", "Æ¹ÅÒÇò", "¸ß¶û·òÇò" ] })
-db.students.save({ "_id" : ObjectId("50f35b6f323365f00c000001"), "username" : "Áù¸£", "age" : 24, "birthday" : ISODate("1988-05-05T15:00:00Z"), "interest" : [ "Æ¹ÅÒÇò", "ÀºÇò" ] })
-db.students.save({ "_id" : ObjectId("50f37257323365ec0c000000"), "username" : "ÆßÏ²", "age" : 30, "birthday" : ISODate("1984-09-30T16:00:00Z"), "interest" : [ "×ãÇò", "éÏé­Çò" ] })
+db.students.save({ "_id" : ObjectId("50f0c0ca323365ec0c000006"), "username" : "å¤§èƒ–", "age" : 23, "birthday" : ISODate("1989-10-29T16:00:00Z"), "interest" : [ "ç¯®çƒ", "è¶³çƒ", "ä¹’ä¹“çƒ", "é«˜å°”å¤«çƒ" ] })
+db.students.save({ "_id" : ObjectId("50f35b6f323365f00c000001"), "username" : "å…­ç¦", "age" : 24, "birthday" : ISODate("1988-05-05T15:00:00Z"), "interest" : [ "ä¹’ä¹“çƒ", "ç¯®çƒ" ] })
+db.students.save({ "_id" : ObjectId("50f37257323365ec0c000000"), "username" : "ä¸ƒå–œ", "age" : 30, "birthday" : ISODate("1984-09-30T16:00:00Z"), "interest" : [ "è¶³çƒ", "æ©„æ¦„çƒ" ] })
 
-#µ±ÎÒÃÇÃ»ÓĞÖ¸¶¨·Ö×éÒÀ¾İµÄ¼üÃûÊ±£¬ÄÇÃ´¼¯ºÏÖĞËùÓĞÎÄµµ±»ÈÏÎªÊôÓÚÍ¬Ò»×é¡£
+#å½“æˆ‘ä»¬æ²¡æœ‰æŒ‡å®šåˆ†ç»„ä¾æ®çš„é”®åæ—¶ï¼Œé‚£ä¹ˆé›†åˆä¸­æ‰€æœ‰æ–‡æ¡£è¢«è®¤ä¸ºå±äºåŒä¸€ç»„ã€‚
  >db.students.group({
    "initial" : {"interests" : {}},
    "$reduce" : function (doc, prev) {
@@ -94,8 +94,8 @@ db.students.save({ "_id" : ObjectId("50f37257323365ec0c000000"), "username" : "Æ
 })
 
 
-°´ÈÕÆÚ¡¢ĞĞÎª¡¢ÓÃ»§Í³¼ÆĞĞÎª±í
-ÓÉÓÚĞĞÎª±íÊÇ·ÖÆ¬±í£¬²»ÄÜÊ¹ÓÃgroup£¬Ö»ÄÜ²ÉÓÃMapReduce½øĞĞ·Ö×éÍ³¼Æ£º
+æŒ‰æ—¥æœŸã€è¡Œä¸ºã€ç”¨æˆ·ç»Ÿè®¡è¡Œä¸ºè¡¨
+ç”±äºè¡Œä¸ºè¡¨æ˜¯åˆ†ç‰‡è¡¨ï¼Œä¸èƒ½ä½¿ç”¨groupï¼Œåªèƒ½é‡‡ç”¨MapReduceè¿›è¡Œåˆ†ç»„ç»Ÿè®¡ï¼š
 db.runCommand({
 mapreduce:"pmhuseraction",
 map:function() { emit({date:this.statustime.getFullYear() + "-" +this.statustime.getMonth() + "-" +this.statustime.getDate(),writetype:this.writetype,userid:this.userid}, 1); },
@@ -140,7 +140,7 @@ db.runCommand({ aggregate : "article", pipeline : [
     }}
 ]});
 
-/////////////////////////////// ×Ô¶¨Òåº¯Êı½øĞĞ¼ÆËã£¬±¨´í¡£¡£¡£¡£¡£¡£
+/////////////////////////////// è‡ªå®šä¹‰å‡½æ•°è¿›è¡Œè®¡ç®—ï¼ŒæŠ¥é”™ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
 db.sales.save({ "_id" : ObjectId("4f7be0d3e37b457077c4b13e"), "_class" : "com.infosys.mongo.Sales", "orderId" : 1, "orderDate" : "26/03/2011",
 "quantity" : 20, "salesAmt" : 200, "profit" : 150, "customerName" : "CUST1", "productCategory" : "IT", "productSubCategory" : "software", 
 "productName" : "Grad", "productId" : 1 });
